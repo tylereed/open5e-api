@@ -20388,7 +20388,7 @@
   "pk": "ork-urk-a5e",
   "fields": {
     "name": "Ork Urk",
-    "desc": "",
+    "desc": "Warriors who fight on the front lines of an orc war horde gain a special title: \"urk\", meaning \"doomed\" Other orc warriors treat urks with the deference due the sacred nature of their rage and sacrifice.",
     "document": 37,
     "page_no": 497,
     "size": "Medium",
@@ -20424,7 +20424,7 @@
     "languages": "any one",
     "challenge_rating": "2",
     "cr": 2.0,
-    "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The berserker attacks twice.\"}, {\"name\": \"Greataxe\", \"desc\": \"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (1d12 + 2) slashing damage.\"}, {\"name\": \"Handaxe\", \"desc\": \"Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft or range 20/60 ft., one target. Hit: 5 (1d6 + 2) slashing damage.\"}, {\"name\": \"Aggressive Charge\", \"desc\": \"The urk moves up to their Speed towards an enemy they can see or hear.\"}, {\"name\": \"Warriors who fight on the front lines of an orc war horde gain a special title: \\u0093urk\\u0094, meaning \\u0093doomed\", \"desc\": \"\\u0094 Other orc warriors treat urks with the deference due the sacred nature of their rage and sacrifice.\"}]",
+    "actions_json": "[{\"name\": \"Multiattack\", \"desc\": \"The berserker attacks twice.\"}, {\"name\": \"Greataxe\", \"desc\": \"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (1d12 + 2) slashing damage.\"}, {\"name\": \"Handaxe\", \"desc\": \"Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft or range 20/60 ft., one target. Hit: 5 (1d6 + 2) slashing damage.\"}, {\"name\": \"Aggressive Charge\", \"desc\": \"The urk moves up to their Speed towards an enemy they can see or hear.\"}]",
     "bonus_actions_json": "null",
     "special_abilities_json": "[{\"name\": \"Bloodied Frenzy\", \"desc\": \"While the berserker is bloodied, they make all attacks with advantage and all attacks against them are made with advantage.\"}, {\"name\": \"Unarmored Defense\", \"desc\": \"The berserkers AC equals 10 + their Dexterity modifier + their Constitution modifier.\"}]",
     "reactions_json": "null",
