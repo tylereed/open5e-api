@@ -1,0 +1,8 @@
+To install antlr4 libraries (to run the import scripts)
+pip install antlr4-python3-runtime
+
+To generate python files (needed after modifying g4 files)
+antlr4 -Dlanguage=Python3 Roll.g4 Attack.g4
+
+To install antlr4 (needed to generate python files)
+https://www.antlr.org/download.html

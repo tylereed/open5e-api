@@ -1,0 +1,3009 @@
+MonsterName,AttackName,isMelee,isRanged
+Aboleth,Multiattack,False,True
+Aboleth,Tentacle,True,True
+Aboleth,Psychic Bolt,False,True
+Aboleth,Psychic Torrent (Recharge 5-6),False,True
+Acolyte,Mace,True,True
+Acolyte,Radiant Bolt,False,True
+Acolyte,Spellcasting,False,True
+Adult Black Dragon,Multiattack,False,True
+Adult Black Dragon,Bite,True,True
+Adult Black Dragon,Claw,True,True
+Adult Black Dragon,Tail,True,True
+Adult Black Dragon,Frightful Presence,False,True
+Adult Black Dragon,Acid Breath (Recharge 5-6),False,True
+Adult Blue Dragon,Multiattack,False,True
+Adult Blue Dragon,Bite,True,True
+Adult Blue Dragon,Claw,True,True
+Adult Blue Dragon,Tail,True,True
+Adult Blue Dragon,Frightful Presence,False,True
+Adult Blue Dragon,Lightning Breath (Recharge 5-6),False,True
+Adult Brass Dragon,Multiattack,False,True
+Adult Brass Dragon,Bite,True,True
+Adult Brass Dragon,Claw,True,True
+Adult Brass Dragon,Tail,True,True
+Adult Brass Dragon,Frightful Presence,False,True
+Adult Brass Dragon,Fire Breath (Recharge 5-6),False,True
+Adult Brass Dragon,Sleep Breath (Recharge 6),False,True
+Adult Bronze Dragon,Multiattack,False,True
+Adult Bronze Dragon,Bite,True,True
+Adult Bronze Dragon,Claw,True,True
+Adult Bronze Dragon,Tail,True,True
+Adult Bronze Dragon,Frightful Presence,False,True
+Adult Bronze Dragon,Lightning Breath (Recharge 5-6),False,True
+Adult Bronze Dragon,Repulsion Breath (Recharge 6),False,True
+Adult Copper Dragon,Multiattack,False,True
+Adult Copper Dragon,Bite,True,True
+Adult Copper Dragon,Claw,True,True
+Adult Copper Dragon,Tail,True,True
+Adult Copper Dragon,Frightful Presence,False,True
+Adult Copper Dragon,Acid Breath (Recharge 5-6),False,True
+Adult Copper Dragon,Slowing Breath (Recharge 6),False,True
+Adult Gold Dragon,Multiattack,False,True
+Adult Gold Dragon,Bite,True,True
+Adult Gold Dragon,Claw,True,True
+Adult Gold Dragon,Tail,True,True
+Adult Gold Dragon,Frightful Presence,False,True
+Adult Gold Dragon,Fire Breath (Recharge 5-6),False,True
+Adult Gold Dragon,Weakening Breath (Recharge 6),False,True
+Adult Green Dragon,Multiattack,False,True
+Adult Green Dragon,Bite,True,True
+Adult Green Dragon,Claw,True,True
+Adult Green Dragon,Tail,True,True
+Adult Green Dragon,Frightful Presence,False,True
+Adult Green Dragon,Poison Breath (Recharge 5-6),False,True
+Adult Red Dragon,Multiattack,False,True
+Adult Red Dragon,Bite,True,True
+Adult Red Dragon,Claw,True,True
+Adult Red Dragon,Tail,True,True
+Adult Red Dragon,Frightful Presence,False,True
+Adult Red Dragon,Fire Breath (Recharge 5-6),False,True
+Adult Silver Dragon,Multiattack,False,True
+Adult Silver Dragon,Bite,True,True
+Adult Silver Dragon,Claw,True,True
+Adult Silver Dragon,Tail,True,True
+Adult Silver Dragon,Frightful Presence,False,True
+Adult Silver Dragon,Cold Breath (Recharge 5-6),False,True
+Adult Silver Dragon,Paralyzing Breath (Recharge 6),False,True
+Adult White Dragon,Multiattack,False,True
+Adult White Dragon,Bite,True,True
+Adult White Dragon,Claw,True,True
+Adult White Dragon,Tail,True,True
+Adult White Dragon,Frightful Presence,False,True
+Adult White Dragon,Cold Breath (Recharge 5-6),False,True
+Air Elemental,Multiattack,False,True
+Air Elemental,Wind Lash,True,True
+Air Elemental,Lightning Bolt,False,True
+Air Elemental,Whirlwind (Recharge 4-6),False,True
+Ambush Hag,Multiattack,False,True
+Ambush Hag,Claw,True,True
+Ambush Hag,Poison Spray,False,True
+Ambush Hag,Spellcasting,False,True
+Ancient Black Dragon,Multiattack,False,True
+Ancient Black Dragon,Bite,True,True
+Ancient Black Dragon,Claw,True,True
+Ancient Black Dragon,Tail,True,True
+Ancient Black Dragon,Frightful Presence,False,True
+Ancient Black Dragon,Acid Breath (Recharge 5-6),False,True
+Ancient Blue Dragon,Multiattack,False,True
+Ancient Blue Dragon,Bite,True,True
+Ancient Blue Dragon,Claw,True,True
+Ancient Blue Dragon,Tail,True,True
+Ancient Blue Dragon,Frightful Presence,False,True
+Ancient Blue Dragon,Lightning Breath (Recharge 5-6),False,True
+Ancient Brass Dragon,Multiattack,False,True
+Ancient Brass Dragon,Bite,True,True
+Ancient Brass Dragon,Claw,True,True
+Ancient Brass Dragon,Tail,True,True
+Ancient Brass Dragon,Frightful Presence,False,True
+Ancient Brass Dragon,Fire Breath (Recharge 5-6),False,True
+Ancient Brass Dragon,Sleep Breath (Recharge 6),False,True
+Ancient Bronze Dragon,Multiattack,False,True
+Ancient Bronze Dragon,Bite,True,True
+Ancient Bronze Dragon,Claw,True,True
+Ancient Bronze Dragon,Tail,True,True
+Ancient Bronze Dragon,Frightful Presence,False,True
+Ancient Bronze Dragon,Lightning Breath (Recharge 5-6),False,True
+Ancient Bronze Dragon,Repulsion Breath (Recharge 6),False,True
+Ancient Copper Dragon,Multiattack,False,True
+Ancient Copper Dragon,Bite,True,True
+Ancient Copper Dragon,Claw,True,True
+Ancient Copper Dragon,Tail,True,True
+Ancient Copper Dragon,Frightful Presence,False,True
+Ancient Copper Dragon,Acid Breath (Recharge 5-6),False,True
+Ancient Copper Dragon,Slowing Breath (Recharge 6),False,True
+Ancient Gold Dragon,Multiattack,False,True
+Ancient Gold Dragon,Bite,True,True
+Ancient Gold Dragon,Claw,True,True
+Ancient Gold Dragon,Tail,True,True
+Ancient Gold Dragon,Frightful Presence,False,True
+Ancient Gold Dragon,Fire Breath (Recharge 5-6),False,True
+Ancient Gold Dragon,Weakening Breath (Recharge 6),False,True
+Ancient Green Dragon,Multiattack,False,True
+Ancient Green Dragon,Bite,True,True
+Ancient Green Dragon,Claw,True,True
+Ancient Green Dragon,Tail,True,True
+Ancient Green Dragon,Frightful Presence,False,True
+Ancient Green Dragon,Poison Breath (Recharge 5-6),False,True
+Ancient Red Dragon,Multiattack,False,True
+Ancient Red Dragon,Bite,True,True
+Ancient Red Dragon,Claw,True,True
+Ancient Red Dragon,Tail,True,True
+Ancient Red Dragon,Frightful Presence,False,True
+Ancient Red Dragon,Fire Breath (Recharge 5-6),False,True
+Ancient Silver Dragon,Multiattack,False,True
+Ancient Silver Dragon,Bite,True,True
+Ancient Silver Dragon,Claw,True,True
+Ancient Silver Dragon,Tail,True,True
+Ancient Silver Dragon,Frightful Presence,False,True
+Ancient Silver Dragon,Cold Breath (Recharge 5-6),False,True
+Ancient Silver Dragon,Paralyzing Breath (Recharge 6),False,True
+Ancient White Dragon,Multiattack,False,True
+Ancient White Dragon,Bite,True,True
+Ancient White Dragon,Claw,True,True
+Ancient White Dragon,Tail,True,True
+Ancient White Dragon,Frightful Presence,False,True
+Ancient White Dragon,Cold Breath (Recharge 5-6),False,True
+Androsphinx,Multiattack,False,True
+Androsphinx,Claw,True,True
+Androsphinx,Arcane Bolt,False,True
+Androsphinx,Spellcasting,False,True
+Animated Armor,Multiattack,False,True
+Animated Armor,Slam,True,True
+Ankheg,Bite,True,True
+Ankheg,Acid Spray (Recharge 6),False,True
+Ape,Multiattack,False,True
+Ape,Fist,True,True
+Ape,Rock,False,True
+Ape, Giant,Multiattack,False,True
+Ape, Giant,Fist,True,True
+Ape, Giant,Rock,False,True
+Archdruid,Multiattack,False,True
+Archdruid,Thorned Staff,True,True
+Archdruid,Nature's Wrath,False,True
+Archdruid,Spellcasting,False,True
+Archmage,Multiattack,False,True
+Archmage,Arcane Blast,True,True
+Archmage,Burst of Magic (Recharge 5-6),False,True
+Archmage,Spellcasting,False,True
+Assassin,Multiattack,False,True
+Assassin,Shortsword,True,True
+Assassin,Hand Crossbow,False,True
+Awakened Shrub,Rake,True,True
+Awakened Shrub,Thorn,False,True
+Awakened Tree,Slam,True,True
+Awakened Tree,Broken Branch,False,True
+Axe Beak,Beak,True,True
+Azer,Multiattack,False,True
+Azer,Warhammer,True,True
+Baboon,Bite,True,True
+Badger,Bite,True,True
+Badger, Giant,Multiattack,False,True
+Badger, Giant,Bite,True,True
+Badger, Giant,Claws,True,True
+Balara,Multiattack,False,True
+Balara,Bite,True,True
+Balara,Claw,True,True
+Balara,Necrotic Bolt,False,True
+Balor,Multiattack,False,True
+Balor,Gore,True,True
+Balor,Longsword,True,True
+Balor,Whip,True,True
+Bandit,Scimitar,True,True
+Bandit,Light Crossbow,False,True
+Bandit Captain,Multiattack,False,True
+Bandit Captain,Dagger,True,True
+Bandit Captain,Scimitar,True,True
+Barbed Devil,Multiattack,False,True
+Barbed Devil,Claw,True,True
+Barbed Devil,Tail,True,True
+Barbed Devil,Hurl Flame,False,True
+Bard,Multiattack,False,True
+Bard,Rapier,True,True
+Bard,Hand Crossbow,False,True
+Bard,Dissonant Outburst (Recharge 4-6),False,True
+Bard,Spellcasting,False,True
+Basilisk,Multiattack,False,True
+Basilisk,Bite,True,True
+Basilisk,Poison Spit,False,True
+Bat,Bite,True,True
+Bat, Giant,Bite,True,True
+Bat, Swarm of Bats,Bites,True,True
+Bear, Black,Multiattack,False,True
+Bear, Black,Bite,True,True
+Bear, Black,Claws,True,True
+Bear, Brown,Multiattack,False,True
+Bear, Brown,Bite,True,True
+Bear, Brown,Claws,True,True
+Bear, Polar,Multiattack,False,True
+Bear, Polar,Bite,True,True
+Bear, Polar,Claws,True,True
+Bearded Devil,Multiattack,False,True
+Bearded Devil,Beard Spines,True,True
+Bearded Devil,Glaive,True,True
+Behir,Multiattack,False,True
+Behir,Bite,True,True
+Behir,Constrict,True,True
+Behir,Swallow,False,True
+Behir,Lightning Breath (Recharge 5-6),False,True
+Berserker,Multiattack,False,True
+Berserker,Greataxe,True,True
+Black Dragon Wyrmling,Multiattack,False,True
+Black Dragon Wyrmling,Bite,True,True
+Black Dragon Wyrmling,Claw,True,True
+Black Dragon Wyrmling,Acid Breath (Recharge 5-6),False,True
+Black Pudding,Multiattack,False,True
+Black Pudding,Pseudopod,True,True
+Blink Dog,Bite,True,True
+Blink Dog,Teleport (Recharge 4-6),False,True
+Bloatblossom,Multiattack,False,True
+Bloatblossom,Bite,True,True
+Bloatblossom,Slam,True,True
+Bloatblossom,Toxic Nodule,False,True
+Blue Dragon Wyrmling,Multiattack,False,True
+Blue Dragon Wyrmling,Bite,True,True
+Blue Dragon Wyrmling,Claw,True,True
+Blue Dragon Wyrmling,Lightning Breath (Recharge 5-6),False,True
+Boar,Tusk,True,True
+Boar, Giant,Multiattack,False,True
+Boar, Giant,Tusk,True,True
+Bone Devil,Multiattack,False,True
+Bone Devil,Claw,True,True
+Bone Devil,Sting,True,True
+Brass Dragon Wyrmling,Multiattack,False,True
+Brass Dragon Wyrmling,Bite,True,True
+Brass Dragon Wyrmling,Claw,True,True
+Brass Dragon Wyrmling,Fire Breath (Recharge 5-6),False,True
+Brass Dragon Wyrmling,Sleep Breath (Recharge 6),False,True
+Bronze Dragon Wyrmling,Multiattack,False,True
+Bronze Dragon Wyrmling,Bite,True,True
+Bronze Dragon Wyrmling,Claw,True,True
+Bronze Dragon Wyrmling,Lightning Breath (Recharge 5-6),False,True
+Bronze Dragon Wyrmling,Repulsion Breath (Recharge 6),False,True
+Bugbear,Spiked Club,True,True
+Bugbear,Javelin,True,True
+Bugbear Champion,Multiattack,False,True
+Bugbear Champion,Spiked Club,True,True
+Bugbear Champion,Shield Smash,True,True
+Bugbear Champion,Javelin,True,True
+Bulette,Multiattack,False,True
+Bulette,Bite,True,True
+Bulette,Deadly Leap (Recharge 5-6),False,True
+Camel,Bite,True,True
+Camel,Bile Spit,False,True
+Cat,Claws,True,True
+Centaur,Multiattack,False,True
+Centaur,Hooves,True,True
+Centaur,Pike,True,True
+Centaur,Longbow,False,True
+Chain Devil,Multiattack,False,True
+Chain Devil,Chain,True,True
+Chimera,Multiattack,False,True
+Chimera,Bite,True,True
+Chimera,Headbutt,True,True
+Chimera,Claws,True,True
+Chimera,Fire Breath (Recharge 5-6),False,True
+Chuul,Multiattack,False,True
+Chuul,Pincer,True,True
+Chuul,Wild Reach (Recharge 5-6),False,True
+Clay Golem,Multiattack,False,True
+Clay Golem,Slam,True,True
+Clay Golem,Haste (Recharge 5-6),False,True
+Cloaker,Multiattack,False,True
+Cloaker,Bite,True,True
+Cloaker,Tail,True,True
+Cloaker,Moan (Recharge 6),False,True
+Cloud Giant,Multiattack,False,True
+Cloud Giant,Cloud-Coated Mace,True,True
+Cloud Giant,Wind Burst,False,True
+Cockatrice,Serrated Beak,True,True
+Commoner,Club,True,True
+Commoner,Sling,False,True
+Commoner,Angry Mob (1/Day),False,True
+Copper Dragon Wyrmling,Multiattack,False,True
+Copper Dragon Wyrmling,Bite,True,True
+Copper Dragon Wyrmling,Claw,True,True
+Copper Dragon Wyrmling,Acid Breath (Recharge 5-6),False,True
+Copper Dragon Wyrmling,Slowing Breath (Recharge 6),False,True
+Couatl,Multiattack,False,True
+Couatl,Bite,True,True
+Couatl,Constrict,True,True
+Couatl,Healing Hiss (3/Day),False,True
+Crab,Claw,True,True
+Crab, Giant,Pincer,True,True
+Crimson Jelly,Feeding Paddles,True,True
+Crocodile,Bite,True,True
+Crocodile, Giant,Multiattack,False,True
+Crocodile, Giant,Bite,True,True
+Crocodile, Giant,Tail,True,True
+Cultist,Sacrificial Dagger,True,True
+Cultist, Fanatic,Multiattack,False,True
+Cultist, Fanatic,Sacrificial Dagger,True,True
+Cultist, Fanatic,Unholy Bolt,False,True
+Cultist, Fanatic,Spellcasting,False,True
+Darkmantle,Crush,True,True
+Darkmantle,Topple,False,True
+Death Dog,Multiattack,False,True
+Death Dog,Bite,True,True
+Death Knight,Multiattack,False,True
+Death Knight,Greatsword,True,True
+Death Knight,Necrotic Bolt,False,True
+Deep Gnome,War Pick,True,True
+Deep Gnome,Crystalline Dart,False,True
+Deer,Kick,True,True
+Deva,Multiattack,False,True
+Deva,Mace,True,True
+Deva,Healing Touch (3/Day),False,True
+Djinni,Multiattack,False,True
+Djinni,Scimitar,True,True
+Djinni,Storm Bolt,False,True
+Djinni,Create Air Elemental (1/Day),False,True
+Djinni,Travel the Planes (1/Day),False,True
+Doppelganger,Multiattack,False,True
+Doppelganger,Slam,True,True
+Doppelganger,Psychic Bolt,False,True
+Dragon Turtle,Multiattack,False,True
+Dragon Turtle,Bite,True,True
+Dragon Turtle,Claw,True,True
+Dragon Turtle,Tail,True,True
+Dragon Turtle,Steam Breath (Recharge 5-6),False,True
+Dretch,Claws,True,True
+Drider,Multiattack,False,True
+Drider,Longsword,True,True
+Drider,Skewer,True,True
+Drider,Web Shot,False,True
+Drow,Shortsword,True,True
+Drow,Hand Crossbow,False,True
+Druid,Multiattack,False,True
+Druid,Flowering Quarterstaff,True,True
+Druid,Poison Bolt,False,True
+Druid,Spellcasting,False,True
+Dryad,Multiattack,False,True
+Dryad,Vine Whip,True,True
+Dryad,Blast of Pollen,False,True
+Duergar,War Pick,True,True
+Duergar,Javelin,True,True
+Duergar,Invisibility,False,True
+Dust Mephit,Claws,True,True
+Dust Mephit,Dust Blast,False,True
+Dust Mephit,Blinding Breath (Recharge 6),False,True
+Eagle,Talons,True,True
+Eagle, Giant,Multiattack,False,True
+Eagle, Giant,Beak,True,True
+Eagle, Giant,Talons,True,True
+Earth Elemental,Multiattack,False,True
+Earth Elemental,Slam,True,True
+Earth Elemental,Lob Stone,False,True
+Efreeti,Multiattack,False,True
+Efreeti,Scimitar,True,True
+Efreeti,Hurl Flame,False,True
+Efreeti,Create Fire Elemental (1/Day),False,True
+Efreeti,Travel the Planes (1/Day),False,True
+Elephant,Multiattack,False,True
+Elephant,Gore,True,True
+Elephant,Stomp,True,True
+Elk,Ram,True,True
+Elk,Kick,True,True
+Elk, Giant,Multiattack,False,True
+Elk, Giant,Ram,True,True
+Elk, Giant,Kick,True,True
+Erinyes,Multiattack,False,True
+Erinyes,Longsword,True,True
+Erinyes,Longbow,False,True
+Ettercap,Multiattack,False,True
+Ettercap,Bite,True,True
+Ettercap,Claws,True,True
+Ettercap,Spit Poison,False,True
+Ettin,Multiattack,False,True
+Ettin,Knobbed Club,True,True
+Ettin,Spiked Club,True,True
+Feral Hunter,Multiattack,False,True
+Feral Hunter,Hunting Knife,True,True
+Feral Hunter,Longbow,False,True
+Fire Elemental,Multiattack,False,True
+Fire Elemental,Fiery Touch,True,True
+Fire Elemental,Spit Fire,False,True
+Fire Giant,Multiattack,False,True
+Fire Giant,Flaming Greatsword,True,True
+Fire Giant,Lava Boulder,False,True
+Fire Giant,Volcanic Burst (Recharge 5-6),False,True
+Flesh Golem,Multiattack,False,True
+Flesh Golem,Slam,True,True
+Flesh Golem,Creator's Anguish (Recharge 5-6),False,True
+Flinderbeast,Bite,True,True
+Flinderbeast,Acid Spit,False,True
+Flinderbeast,Breath of Flinders (Recharge 5-6),False,True
+Flying Sword,Slash,True,True
+Frog,Bite,True,True
+Frog, Giant,Bite,True,True
+Frog, Giant,Swallow,False,True
+Frog, Giant Poisonous,Bite,True,True
+Frog, Giant Poisonous,Swallow,False,True
+Frost Giant,Multiattack,False,True
+Frost Giant,Icy Greataxe,True,True
+Frost Giant,Ice Boulder,False,True
+Frost Giant,Avalanche (Recharge 5-6),False,True
+Gargoyle,Multiattack,False,True
+Gargoyle,Bite,True,True
+Gargoyle,Claws,True,True
+Gelatinous Cube,Pseudopod,True,True
+Gelatinous Cube,Engulf,False,True
+Ghast,Multiattack,False,True
+Ghast,Bite,True,True
+Ghast,Claws,True,True
+Ghost,Multiattack,False,True
+Ghost,Withering Touch,True,True
+Ghost,Telekinetic Throw,False,True
+Ghost,Horrify (Recharge 5-6),False,True
+Ghoul,Multiattack,False,True
+Ghoul,Bite,True,True
+Ghoul,Claws,True,True
+Gibbering Mouther,Multiattack,False,True
+Gibbering Mouther,Bite,True,True
+Gibbering Mouther,Rend Mind,False,True
+Glabrezu,Multiattack,False,True
+Glabrezu,Claw,True,True
+Glabrezu,Pincer,True,True
+Glabrezu,Crackling Flame Bolt,False,True
+Gladiator,Multiattack,False,True
+Gladiator,Shield Bash,True,True
+Gladiator,Spear,True,True
+Gnoll,Bite,True,True
+Gnoll,Spear,True,True
+Goat,Ram,True,True
+Goat, Giant,Ram,True,True
+Goblin,Scimitar,True,True
+Goblin,Shortbow,False,True
+Goblin,Gang Up (1/Day),False,True
+Goblin Captain,Multiattack,False,True
+Goblin Captain,Scimitar,True,True
+Goblin Captain,Shortbow,False,True
+Gold Dragon Wyrmling,Multiattack,False,True
+Gold Dragon Wyrmling,Bite,True,True
+Gold Dragon Wyrmling,Claw,True,True
+Gold Dragon Wyrmling,Fire Breath (Recharge 5-6),False,True
+Gold Dragon Wyrmling,Weakening Breath (Recharge 6),False,True
+Golmana,Multiattack,False,True
+Golmana,Claws,True,True
+Golmana,Tail,True,True
+Golmana,Void Screech (Recharge 5-6),False,True
+Gorgon,Petrifying Breath (Recharge 5-6),False,True
+Gorgon,Multiattack,False,True
+Gorgon,Gore,True,True
+Gorgon,Hooves,True,True
+Gray Ooze,Pseudopod,True,True
+Green Dragon Wyrmling,Multiattack,False,True
+Green Dragon Wyrmling,Bite,True,True
+Green Dragon Wyrmling,Claw,True,True
+Green Dragon Wyrmling,Poison Breath (Recharge 5-6),False,True
+Green Hag,Multiattack,False,True
+Green Hag,Claw,True,True
+Green Hag,Torment,False,True
+Green Hag,Poisonous Allies (1/Day),False,True
+Green Hag,Invisible Passage,False,True
+Green Hag,Spellcasting,False,True
+Grick,Multiattack,False,True
+Grick,Beak,True,True
+Grick,Tentacles,True,True
+Griffon,Multiattack,False,True
+Griffon,Beak,True,True
+Griffon,Claws,True,True
+Grimlock,Spiked Club,True,True
+Guard,Spear,True,True
+Guardian Naga,Multiattack,False,True
+Guardian Naga,Constrict,True,True
+Guardian Naga,Slam,True,True
+Guardian Naga,Spit Poison,False,True
+Guardian Naga,Spellcasting,False,True
+Gynosphinx,Multiattack,False,True
+Gynosphinx,Claw,True,True
+Gynosphinx,Psychic Bolt,False,True
+Gynosphinx,Spellcasting,False,True
+Harpy,Multiattack,False,True
+Harpy,Claw,True,True
+Harpy,Screech,False,True
+Hawk,Talons,True,True
+Hawk, Blood,Beak,True,True
+Hell Hound,Multiattack,False,True
+Hell Hound,Bite,True,True
+Hell Hound,Fire Breath (Recharge 5-6),False,True
+Hezrou,Multiattack,False,True
+Hezrou,Bite,True,True
+Hezrou,Claw,True,True
+Hezrou,Sticky Tongue,True,True
+Hill Giant,Multiattack,False,True
+Hill Giant,Spiked Tree Branch,True,True
+Hill Giant,Rotten Snack,False,True
+Hinn,Multiattack,False,True
+Hinn,Gem-Studded Mace,True,True
+Hinn,Lob Stone,False,True
+Hinn,Create Earth Elemental (1/Day),False,True
+Hinn,Travel the Planes (1/Day),False,True
+Hippocampus,Multiattack,False,True
+Hippocampus,Bite,True,True
+Hippocampus,Tail Slap,True,True
+Hippogriff,Multiattack,False,True
+Hippogriff,Beak,True,True
+Hippogriff,Claws,True,True
+Hivebound,Multiattack,False,True
+Hivebound,Bite,True,True
+Hivebound,Claw,True,True
+Hivebound,Spit Insect,False,True
+Hivebound,Swarm Breath (Recharge 5-6),False,True
+Hobgoblin,Multiattack,False,True
+Hobgoblin,Longsword,True,True
+Hobgoblin,Longbow,False,True
+Hobgoblin Commander,Multiattack,False,True
+Hobgoblin Commander,Greatsword,True,True
+Hobgoblin Commander,Longbow,False,True
+Homunculus,Bite,True,True
+Horned Devil,Multiattack,False,True
+Horned Devil,Fork,True,True
+Horned Devil,Tail,True,True
+Horned Devil,Hurl Flame,False,True
+Horse, Draft,Hooves,True,True
+Horse, Riding,Hooves,True,True
+Horse, War,Hooves,True,True
+Husk Demon,Multiattack,False,True
+Husk Demon,Life Drain,True,True
+Hydra,Multiattack,False,True
+Hydra,Bite,True,True
+Hydra,Noxious Breath (Recharge Special),False,True
+Hyena,Bite,True,True
+Hyena, Giant,Bite,True,True
+Ice Devil,Multiattack,False,True
+Ice Devil,Claws,True,True
+Ice Devil,Tail,True,True
+Ice Devil,Icicle Shard,False,True
+Ice Mephit,Claws,True,True
+Ice Mephit,Ice Shard,False,True
+Ice Mephit,Frost Breath (Recharge 6),False,True
+Imp,Slam (Beast Form Only),True,True
+Imp,Sting (True Form Only),True,True
+Imp,Invisibility (True Form Only),False,True
+Insatiable Brood,Bites,True,True
+Insect, Giant Centipede,Bite,True,True
+Insect, Giant Fire Beetle,Bite,True,True
+Insect, Giant Fire Beetle,Igniting Mucus,False,True
+Insect, Giant Scorpion,Multiattack,False,True
+Insect, Giant Scorpion,Claw,True,True
+Insect, Giant Scorpion,Sting,True,True
+Insect, Giant Wasp,Sting,True,True
+Insect, Scorpion,Sting,True,True
+Insect, Swarm of Insects,Bites,True,True
+Invisible Stalker,Multiattack,False,True
+Invisible Stalker,Slam,True,True
+Iron Golem,Multiattack,False,True
+Iron Golem,Shield Bash,True,True
+Iron Golem,Spear Arm,True,True
+Iron Golem,Expel Poisonous Gas (Recharge 5-6),False,True
+Jackal,Bite,True,True
+Knight,Multiattack,False,True
+Knight,Greatsword,True,True
+Knight,Javelin,True,True
+Kobold,Dagger,True,True
+Kobold,Sling,False,True
+Kobold Swiftblade,Multiattack,False,True
+Kobold Swiftblade,Scimitar,True,True
+Kobold Swiftblade,Hand Crossbow,False,True
+Kobold Witch,Multiattack,False,True
+Kobold Witch,Eldritch Burst,True,True
+Kobold Witch,Spellcasting,False,True
+Kraken,Multiattack,False,True
+Kraken,Bite,True,True
+Kraken,Tentacle,True,True
+Kraken,Ink Cloud (Recharge 6),False,True
+Lamia,Multiattack,False,True
+Lamia,Dagger,True,True
+Lamia,Hooves,True,True
+Lamia,Arcane Bolt,False,True
+Lamia,Spellcasting,False,True
+Lantern Hagfish,Bite,True,True
+Lemure,Fist,True,True
+Lich,Multiattack,False,True
+Lich,Arcane Death Burst,True,True
+Lich,Death-Infused Rod,True,True
+Lich,Lich's Gaze,False,True
+Lich,Spellcasting,False,True
+Lion,Multiattack,False,True
+Lion,Bite,True,True
+Lion,Claws,True,True
+Living Colossus,Multiattack,False,True
+Living Colossus,Slam,True,True
+Living Colossus,Spirit Blast,False,True
+Living Colossus,Thunderous Clap (Recharge 5-6),False,True
+Lizard,Bite,True,True
+Lizard, Giant,Bite,True,True
+Lizardfolk,Multiattack,False,True
+Lizardfolk,Bite,True,True
+Lizardfolk,Heavy Club,True,True
+Lizardfolk,Javelin,True,True
+Lizardfolk Ruler,Multiattack,False,True
+Lizardfolk Ruler,Bite,True,True
+Lizardfolk Ruler,Greataxe,True,True
+Lizardfolk Ruler,Javelin,True,True
+Lizardfolk Shaman,Multiattack,False,True
+Lizardfolk Shaman,Bite,True,True
+Lizardfolk Shaman,Ritual Staff,True,True
+Lizardfolk Shaman,Swamp Bolt,False,True
+Lizardfolk Shaman,Spellcasting,False,True
+Mage Apprentice,Dagger,True,True
+Mage Apprentice,Arcane Bolt,False,True
+Mage Apprentice,Spellcasting,False,True
+Mage,Multiattack,False,True
+Mage,Dagger,True,True
+Mage,Arcane Bolt,False,True
+Mage,Spellcasting,False,True
+Magma Mephit,Claws,True,True
+Magma Mephit,Lob Magma,False,True
+Magma Mephit,Pyroclastic Burst (Recharge 6),False,True
+Magmin,Burning Slam,True,True
+Mammoth,Multiattack,False,True
+Mammoth,Gore,True,True
+Mammoth,Stomp,True,True
+Manticore,Multiattack,False,True
+Manticore,Bite,True,True
+Manticore,Claw,True,True
+Manticore,Tail Spike,False,True
+Marilith,Multiattack,False,True
+Marilith,Dagger,True,True
+Marilith,Mace,True,True
+Marilith,Longsword,True,True
+Marilith,Tail,True,True
+Master Alchemist,Multiattack,False,True
+Master Alchemist,Hasty Concoction,True,True
+Master Alchemist,Explosive Flask (Recharge 5-6),False,True
+Master Alchemist,Healing Unguent (3/Day),False,True
+Mastiff,Bite,True,True
+Mechanist,Multiattack,False,True
+Mechanist,Warhammer,True,True
+Mechanist,Light Crossbow,False,True
+Mechanist,Repair (Recharge 4-6),False,True
+Medusa,Multiattack,False,True
+Medusa,Snake Hair,True,True
+Medusa,Shortsword,True,True
+Medusa,Longbow,False,True
+Merfolk,Coral Spear,True,True
+Merfolk,Sharpened Shell,False,True
+Merrow,Multiattack,False,True
+Merrow,Bite,True,True
+Merrow,Claw,True,True
+Merrow,Harpoon,True,True
+Mimic,Multiattack,False,True
+Mimic,Bite,True,True
+Mimic,Pseudopod,True,True
+Minotaur,Multiattack,False,True
+Minotaur,Gore,True,True
+Minotaur,Greataxe,True,True
+Minotaur Skeleton,Greataxe,True,True
+Minotaur Skeleton,Gore,True,True
+Mire Fiend,Multiattack,False,True
+Mire Fiend,Mandibles,True,True
+Mire Fiend,Spear,True,True
+Mire Fiend,Stinger,True,True
+Mire Fiend,Stunning Snap (Recharge 5-6),False,True
+Mordovermis,Multiattack,False,True
+Mordovermis,Sting,True,True
+Mordovermis,Consume,False,True
+Mule,Hooves,True,True
+Mummy,Multiattack,False,True
+Mummy,Rotting Fist,True,True
+Mummy Lord,Multiattack,False,True
+Mummy Lord,Blessed Khopesh,True,True
+Mummy Lord,Rotting Fist,True,True
+Mummy Lord,Divine Bolt,False,True
+Mummy Lord,Undead Servitors,False,True
+Mummy Lord,Spellcasting,False,True
+Mycolid Commoner,Gardening Pick,True,True
+Mycolid Commoner,Slowing Spores (Recharge 5-6),False,True
+Mycolid Spore Lord,Multiattack,False,True
+Mycolid Spore Lord,Fungal Staff,True,True
+Mycolid Spore Lord,Hurl Sap,False,True
+Mycolid Spore Lord,Mushroom Ring (Recharge 5-6),False,True
+Mycolid Spore Lord,Slumber Spores (Recharge 5-6),False,True
+Nalfeshnee,Multiattack,False,True
+Nalfeshnee,Bite,True,True
+Nalfeshnee,Claw,True,True
+Nalfeshnee,Gore,True,True
+Night Hag,Multiattack,False,True
+Night Hag,Claw (Hag Form Only),True,True
+Night Hag,Arcane Bolt,False,True
+Night Hag,Cause Sorrow,False,True
+Night Hag,Spellcasting,False,True
+Nightmare,Multiattack,False,True
+Nightmare,Flaming Hoof,True,True
+Nightmare,Ethereal Stride,False,True
+Noble,Rapier,True,True
+Ochre Jelly,Pseudopod,True,True
+Octopus,Tentacles,True,True
+Octopus, Giant,Tentacles,True,True
+Ogre,Multiattack,False,True
+Ogre,Greatclub,True,True
+Ogre,Javelin,True,True
+Ogre,Bowling Sweep (Recharge 5-6),False,True
+Ogre Zombie,Multiattack,False,True
+Ogre Zombie,Greatclub,True,True
+Ogre Zombie,Lumbering Charge (Recharge 5-6),False,True
+Oni,Multiattack,False,True
+Oni,Claw (True Form Only),True,True
+Oni,Glaive,True,True
+Oni,Arcane Bolt,False,True
+Oni,Whirling Glaive (Recharge 5-6),False,True
+Oni,Spellcasting,False,True
+Orc,Greataxe,True,True
+Orc,Javelin,True,True
+Orc Warlord,Multiattack,False,True
+Orc Warlord,Longsword,True,True
+Orc Warlord,Skull Club,True,True
+Orc Warlord,Longbow,False,True
+Orca,Multiattack,False,True
+Orca,Bite,True,True
+Otyugh,Multiattack,False,True
+Otyugh,Bite,True,True
+Otyugh,Tentacle,True,True
+Otyugh,Tentacle Slam,False,True
+Owl,Talons,True,True
+Owl, Giant,Talons,True,True
+Owlbear,Multiattack,False,True
+Owlbear,Beak,True,True
+Owlbear,Claws,True,True
+Owlbear,Vicious Bound (44 HP or Fewer),False,True
+Panther,Bite,True,True
+Panther,Claw,True,True
+Pegasus,Multiattack,False,True
+Pegasus,Hooves,True,True
+Phase Spider,Multiattack,False,True
+Phase Spider,Barbed Legs,True,True
+Phase Spider,Bite,True,True
+Phase Spider,Phasing Web,False,True
+Pit Fiend,Multiattack,False,True
+Pit Fiend,Bite,True,True
+Pit Fiend,Gore,True,True
+Pit Fiend,Mace,True,True
+Pit Fiend,Tail,True,True
+Pit Fiend,Hurl Flame,False,True
+Planetar,Multiattack,False,True
+Planetar,Greatsword,True,True
+Planetar,Radiant Bolt,False,True
+Planetar,Radiant Burst (Recharge 6),False,True
+Planetar,Healing Touch (4/Day),False,True
+Planetar,Spellcasting,False,True
+Plesiosaurus,Multiattack,False,True
+Plesiosaurus,Bite,True,True
+Pony,Hooves,True,True
+Priest,Multiattack,False,True
+Priest,Mace,True,True
+Priest,Divine Bolt,False,True
+Priest,Spellcasting,False,True
+Pseudodragon,Bite,True,True
+Pseudodragon,Sting,True,True
+Pseudodragon,Puff of Smoke (1/Day),False,True
+Purple Worm,Multiattack,False,True
+Purple Worm,Bite,True,True
+Purple Worm,Tail Stinger,True,True
+Purple Worm,Thrash (Recharge 5-6),False,True
+Quasit,Claws (True Form Only),True,True
+Quasit,Slam (Beast Form Only),True,True
+Quasit,Invisibility (True Form Only),False,True
+Quipper,Bite,True,True
+Quipper, Swarm of Quippers,Bites,True,True
+Rakshasa,Multiattack,False,True
+Rakshasa,Claw,True,True
+Rakshasa,Arcane Bolt,False,True
+Rakshasa,Travel the Planes (1/Day),False,True
+Rakshasa,Spellcasting,False,True
+Rat,Bite,True,True
+Rat, Giant,Bite,True,True
+Rat, Swarm of Rats,Bites,True,True
+Raven,Beak,True,True
+Raven, Swarm of Ravens,Beaks,True,True
+Red Dragon Wyrmling,Multiattack,False,True
+Red Dragon Wyrmling,Bite,True,True
+Red Dragon Wyrmling,Claw,True,True
+Red Dragon Wyrmling,Fire Breath (Recharge 5-6),False,True
+Remorhaz,Bite,True,True
+Rhinoceros,Multiattack,False,True
+Rhinoceros,Gore,True,True
+Robot Drone,Slam,True,True
+Robot Drone,Flame Jet,False,True
+Roc,Multiattack,False,True
+Roc,Beak,True,True
+Roc,Talon,True,True
+Roper,Multiattack,False,True
+Roper,Bite,True,True
+Roper,Grasping Tendril,True,True
+Rug of Smothering,Smother,True,True
+Rug of Smothering,Squeeze Prey,False,True
+Rust Monster,Bite,True,True
+Rust Monster,Antennae,False,True
+Sahuagin,Multiattack,False,True
+Sahuagin,Bite,True,True
+Sahuagin,Claws,True,True
+Sahuagin,Trident,True,True
+Salamander,Multiattack,False,True
+Salamander,Trident,True,True
+Salamander,Tail,True,True
+Salamander,Fire Bolt,False,True
+Satarre,Multiattack,False,True
+Satarre,Claw,True,True
+Satarre,Spear,True,True
+Satyr,Ram,True,True
+Satyr,Intoxicating Bolt,False,True
+Scorch Drake,Multiattack,False,True
+Scorch Drake,Bite,True,True
+Scorch Drake,Claw,True,True
+Scorch Drake,Fire Breath (Recharge 5-6),False,True
+Scout,Multiattack,False,True
+Scout,Shortsword,True,True
+Scout,Shortbow,False,True
+Sea Hag,Multiattack,False,True
+Sea Hag,Claw,True,True
+Sea Hag,Death Glare,False,True
+Seahorse,Ram,True,True
+Seahorse, Giant,Ram,True,True
+Shadow,Strength Drain,True,True
+Shambling Mound,Multiattack,False,True
+Shambling Mound,Slam,True,True
+Shark, Giant,Multiattack,False,True
+Shark, Giant,Bite,True,True
+Shark, Hunter,Multiattack,False,True
+Shark, Hunter,Bite,True,True
+Shark, Reef,Bite,True,True
+Shield Guardian,Multiattack,False,True
+Shield Guardian,Runed Fist,True,True
+Shield Guardian,Rune Bolt,False,True
+Shrieker,Thunderous Burst,False,True
+Sila,Multiattack,False,True
+Sila,Cold-Infused Jambiya,True,True
+Sila,Water Burst,False,True
+Sila,Create Water Elemental (1/Day),False,True
+Sila,Travel the Planes (1/Day),False,True
+Silver Dragon Wyrmling,Multiattack,False,True
+Silver Dragon Wyrmling,Bite,True,True
+Silver Dragon Wyrmling,Claw,True,True
+Silver Dragon Wyrmling,Cold Breath (Recharge 5-6),False,True
+Silver Dragon Wyrmling,Paralyzing Breath (Recharge 6),False,True
+Skeleton,Shortsword,True,True
+Skeleton,Shortbow,False,True
+Skullbloom,Multiattack,False,True
+Skullbloom,Bite,True,True
+Skullbloom,Slam,True,True
+Snake, Constrictor,Bite,True,True
+Snake, Constrictor,Constrict,True,True
+Snake, Flying,Bite,True,True
+Snake, Giant Constrictor,Multiattack,False,True
+Snake, Giant Constrictor,Bite,True,True
+Snake, Giant Constrictor,Constrict,True,True
+Snake, Giant Poisonous,Bite,True,True
+Snake, Poisonous,Bite,True,True
+Snake, Swarm of Poisonous Snakes,Bites,True,True
+Solar,Multiattack,False,True
+Solar,Greatsword,True,True
+Solar,Holy Fire Bolt,False,True
+Solar,Healing Touch (4/Day),False,True
+Solar,Spellcasting,False,True
+Specter,Life Drain,True,True
+Spider,Bite,True,True
+Spider, Giant,Bite,True,True
+Spider, Giant Wolf,Bite,True,True
+Spirit Naga,Multiattack,False,True
+Spirit Naga,Bite,True,True
+Spirit Naga,Spit Poison,False,True
+Spirit Naga,Spellcasting,False,True
+Sprite,Shortsword,True,True
+Sprite,Shortbow,False,True
+Sprite,Invisibility,False,True
+Spy,Multiattack,False,True
+Spy,Shortsword,True,True
+Spy,Hand Crossbow,False,True
+Star Crow,Radiant Touch,True,True
+Star Crow,Thought Share,False,True
+Steam Mephit,Claws,True,True
+Steam Mephit,Steam Blast,False,True
+Steam Mephit,Steam Breath (Recharge 6),False,True
+Stirge,Blood Drain,True,True
+Stone Giant,Multiattack,False,True
+Stone Giant,Stony Fist,True,True
+Stone Giant,Rock,False,True
+Stone Golem,Multiattack,False,True
+Stone Golem,Slam,True,True
+Stone Golem,Slow (Recharge 6),False,True
+Storm Giant,Multiattack,False,True
+Storm Giant,Greatsword,True,True
+Storm Giant,Lightning Bolt,False,True
+Storm Giant,Thunderous Strike (Recharge 5-6),False,True
+Succubus,Multiattack,False,True
+Succubus,Claw (Fiend Form Only),True,True
+Succubus,Draining Kiss,True,True
+Succubus,Charm,False,True
+Tarrasque,Multiattack,False,True
+Tarrasque,Bite,True,True
+Tarrasque,Claw,True,True
+Tarrasque,Spiked Tail,True,True
+Tarrasque,Acid Spit,False,True
+Tarrasque,Frightful Presence,False,True
+Thug,Club,True,True
+Thug,Heavy Crossbow,False,True
+Tiger,Multiattack,False,True
+Tiger,Bite,True,True
+Tiger,Claws,True,True
+Tiger, Saber-Toothed,Multiattack,False,True
+Tiger, Saber-Toothed,Bite,True,True
+Tiger, Saber-Toothed,Claws,True,True
+Treant,Multiattack,False,True
+Treant,Slam,True,True
+Treant,Throw Rock,False,True
+Treant,Animate Trees (1/Day),False,True
+Triceratops,Multiattack,False,True
+Triceratops,Gore,True,True
+Triceratops,Stomp,True,True
+Troll,Multiattack,False,True
+Troll,Bite,True,True
+Troll,Claw,True,True
+Tyrannosaurus Rex,Multiattack,False,True
+Tyrannosaurus Rex,Bite,True,True
+Tyrannosaurus Rex,Tail,True,True
+Unicorn,Multiattack,False,True
+Unicorn,Hooves,True,True
+Unicorn,Horn,True,True
+Unicorn,Horn Bolt,False,True
+Unicorn,Unicorn Magic,False,True
+Unicorn,Healing Touch (3/Day),False,True
+Unska,Multiattack,False,True
+Unska,Claw,True,True
+Unska,Tongue,True,True
+Unska,Ink Blast,False,True
+Vampire,Multiattack,False,True
+Vampire,Bite (Bat, Rat, or Wolf Form Only),True,True
+Vampire,Claw (Vampire Form Only),True,True
+Vampire,Draining Bite (Bat or Vampire Form Only),True,True
+Vampire,Charm (Vampire Form Only),False,True
+Vampire,Children of the Night,False,True
+Vampire Spawn,Multiattack,False,True
+Vampire Spawn,Claw,True,True
+Vampire Spawn,Draining Bite,True,True
+Vampire Thrall,Multiattack,False,True
+Vampire Thrall,Rapier,True,True
+Velociraptor,Multiattack,False,True
+Velociraptor,Bite,True,True
+Velociraptor,Claws,True,True
+Velociraptor,Maul,False,True
+Veteran,Multiattack,False,True
+Veteran,Longsword,True,True
+Veteran,Shortsword,True,True
+Veteran,Heavy Crossbow,False,True
+Violet Fungus,Rotting Touch,True,True
+Virtuoso Lich,Multiattack,False,True
+Virtuoso Lich,Artistic Flourish,True,True
+Virtuoso Lich,Call Muse,False,True
+Virtuoso Lich,Corrupted Art,False,True
+Virtuoso Lich,Spellcasting,False,True
+Vrock,Multiattack,False,True
+Vrock,Beak,True,True
+Vrock,Talon,True,True
+Vrock,Wing Spores (Recharge 5-6),False,True
+Vulture,Beak,True,True
+Vulture, Giant,Multiattack,False,True
+Vulture, Giant,Beak,True,True
+Vulture, Giant,Talons,True,True
+War Horse Skeleton,Hooves,True,True
+Water Elemental,Multiattack,False,True
+Water Elemental,Water Tendril,True,True
+Water Elemental,Water Bolt,False,True
+Water Elemental,Whelm (Recharge 4-6),False,True
+Weasel,Bite,True,True
+Weasel, Giant,Bite,True,True
+Werebear,Multiattack,False,True
+Werebear,Bite (Bear or Hybrid Form Only),True,True
+Werebear,Claw (Bear or Hybrid Form Only),True,True
+Werebear,Greataxe (Humanoid or Hybrid Form Only),True,True
+Wereboar,Multiattack (Humanoid or Hybrid Form Only),False,True
+Wereboar,Maul (Humanoid or Hybrid Form Only),True,True
+Wereboar,Slam (Boar or Hybrid Form Only),True,True
+Wereboar,Tusks (Boar or Hybrid Form Only),True,True
+Wererat,Multiattack (Humanoid or Hybrid Form Only),False,True
+Wererat,Bite (Rat or Hybrid Form Only),True,True
+Wererat,Claw (Rat or Hybrid Form Only),True,True
+Wererat,Shortsword (Humanoid or Hybrid Form Only),True,True
+Wererat,Hand Crossbow (Humanoid or Hybrid Form Only),False,True
+Weretiger,Multiattack (Humanoid or Hybrid Form Only),False,True
+Weretiger,Bite (Tiger or Hybrid Form Only),True,True
+Weretiger,Claw (Tiger or Hybrid Form Only),True,True
+Weretiger,Scimitar (Humanoid or Hybrid Form Only),True,True
+Weretiger,Longbow (Humanoid or Hybrid Form Only),False,True
+Werewolf,Multiattack (Humanoid or Hybrid Form Only),False,True
+Werewolf,Bite (Wolf or Hybrid Form Only),True,True
+Werewolf,Claws (Hybrid Form Only),True,True
+Werewolf,Spear (Humanoid Form Only),True,True
+White Dragon Wyrmling,Multiattack,False,True
+White Dragon Wyrmling,Bite,True,True
+White Dragon Wyrmling,Claw,True,True
+White Dragon Wyrmling,Cold Breath (Recharge 5-6),False,True
+Wight,Multiattack,False,True
+Wight,Life Drain,True,True
+Wight,Longsword,True,True
+Wight,Longbow,False,True
+Wild Warrior,Spear,True,True
+Will-o'-Wisp,Multiattack,False,True
+Will-o'-Wisp,Shock,True,True
+Will-o'-Wisp,Invisibility,False,True
+Winter Wolf,Multiattack,False,True
+Winter Wolf,Bite,True,True
+Winter Wolf,Cold Breath (Recharge 5-6),False,True
+Wolf,Bite,True,True
+Wolf, Dire,Bite,True,True
+Wood Herald,Slam,True,True
+Wood Herald,Wooden Greataxe,True,True
+Wood Herald,Hurl Thorn,False,True
+Worg,Bite,True,True
+Wraith,Multiattack,False,True
+Wraith,Life Drain,True,True
+Wraith,Create Specter,False,True
+Wyrdling,Psychic Burst,True,True
+Wyvern,Multiattack,False,True
+Wyvern,Bite,True,True
+Wyvern,Claws,True,True
+Wyvern,Stinger,True,True
+Xorn,Multiattack,False,True
+Xorn,Bite,True,True
+Xorn,Claw,True,True
+Xorn,Lob Stone,False,True
+Young Black Dragon,Multiattack,False,True
+Young Black Dragon,Bite,True,True
+Young Black Dragon,Claw,True,True
+Young Black Dragon,Acid Breath (Recharge 5-6),False,True
+Young Blue Dragon,Multiattack,False,True
+Young Blue Dragon,Bite,True,True
+Young Blue Dragon,Claw,True,True
+Young Blue Dragon,Lightning Breath (Recharge 5-6),False,True
+Young Brass Dragon,Multiattack,False,True
+Young Brass Dragon,Bite,True,True
+Young Brass Dragon,Claw,True,True
+Young Brass Dragon,Fire Breath (Recharge 5-6),False,True
+Young Brass Dragon,Sleep Breath (Recharge 6),False,True
+Young Bronze Dragon,Multiattack,False,True
+Young Bronze Dragon,Bite,True,True
+Young Bronze Dragon,Claw,True,True
+Young Bronze Dragon,Lightning Breath (Recharge 5-6),False,True
+Young Bronze Dragon,Repulsion Breath (Recharge 6),False,True
+Young Copper Dragon,Multiattack,False,True
+Young Copper Dragon,Bite,True,True
+Young Copper Dragon,Claw,True,True
+Young Copper Dragon,Acid Breath (Recharge 5-6),False,True
+Young Copper Dragon,Slowing Breath (Recharge 6),False,True
+Young Gold Dragon,Multiattack,False,True
+Young Gold Dragon,Bite,True,True
+Young Gold Dragon,Claw,True,True
+Young Gold Dragon,Fire Breath (Recharge 5-6),False,True
+Young Gold Dragon,Weakening Breath (Recharge 6),False,True
+Young Green Dragon,Multiattack,False,True
+Young Green Dragon,Bite,True,True
+Young Green Dragon,Claw,True,True
+Young Green Dragon,Poison Breath (Recharge 5-6),False,True
+Young Red Dragon,Multiattack,False,True
+Young Red Dragon,Bite,True,True
+Young Red Dragon,Claw,True,True
+Young Red Dragon,Fire Breath (Recharge 5-6),False,True
+Young Silver Dragon,Multiattack,False,True
+Young Silver Dragon,Bite,True,True
+Young Silver Dragon,Claw,True,True
+Young Silver Dragon,Cold Breath (Recharge 5-6),False,True
+Young Silver Dragon,Paralyzing Breath (Recharge 6),False,True
+Young White Dragon,Multiattack,False,True
+Young White Dragon,Bite,True,True
+Young White Dragon,Claw,True,True
+Young White Dragon,Cold Breath (Recharge 5-6),False,True
+Zombie,Slam,True,True
+Aatxe,Gore,True,True
+Aatxe,Paw the Earth,False,True
+Acid Ant,Acid Spit,False,True
+Acid Ant,Bite,True,True
+Adult Light Dragon,Multiattack,False,True
+Adult Light Dragon,Bite,True,True
+Adult Light Dragon,Claw,True,True
+Adult Light Dragon,Tail,True,True
+Adult Light Dragon,Frightful Presence,False,True
+Adult Light Dragon,Breath Weapon (Recharge 5-6),False,True
+Adult Wasteland Dragon,Multiattack,False,True
+Adult Wasteland Dragon,Bite,True,True
+Adult Wasteland Dragon,Claw,True,True
+Adult Wasteland Dragon,Tail,True,True
+Adult Wasteland Dragon,Frightful Presence,False,True
+Adult Wasteland Dragon,Warped Energy Breath (Recharge 5-6),False,True
+Agnibarra,Burning Claw,True,True
+Agnibarra,Spit Fire,False,True
+Ahu-Nixta,Multiattack,False,True
+Ahu-Nixta,Whirring Blades,True,True
+Ahu-Nixta,Pronged Scepter,True,True
+Ahu-Nixta,Bashing Rod,True,True
+Ahuizotl,Multiattack,False,True
+Ahuizotl,Bite,True,True
+Ahuizotl,Claw,True,True
+Ahuizotl,Tail Grab,False,True
+Alabaster Tree,Multiattack,False,True
+Alabaster Tree,Slam,True,True
+Alabaster Tree,Serrated Squeeze (Willow Only),False,True
+Alabaster Tree,Toss (Oak Only),False,True
+Alabaster Tree,Cloud of Needles (Recharge 5-6, Pine Only),False,True
+Albino Death Weasel,Bite,True,True
+Albino Death Weasel,Claw,True,True
+Albino Death Weasel,Musk Spray (Recharge 5-6),False,True
+Alchemical Apprentice,Pseudopod,True,True
+Alchemical Apprentice,Magical Burble,False,True
+Alchemical Golem,Multiattack,False,True
+Alchemical Golem,Slam,True,True
+Alchemical Golem,Poison Breath (Brimstone Infusion Only; Recharge 5-6),False,True
+Alchemist Archer,Multiattack,False,True
+Alchemist Archer,Scimitar,True,True
+Alchemist Archer,Longbow,False,True
+Alkonost,Claws,True,True
+Alkonost,Charged Melody (Recharge 6),False,True
+Alliumite,Thorn Dart,False,True
+Alliumite,Grass Blade,True,True
+Alnaar,Multiattack,False,True
+Alnaar,Fiery Fangs,True,True
+Alnaar,Flare (Recharge Special),False,True
+Alp,Sleeper's Slap,True,True
+Alpha Yek,Multiattack,False,True
+Alpha Yek,Bite,True,True
+Alpha Yek,Claw,True,True
+Alpha Yek,Bone Shard,True,True
+Altar Flame Golem,Multiattack,False,True
+Altar Flame Golem,Slam,True,True
+Altar Flame Golem,Flame Breath (Recharge 5-6),False,True
+Ammut,Bite,True,True
+Ammut,Swallow,False,True
+Ammut,Ghost Breath (1/Day),False,True
+Ammut,Absorb Spirit (1/Day),False,True
+Ancient Light Dragon,Bite,True,True
+Ancient Light Dragon,Claw,True,True
+Ancient Light Dragon,Tail,True,True
+Ancient Light Dragon,Frightful Presence,False,True
+Ancient Light Dragon,Breath Weapon (Recharge 5-6),False,True
+Ancient Mandriano,Multiattack,False,True
+Ancient Mandriano,Swipe,True,True
+Ancient Mandriano,Consume the Spark,False,True
+Ancient Mandriano,Call the Dead (3/Day),False,True
+Ancient Wasteland Dragon,Multiattack,False,True
+Ancient Wasteland Dragon,Bite,True,True
+Ancient Wasteland Dragon,Claw,True,True
+Ancient Wasteland Dragon,Tail,True,True
+Ancient Wasteland Dragon,Frightful Presence,False,True
+Ancient Wasteland Dragon,Warped Energy Breath (Recharge 5-6),False,True
+Ankou Soul Herald,Multiattack,False,True
+Ankou Soul Herald,Bite,True,True
+Ankou Soul Herald,Claw,True,True
+Ankou Soul Herald,Tail,True,True
+Ankou Soul Herald,Horrifying Presence,False,True
+Ankou Soul Herald,Reaper's Breath (Recharge 5-6),False,True
+Ankou Soul Herald,Change Shape,False,True
+Ankou Soul Herald,Usher of Souls,False,True
+Ankou Soul Seeker,Multiattack,False,True
+Ankou Soul Seeker,Bite,True,True
+Ankou Soul Seeker,Claw,True,True
+Ankou Soul Seeker,Reaper's Breath (Recharge 5-6),False,True
+Ankou Soul Seeker,Change Shape,False,True
+Ankou Soul Seeker,Usher of Souls,False,True
+Anophiloi,Multiattack,False,True
+Anophiloi,Bite,True,True
+Anophiloi,Claws,True,True
+Arborcyte,Multiattack,False,True
+Arborcyte,Thorn Vine,True,True
+Arborcyte,Animated Tendril,True,True
+Arcamag,Attach,True,True
+Arcamag,Teleport (1/Day),False,True
+Arcanaphage,Multiattack,False,True
+Arcanaphage,Tentacle,True,True
+Archaeopteryx,Multiattack,False,True
+Archaeopteryx,Beak,True,True
+Archaeopteryx,Talons,True,True
+Armory Golem,Multiattack,False,True
+Armory Golem,Slam,True,True
+Armory Golem,Polearm Strike,True,True
+Armory Golem,Crossbow Barrage,False,True
+Armory Golem,Shield Wall (Recharge 4-6),False,True
+Astral Snapper,Multiattack,False,True
+Astral Snapper,Claws,True,True
+Avatar of Shoth,Multiattack,False,True
+Avatar of Shoth,Oozing Tentacle,True,True
+Avatar of Shoth,Legendary Merge,False,True
+Avatar of Shoth,Acid Wave (Recharge 5-6),False,True
+Avatar of Shoth,Consult the Zom (1/Day),False,True
+Azeban,Multiattack,False,True
+Azeban,Bite,True,True
+Azeban,Claws,True,True
+Azeban,Ear-Splitting Yawp (Recharge 5-6),False,True
+Azi Dahaka,Multiattack,False,True
+Azi Dahaka,Bite,True,True
+Azi Dahaka,Claw,True,True
+Azi Dahaka,Storm Breath (Recharge 5-6),False,True
+Bar Brawl,Multiattack,False,True
+Bar Brawl,Barstool,True,True
+Bar Brawl,Broken Bottles,True,True
+Bar Brawl,Darts,False,True
+Barong,Multiattack,False,True
+Barong,Bite,True,True
+Barong,Claws,True,True
+Barong,Summon Spirit (1/Day),False,True
+Bathhouse Drake,Multiattack,False,True
+Bathhouse Drake,Bite,True,True
+Bathhouse Drake,Claw,True,True
+Bathhouse Drake,Scalding Jet,False,True
+Bathhouse Drake,Steam Burst (Recharge 5-6),False,True
+Bearfolk Chieftain,Multiattack,False,True
+Bearfolk Chieftain,Battleaxe,True,True
+Bearfolk Chieftain,Bite,True,True
+Bearfolk Chieftain,Leadership (Recharges after a Short or Long Rest),False,True
+Bearmit Crab,Multiattack,False,True
+Bearmit Crab,Claw,True,True
+Bearmit Crab,Bite,True,True
+Bilwis,Slam,True,True
+Bilwis,Whirlwind (Recharge 5-6),False,True
+Black Sun Orc,Multiattack,False,True
+Black Sun Orc,Greatclub,True,True
+Black Sun Orc,Sling,False,True
+Black Sun Priestess,Greatclub,True,True
+Blood Elemental,Multiattack,False,True
+Blood Elemental,Slam,True,True
+Blood Elemental,Blood Drain (Recharge 4-6),False,True
+Blood Giant,Multiattack,False,True
+Blood Giant,Blood Spear,True,True
+Blood Giant,Rock,False,True
+Blood Giant,Blood Magic (Recharge 5-6),False,True
+Blood Ooze,Pseudopod,True,True
+Blood Zombie,Slam,True,True
+Bloody Bones,Multiattack,False,True
+Bloody Bones,Claw,True,True
+Bloody Bones,Dark Stare,False,True
+Bone Golem,Multiattack,False,True
+Bone Golem,Claw,True,True
+Bone Golem,Bone Shard,False,True
+Bookkeeper,Ink Splash,False,True
+Bookkeeper,Bite,True,True
+Bookkeeper,Elusive Pages,False,True
+Boot Grabber,Adhesive Hands,True,True
+Boot Grabber,Unearthly Hum,False,True
+Bronze Golem,Multiattack,False,True
+Bronze Golem,Slam,True,True
+Bronze Golem,Brazen Bull,False,True
+Cacus Giant,Multiattack,False,True
+Cacus Giant,Greatclub,True,True
+Cacus Giant,Rock,False,True
+Cacus Giant,Fire Breath (Recharge 4-6),False,True
+Carbuncle,Multiattack,False,True
+Carbuncle,Bite,True,True
+Carbuncle,Claw,True,True
+Carbuncle,Light Beam (Recharge 5-6),False,True
+Cats of Ulthar,Bites,True,True
+Cauldronborn,Multiattack,False,True
+Cauldronborn,Slam,True,True
+Cauldronborn,Call Potion (Recharge 5-6),False,True
+Cave Giant,Multiattack,False,True
+Cave Giant,Handaxe,True,True
+Cave Giant,Tusks,True,True
+Cave Giant,Rock,False,True
+Centaur Chieftain,Multiattack,False,True
+Centaur Chieftain,Pike,True,True
+Centaur Chieftain,Hooves,True,True
+Centaur Chieftain,Longbow,False,True
+Centaur Chieftain,Leadership (Recharges after a Short or Long Rest),False,True
+Centaur Chieftain,Leadership die at a time,False,True
+Centaur Chieftain,Rearing Strike (Recharge 5-6),False,True
+Chaos-Spawn Goblin,Multiattack,False,True
+Chaos-Spawn Goblin,Scimitar,True,True
+Chaos-Spawn Goblin,Psychic Stab (Recharge 6),False,True
+Child of Yggdrasil,Multiattack,False,True
+Child of Yggdrasil,Claw,True,True
+Chuhaister,Multiattack,False,True
+Chuhaister,Greatclub,True,True
+Chuhaister,Rock,False,True
+Chupacabra,Bite,True,True
+Chupacabra,Fearful Gaze,False,True
+Cipactli,Multiattack,False,True
+Cipactli,Bite,True,True
+Cipactli,Devouring Embrace,False,True
+Cipactli,Ancient Lullaby (Recharge 5-6),False,True
+Clacking Skeleton,Multiattack,False,True
+Clacking Skeleton,Glaive,True,True
+Clacking Skeleton,Gore,True,True
+Clacking Skeleton,Shortbow,False,True
+Clockwork Assassin,Multiattack,False,True
+Clockwork Assassin,Rapier,True,True
+Clockwork Assassin,Disassembly,False,True
+Clockwork Servant,Slam,True,True
+Clockwork Soldier,Halberd,True,True
+Clockwork Soldier,Overdrive Flurry (Recharge 6),False,True
+Corpse Thief,Multiattack,False,True
+Corpse Thief,Claw,True,True
+Corpse Thief,Steal,False,True
+Crimson Mist,Engulf,False,True
+Crypt Spider,Bite,True,True
+Crypt Spider,Web (Recharge 5-6),False,True
+Crypt Spider,Create Zombie,False,True
+Cueyatl,Spear,True,True
+Cueyatl Moon Priest,Morningstar,True,True
+Cueyatl Moon Priest,Night's Chill (Recharge 5-6),False,True
+Cueyatl Sea Priest,Trident,True,True
+Cueyatl Warrior,Battleaxe,True,True
+Darakhul High Priestess,Multiattack,False,True
+Darakhul High Priestess,Bite,True,True
+Darakhul High Priestess,Claw,True,True
+Darakhul Shadowmancer,Multiattack,False,True
+Darakhul Shadowmancer,Bite,True,True
+Darakhul Shadowmancer,Dagger,True,True
+Dark Eye,Multiattack,False,True
+Dark Eye,Dagger,True,True
+Dark Father,Life Drain,True,True
+Dark Father,Final Curtain,False,True
+Dark Servant,Multiattack,False,True
+Dark Servant,Sickle,True,True
+Dark Servant,Light Crossbow,False,True
+Dark Voice,Multiattack,False,True
+Dark Voice,Mace,True,True
+Dark Voice,Heavy Crossbow,False,True
+Dark Voice,Whispers of Shadow (Recharge 5-6),False,True
+Deathsworn Elf,Multiattack,False,True
+Deathsworn Elf,Scimitar,True,True
+Deathsworn Elf,Longbow,False,True
+Deathsworn Elf,Volley (Recharge 5-6),False,True
+Desert Troll,Multiattack,False,True
+Desert Troll,Bite,True,True
+Desert Troll,Claws,True,True
+Devil Bough,Multiattack,False,True
+Devil Bough,Claw,True,True
+Devil Bough,Bite,True,True
+Devil Shark,Bite,True,True
+Devil Shark,Swallow,False,True
+Devil Shark,Freezing Breath (Recharge 5-6),False,True
+Dhampir,Multiattack,False,True
+Dhampir,Rapier,True,True
+Dhampir,Shortbow,False,True
+Dhampir,Dark Thirst,True,True
+Dhampir,Predatory Charm,False,True
+Dhampir Commander,Multiattack,False,True
+Dhampir Commander,Rapier,True,True
+Dhampir Commander,Shortbow,False,True
+Dhampir Commander,Dark Thirst,True,True
+Dhampir Commander,Predatory Charm,False,True
+Dhampir Commander,Leadership (Recharges after a Short or Long Rest),False,True
+Doom Golem,Multiattack,False,True
+Doom Golem,Doom Claw,True,True
+Doom Golem,Bite,True,True
+Doom Golem,Wind of Boreas (Recharge 5-6),False,True
+Dracotaur,Multiattack,False,True
+Dracotaur,Bite,True,True
+Dracotaur,Claws,True,True
+Dracotaur,Longbow,False,True
+Dracotaur,Lightning Arrow (Recharges after a Short or Long Rest),False,True
+Dracotaur,Lightning Breath (Recharge 5-6),False,True
+Dream Squire,Multiattack,False,True
+Dream Squire,Mace,True,True
+Dream Squire,Light Crossbow,False,True
+Dream Wraith,Sleep Touch,True,True
+Dream Wraith,Steal Dreams,False,True
+Droth,Multiattack,False,True
+Droth,Oozing Crush,True,True
+Droth,Merge,False,True
+Droth,Acid Wave (Recharge 5-6),False,True
+Dust Goblin Chieftain,Shortsword,True,True
+Dust Goblin Chieftain,Light Crossbow,False,True
+Dvarapala,Gada,True,True
+Dvarapala,Javelin,True,True
+Dvarapala,Sweeping Strike (Recharge 4-6),False,True
+Echo,Iron Claws,True,True
+Echo,Everywhere at Once (Recharge 5-6),False,True
+Echo,Echoes of the Abyss (1/Day),False,True
+Ecstatic Bloom,Multiattack,False,True
+Ecstatic Bloom,Gilded Beam,False,True
+Ecstatic Bloom,Castigate (Recharges after a Short or Long Rest),False,True
+Edjet,Multiattack,False,True
+Edjet,Halberd,True,True
+Edjet,Shortsword,True,True
+Edjet,Shortbow,False,True
+Edjet,Fire Breath (Recharges after a Short or Long Rest),False,True
+Elder Ghost Boar,Multiattack,False,True
+Elder Ghost Boar,Tusk,True,True
+Elementalist,Multiattack,False,True
+Elementalist,Scimitar,True,True
+Elementalist,Fire Breath (Recharges after a Short or Long Rest),False,True
+Elite Kobold,Mining Pick,True,True
+Elite Kobold,Sling,False,True
+Elite Kobold,Lantern Splash (Recharge 5-6),False,True
+Elite Kobold,Small but Fierce,False,True
+Elophar,Slam,True,True
+Enchanter,Dagger,True,True
+Enchanter,Captivating Gaze,False,True
+Execrable Shrub,Burning Slash,True,True
+Execrable Shrub,Smolder (Recharge 5-6),False,True
+Exploding Toad,Bite,True,True
+Eye of the Gods,Slam,True,True
+Eye of the Gods,Divine Inspiration (Recharge 5-6),False,True
+Fang of the Great Wolf,Bite,True,True
+Fang of the Great Wolf,Might of the Great Wolf (Recharges after a Short or Long Rest),False,True
+Far Wanderer,Stardust Blade,True,True
+Far Wanderer,Stardust bow,False,True
+Far Wanderer,Call to Yorama (1/Day),False,True
+Fear Liath,Slam,True,True
+Fey Drake,Multiattack,False,True
+Fey Drake,Bite,True,True
+Fey Drake,Bewildering Breath (Recharge 5-6),False,True
+Fierstjerren,Multiattack,False,True
+Fierstjerren,Sword,True,True
+Fierstjerren,Terrifying Glare,False,True
+Fierstjerren,Thrall Enslavement,False,True
+Fire Imp,Fire Touch,True,True
+Fire Imp,Hurl Flame,False,True
+Flame Eater Swarm,Multiattack,False,True
+Flame Eater Swarm,Bite,True,True
+Flame-Scourged Scion,Multiattack,False,True
+Flame-Scourged Scion,Tentacle,True,True
+Flame-Scourged Scion,Embers (Recharge 6),False,True
+Flesh Reaver,Claw,True,True
+Flesh Reaver,Consume Flesh,True,True
+Fleshpod Hornet,Multiattack,False,True
+Fleshpod Hornet,Slam,True,True
+Fleshpod Hornet,Stinger,True,True
+Flying Polyp,Multiattack,False,True
+Flying Polyp,Tentacle,True,True
+Flying Polyp,Bite,True,True
+Flying Polyp,Cyclone (Recharge 5-6),False,True
+Flying Polyp,Etherealness,False,True
+Forest Drake,Multiattack,False,True
+Forest Drake,Bite,True,True
+Forest Drake,Claw,True,True
+Forest Drake,Fire Breath (Recharge 5-6),False,True
+Foxfire Ooze,Multiattack,False,True
+Foxfire Ooze,Pseudopod,True,True
+Foxin,Bite,True,True
+Foxin,Illusory Calm,False,True
+Fractal Golem,Slam,True,True
+Fragrite,Multiattack,False,True
+Fragrite,Strike,True,True
+Fragrite,Spontaneous Explosion (Glass Form Only; Recharge 5-6),False,True
+Fulad-Zereh,Multiattack,False,True
+Fulad-Zereh,Barbed Whip,True,True
+Fulad-Zereh,Battleaxe,True,True
+Fulminar,Multiattack,False,True
+Fulminar,Bite,True,True
+Fulminar,Claw,True,True
+Fulminar,Lightning Shackles (Recharge 5-6),False,True
+Gaki,Multiattack,False,True
+Gaki,Bite,True,True
+Gaki,Spit Acid,False,True
+Gargoctopus,Multiattack,False,True
+Gargoctopus,Bite,True,True
+Gargoctopus,Tentacle,True,True
+Gargoctopus,Fling,False,True
+Gargoctopus,Tentacle Slam (Recharge 5-6),False,True
+Gargoctopus,Ink Cloud (Recharge 6),False,True
+Ghast of Leng,Bite,True,True
+Ghast of Leng,Claws,True,True
+Ghost Boar,Tusk,True,True
+Ghost Dragon,Multiattack,False,True
+Ghost Dragon,Claw,True,True
+Ghost Dragon,Withering Bite,True,True
+Ghost Dragon,Etherealness,False,True
+Ghost Dragon,Horrifying Breath (Recharge 5-6),False,True
+Ghost Dwarf,Multiattack,False,True
+Ghost Dwarf,Ghostly Axe,True,True
+Ghost Dwarf,Hand of the Grave,True,True
+Ghost Dwarf,Prayers Unanswered (Recharge 5-6),False,True
+Ghost Dwarf,Etherealness,False,True
+Ghoulsteed,Multiattack,False,True
+Ghoulsteed,Bite,True,True
+Giant Albino Bat,Multiattack,False,True
+Giant Albino Bat,Bite,True,True
+Giant Albino Bat,Claws,True,True
+Giant Moth,Proboscis,True,True
+Giant Moth,Powdery Wings (1/Day),False,True
+Giant Shark Bowl,Multiattack,False,True
+Giant Shark Bowl,Bite,True,True
+Giant Shark Bowl,Pseudopod,True,True
+Giant Shark Bowl,Engulf,False,True
+Giant Sloth,Multiattack,False,True
+Giant Sloth,Claw,True,True
+Giant Sloth,Bite,True,True
+Giant Sloth,Sloth's Embrace,False,True
+Giant Vampire Bat,Bite,True,True
+Glass Golem,Shard,True,True
+Gloomflower,Multiattack,False,True
+Gloomflower,Psychic Strike,False,True
+Gloomflower,Corrupting Visions (Recharge 5-6),False,True
+Gnoll Slaver,Multiattack,False,True
+Gnoll Slaver,Bite,True,True
+Gnoll Slaver,Whip,True,True
+Gnoll Slaver,Longbow,False,True
+Gnoll Slaver,Menace Captives (Recharge 5-6),False,True
+Goliath Longlegs,Multiattack,False,True
+Goliath Longlegs,Bite,True,True
+Goliath Longlegs,Leg,True,True
+Goliath Longlegs,Paralytic Web (Recharge 5-6),False,True
+Goliath Longlegs,Reel,False,True
+Goreling,Slam,True,True
+Goreling,Multiplying,False,True
+Grave Behemoth,Multiattack,False,True
+Grave Behemoth,Slam,True,True
+Grave Behemoth,Gorge,True,True
+Grave Behemoth,Hurl Flesh (Recharge 5-6),False,True
+Great Mandrake,Multiattack,False,True
+Great Mandrake,Bite,True,True
+Great Mandrake,Shriek (Recharge 3-6),False,True
+Greater Rakshasa,Multiattack,False,True
+Greater Rakshasa,Claw,True,True
+Greater Rakshasa,Harrowing Visions (Recharge 5-6),False,True
+Greater Scrag,Multiattack,False,True
+Greater Scrag,Bite,True,True
+Greater Scrag,Claws,True,True
+Green Abyss Orc,Poisoned Spear,True,True
+Green Knight of the Woods,Multiattack,False,True
+Green Knight of the Woods,Battle Axe,True,True
+Green Knight of the Woods,Shield Bash,True,True
+Green Knight of the Woods,Javelin,True,True
+Grindylow,Multiattack,False,True
+Grindylow,Bite,True,True
+Grindylow,Claws,True,True
+Grindylow,Ink Cloud (Recharges after a Short or Long Rest),False,True
+Gugalanna,Multiattack,False,True
+Gugalanna,Horns,True,True
+Gugalanna,Kick,True,True
+Gulon,Multiattack,False,True
+Gulon,Bite,True,True
+Gulon,Claw,True,True
+Gulon,Too Full (Recharge 5-6),False,True
+Gumienniki,Flaming Hand Scythe,True,True
+Gumienniki,Fiendish Blink (1/Day),False,True
+Hair Golem,Lash,True,True
+Hallowed Reed,Searing Grasp,True,True
+Haunted Giant,Multiattack,False,True
+Haunted Giant,Greatclub,True,True
+Haunted Giant,Rock,False,True
+Heavy Cavalry,Lance,True,True
+Heavy Cavalry,Heavy Crossbow,False,True
+Heavy Cavalry,Trample (Mounted Only),True,True
+Heavy Cavalry,Fire Breath (Recharges after a Short or Long Rest),False,True
+Hierophant Lich,Unholy Smite,True,True
+Horned Serpent,Multiattack,False,True
+Horned Serpent,Gore,True,True
+Horned Serpent,Bite,True,True
+Horned Serpent,Gem Gaze (Recharge 5-6),False,True
+Hound of Tindalos,Multiattack,False,True
+Hound of Tindalos,Bite,True,True
+Hound of Tindalos,Claw,True,True
+Hound of Tindalos,Tongue,True,True
+Hound of Tindalos,Hunter of the Lost,False,True
+Ichneumon,Multiattack,False,True
+Ichneumon,Bite,True,True
+Ichneumon,Claws,True,True
+Ijiraq,Multiattack,False,True
+Ijiraq,Gore (Hybrid Form Only),True,True
+Ijiraq,Claw (Hybrid Form or True Form Only),True,True
+Ijiraq,Change Shape,False,True
+Incinis,Multiattack,False,True
+Incinis,Magma Fist,True,True
+Incinis,Wave of Magma (Recharge 5-6),False,True
+Infernal Knight,Multiattack,False,True
+Infernal Knight,Greatsword,True,True
+Infernal Knight,Hellfire Bolt,False,True
+Infernal Knight,Reave Soul (Recharge 5-6),False,True
+Infernal Knight,Planar Rift (1/Day),False,True
+Ink Guardian,Multiattack,False,True
+Ink Guardian,Pseudopod,True,True
+Inkling,Lash,True,True
+Iron Sphere,Multiattack,False,True
+Iron Sphere,Blade,True,True
+Iron Sphere,Piston,True,True
+Iron Sphere,Spike,True,True
+Iron Sphere,Lightning Cannon (Recharge 5-6),False,True
+Jaanavar Jal,Multiattack,False,True
+Jaanavar Jal,Bite,True,True
+Jaanavar Jal,Constrict,True,True
+Jaanavar Jal,Flaming Oil Spittle (Recharge 5-6),False,True
+Jiangshi,Multiattack,False,True
+Jiangshi,Claw,True,True
+Jiangshi,Life Drain,True,True
+Jinmenju,Multiattack,False,True
+Jinmenju,Root,True,True
+Junk Shaman,Multiattack,False,True
+Junk Shaman,Junk Staff,True,True
+Junk Shaman,Flame Jet,False,True
+Kallikantzaros,Multiattack,False,True
+Kallikantzaros,Handsaw,True,True
+Kallikantzaros,Spear,True,True
+Kallikantzaros,Misery Whip,False,True
+Kapi,Multiattack,False,True
+Kapi,Quarterstaff,True,True
+Kapi,Tail Trip,True,True
+Kapi,Sling,False,True
+Kappa,Multiattack,False,True
+Kappa,Claw,True,True
+Karakura,Multiattack,False,True
+Karakura,Claw,True,True
+Karakura,Charm,False,True
+Karakura,Shroud in Darkness (Recharge 5-6),False,True
+Karakura,Shadow Walk,False,True
+Keg Golem,Slam,True,True
+Keg Golem,Ale Blast (Recharge 5-6),False,True
+King Kobold,Multiattack,False,True
+King Kobold,Shortsword,True,True
+King Kobold,Hand Crossbow,False,True
+Kinnara,Shortsword,True,True
+Kinnara,Shortbow,False,True
+Kinnara,Discordant Refrain (Recharge 5-6),False,True
+Kitsune,Multiattack,False,True
+Kitsune,Bite (Fox Form Only),True,True
+Kitsune,Rapier (Humanoid Form Only),True,True
+Kitsune,Attack,False,True
+Knight of the Road,Multiattack,False,True
+Knight of the Road,Longsword,True,True
+Knight of the Road,Lance,True,True
+Knight of the Road,Shortbow,False,True
+Korrigan,Dagger,True,True
+Korrigan,Deadly Breath (Recharge 4-6),False,True
+Korrigan,Enchanting Revels (1/Day at Dusk or Night Only),False,True
+Kryt,Multiattack,False,True
+Kryt,Bite,True,True
+Kryt,Quarterstaff,True,True
+Külmking,Multiattack,False,True
+Külmking,Bite,True,True
+Külmking,Claws,True,True
+Külmking,Hooves,True,True
+Kuunganisha,Multiattack,False,True
+Kuunganisha,Bite,True,True
+Kuunganisha,Claw,True,True
+Kuunganisha,Invisibility,False,True
+Labyrinth Keeper,Multiattack,False,True
+Labyrinth Keeper,Gore,True,True
+Labyrinth Keeper,Shortsword,True,True
+Lady in White,Grasp,True,True
+Lady in White,Inflict Sorrow,False,True
+Lady in White,Invisibility,False,True
+Lady in White,Corpse Revealed,False,True
+Laestrigonian Giant,Multiattack,False,True
+Laestrigonian Giant,Bite,True,True
+Laestrigonian Giant,Greatclub,True,True
+Laestrigonian Giant,Rock,True,True
+Lamassu,Multiattack,False,True
+Lamassu,Claw,True,True
+Lamassu,Healing Touch (3/Day),False,True
+Leonino,Bite,True,True
+Lesser Scrag,Multiattack,False,True
+Lesser Scrag,Bite,True,True
+Lesser Scrag,Claws,True,True
+Light Cavalry,Cavalry Saber,True,True
+Light Cavalry,Shortbow,False,True
+Light Cavalry,Fire Breath (Recharges after a Short or Long Rest),False,True
+Light Dragon Wyrmling,Bite,True,True
+Light Dragon Wyrmling,Breath Weapon (Recharge 5-6),False,True
+Living Shade,Shadow Touch,True,True
+Living Star,Multiattack,False,True
+Living Star,Starflare,True,True
+Living Star,Silvered Ray,False,True
+Lord Zombie,Multiattack,False,True
+Lord Zombie,Slam,True,True
+Lord Zombie,Life Drain,True,True
+Lost Minotaur,Multiattack,False,True
+Lost Minotaur,Twilight Greataxe,True,True
+Lost Minotaur,Gore,True,True
+Lotus Golem,Multiattack,False,True
+Lotus Golem,Arcane Water,True,True
+Lou Carcolh,Bite,True,True
+Lou Carcolh,Spit Venom,False,True
+Lou Carcolh,Sticky Tongue,True,True
+Lou Carcolh,Reel,False,True
+Lystrosaurus,Ram,True,True
+Lystrosaurus,Bite,True,True
+Manastorm Golem,Multiattack,False,True
+Manastorm Golem,Slam,True,True
+Manastorm Golem,Force Bolt,False,True
+Mandrake,Bite,True,True
+Mandrake,Shriek (Recharge 4-6),False,True
+Mandriano,Multiattack,False,True
+Mandriano,Swipe,True,True
+Mandriano,Consume the Spark,False,True
+Matriarch Serpentine Lamia,Multiattack,False,True
+Matriarch Serpentine Lamia,Scimitar,True,True
+Matriarch Serpentine Lamia,Constrict,True,True
+Matriarch Serpentine Lamia,Debilitating Touch,True,True
+Matriarch Serpentine Lamia,Seduce,False,True
+Megapede,Multiattack,False,True
+Megapede,Bite,True,True
+Megapede,Stinger,True,True
+Megapede,Consume Metal,False,True
+Megapede,Acid Spray (Recharge 6),False,True
+Mold Zombie,Multiattack,False,True
+Mold Zombie,Slam,True,True
+Mold Zombie,Plague Breath (Recharge 6),False,True
+Monarch Skeleton,Multiattack,False,True
+Monarch Skeleton,Dreadblade,True,True
+Monarch Skeleton,Grasp of the Grave (Recharge 5-6),False,True
+Monkey King,Multiattack,False,True
+Monkey King,Golden Staff,True,True
+Monkey King,Enlightened Ray,False,True
+Monkey King,Tail,True,True
+Moon Drake,Multiattack,False,True
+Moon Drake,Bite,True,True
+Moon Drake,Claw,True,True
+Moon Drake,Moonlight Nip,True,True
+Moon Drake,Lunarbeam (Recharge 5-6),False,True
+Moon Nymph,Multiattack,False,True
+Moon Nymph,Beguiling Touch,True,True
+Moon Nymph,Moonbeam,False,True
+Moon Nymph,Veil of Nightmares (1/Day),False,True
+Moonchild Naga,Bite,True,True
+Moonchild Naga,Constrict,True,True
+Moonchild Naga,Starry Gaze,False,True
+Morko,Spear,True,True
+Morko,Disdainful Eye (Recharge 6),False,True
+Morko,Charisma,False,True
+Morko,Shrink (Recharges after a Short or Long Rest),False,True
+Mountain Giant,Multiattack,False,True
+Mountain Giant,Slam,True,True
+Mountain Giant,Boulder,False,True
+Mountain Giant,Boulder Spray (Recharge 5-6),False,True
+Mud Golem,Multiattack,False,True
+Mud Golem,Slam,True,True
+Mud Golem,Mud Ball,False,True
+Mytholabe,Multiattack,False,True
+Mytholabe,Heroic Jab,True,True
+Mytholabe,Purifying Resonance (Recharge 5-6),False,True
+Nachzehrer,Multiattack,False,True
+Nachzehrer,Bite,True,True
+Nachzehrer,Fist,True,True
+Nalusa Falaya,Bite,True,True
+Nalusa Falaya,Claw,True,True
+Nalusa Falaya,Terrifying Glare,False,True
+Necrophage Ghast,Bite,True,True
+Necrophage Ghast,Claws,True,True
+Necrotic Tick,Blood Drain,True,True
+Neophron,Multiattack,False,True
+Neophron,Bite,True,True
+Neophron,Claw,True,True
+Nian,Bite,True,True
+Nian,Gore,True,True
+Nian,Stomp,True,True
+Nian,Year's Termination (1/Day),False,True
+Nightgaunt,Multiattack,False,True
+Nightgaunt,Clutching Claws,True,True
+Nightgaunt,Barbed Tail,True,True
+Nightgaunt,Baneful Presence,False,True
+Ningyo,Multiattack,False,True
+Ningyo,Barbed Tentacle,True,True
+Nodosaurus,Tail,True,True
+Oliphaunt,Multiattack,False,True
+Oliphaunt,Gore,True,True
+Oliphaunt,Stomp,True,True
+Oliphaunt,Trunk,True,True
+Oliphaunt,Tusk Sweep (Recharge 5-6),False,True
+One-Headed Clockwork Dragon,Multiattack,False,True
+One-Headed Clockwork Dragon,Bite,True,True
+One-Headed Clockwork Dragon,Fist,True,True
+One-Headed Clockwork Dragon,Fire Breath (Recharge 6),False,True
+One-Headed Clockwork Dragon,Oil Spray,False,True
+One-Headed Clockwork Dragon,Tail Sweep,False,True
+Ophanim,Multiattack,False,True
+Ophanim,Light of Judgment,False,True
+Ophanim,Holy Fire (Recharge 5-6),False,True
+Orthrus,Multiattack,False,True
+Orthrus,Bite (Canine Head),True,True
+Orthrus,Bite (Snake Head),True,True
+Oth,Multiattack,False,True
+Oth,Oozing Slam,True,True
+Oth,Greatsword (Paladin of Shoth Only),True,True
+Oth,Merge,False,True
+Oth,Spray (Recharge 6),False,True
+Ouroban,Multiattack,False,True
+Ouroban,Greatsword,True,True
+Ouroban,Heavy Crossbow,False,True
+Ouroban,Fire Breath (Recharge after a Short or Long Rest),False,True
+Ouroban,Abyssal Fires (Recharges after a Short or Long Rest),False,True
+Ouroboros,Multiattack,False,True
+Ouroboros,Bite,True,True
+Ouroboros,Introspective Presence,False,True
+Ouroboros,Kaleidoscopic Breath (Recharge 5-6),False,True
+Pact Drake,Multiattack,False,True
+Pact Drake,Claw,True,True
+Pact Drake,Bite,True,True
+Pact Drake,Enforced Diplomacy (Recharge 5-6),False,True
+Pact Drake,Punish Transgressor,False,True
+Pact Lich,Multiattack,False,True
+Pact Lich,Maddening Touch,True,True
+Pact Lich,Enhanced Eldritch Blast,False,True
+Pact Lich,Hurl Through Hell (1/Day),False,True
+Paper Golem,Paper Cut,True,True
+Paper Golem Swarm,Paper Cut,True,True
+Paper Golem Swarm,Whirlwind (Recharge 5-6),False,True
+Pattern Dancer,Shortsword,True,True
+Pattern Dancer,Longbow,False,True
+Pech,Multiattack,False,True
+Pech,Pick,True,True
+Pech,Hammer,True,True
+Pech Lithlord,Multiattack,False,True
+Pech Lithlord,Pick,True,True
+Pech Lithlord,Hammer,True,True
+Pech Stonemaster,Multiattack,False,True
+Pech Stonemaster,Pick,True,True
+Pech Stonemaster,Hammer,True,True
+Peluda Drake,Bite,True,True
+Peluda Drake,Tail,True,True
+Peluda Drake,Quill,False,True
+Peluda Drake,Breath Weapons (Recharge 5-6),False,True
+Phantom,Ghostly Grasp,True,True
+Phantom,Chilling Moan (Recharge 5-6),False,True
+Philosopher's Ghost,Multiattack,False,True
+Philosopher's Ghost,Burning Touch,True,True
+Piasa,Multiattack,False,True
+Piasa,Bite,True,True
+Piasa,Claw,True,True
+Piasa,Tail,True,True
+Piasa,Frightful Presence,False,True
+Piasa,Sleep Breath (Recharge 5-6),False,True
+Pillar of the Lost Magocracy,Anger of the Ancient Mage,False,True
+Pishacha,Multiattack,False,True
+Pishacha,Bite,True,True
+Pishacha,Claws,True,True
+Pishacha,Demonic Possession (Recharge 6),False,True
+Pishacha,Invisibility,False,True
+Pixiu,Multiattack,False,True
+Pixiu,Bite,True,True
+Pixiu,Claws,True,True
+Plaresh,Bites,True,True
+Plaresh,Infest Corpse (Recharges after a Long Rest),False,True
+Preta,Multiattack,False,True
+Preta,Claws,True,True
+Preta,Blood Siphon,False,True
+Preta,Etherealness,False,True
+Preta,Hidden Illusionist,False,True
+Purple Slime,Multiattack,False,True
+Purple Slime,Spike,True,True
+Quickstep,Multiattack,False,True
+Quickstep,Moonlight Rapier,True,True
+Quickstep,Hidden Dagger,True,True
+Quickstep,Freezing Steel (Recharge 6),False,True
+Quiet Soul,Psychic Lash,False,True
+Rageipede,Multiattack,False,True
+Rageipede,Bite,True,True
+Rageipede,Claw,True,True
+Ramag Portal Master,Multiattack,False,True
+Ramag Portal Master,Gate Seal,True,True
+Ramag Portal Master,Lightning Stroke,False,True
+Ramag Portal Master,Dimensional Seal (Recharges after a Short or Long Rest),False,True
+Ramag Portal Master,Weave Dimensions,False,True
+Ratatosk Warlord,Multiattack,False,True
+Ratatosk Warlord,Ratatosk Shortspear,True,True
+Ratatosk Warlord,Gore,True,True
+Ratatosk Warlord,Chatter of War (Recharges 5-6),False,True
+Ratfolk Mercenary,Multiattack,False,True
+Ratfolk Mercenary,Shortsword,True,True
+Ratfolk Mercenary,Dart,False,True
+Ratfolk Warlock,Dagger,True,True
+Ratfolk Warlock,Quarterstaff,True,True
+Ratfolk Warlock,Darken,False,True
+Rattok,Multiattack,False,True
+Rattok,Bite,True,True
+Rattok,Claws,True,True
+Rattok,Necrotic Rush (Recharge 5-6),False,True
+Razorleaf,Multiattack,False,True
+Razorleaf,Lacerating Leaves,True,True
+Razorleaf,Shower of Razors (Recharge 5-6),False,True
+Rimewing,Proboscis,True,True
+Rimewing,Frosted Wings (1/Day),False,True
+Ring Servant,Multiattack,False,True
+Ring Servant,Slam,True,True
+Ring Servant,Ring of Destruction (Recharge 5-6),False,True
+Roachling Scout,Multiattack,False,True
+Roachling Scout,Begrimed Shortsword,True,True
+Roachling Scout,Begrimed Dart,False,True
+Roggenwolf,Bite,True,True
+Roggenwolf,Howl (Recharge 5-6),False,True
+Ruby Ooze,Multiattack,False,True
+Ruby Ooze,Pseudopod,True,True
+Ruby Ooze,Acid Spray (Recharge 5-6),False,True
+Sammael,Multiattack,False,True
+Sammael,Greataxe (Executioner Form Only),True,True
+Sammael,Slam (Destructor Form Only),True,True
+Sammael,Whip (Punisher Form Only),True,True
+Scitalis,Bite,True,True
+Scitalis,Stunning Scales,False,True
+Sentinel in Darkness,Multiattack,False,True
+Sentinel in Darkness,Stone Fist,True,True
+Sentinel in Darkness,Curse of the Wanderer (Recharge 6),False,True
+Serpentfolk of Yig,Multiattack,False,True
+Serpentfolk of Yig,Bite,True,True
+Serpentfolk of Yig,Scimitar,True,True
+Serpentfolk of Yig,Shortbow,False,True
+Serpentine Lamia,Multiattack,False,True
+Serpentine Lamia,Scimitar,True,True
+Serpentine Lamia,Constrict,True,True
+Serpentine Lamia,Shortbow,False,True
+Servant of the Vine,Multiattack,False,True
+Servant of the Vine,Drunken Slash,True,True
+Servant of the Vine,Stuporous Breath (Recharge 5-6),False,True
+Servant of Yig,Multiattack,False,True
+Servant of Yig,Bite,True,True
+Servant of Yig,Glaive,True,True
+Servant of Yig,Constrict,True,True
+Shadow Blight,Frozen Shadow Tendril,True,True
+Shadow Blight,Animate Plants (Recharges after a Short or Long Rest),False,True
+Shadow Fey Ambassador,Multiattack,False,True
+Shadow Fey Ambassador,Rapier,True,True
+Shadow Fey Ambassador,Honeyed Words (Recharges after a Long Rest),False,True
+Shadow Fey Ambassador,Withering Stare,False,True
+Shadow Fey Poisoner,Multiattack,False,True
+Shadow Fey Poisoner,Shortsword,True,True
+Shadow Fey Poisoner,Longbow,False,True
+Shadow Goblin,Multiattack,False,True
+Shadow Goblin,Kitchen Knife,True,True
+Shadow Ooze,Multiattack,False,True
+Shadow Ooze,Pseudopod,True,True
+Shadow Ooze,Snuff Out,False,True
+Shadow River Lord,Multiattack,False,True
+Shadow River Lord,Greenfire Staff,True,True
+Shadow River Lord,Shadowfrost Bolt,False,True
+Shadow River Lord,Shadow Geyser (Recharge 6),False,True
+Shadow Skeleton,Multiattack,False,True
+Shadow Skeleton,Scimitar,True,True
+Shadow Skeleton,Finger Darts,False,True
+Shantak,Multiattack,False,True
+Shantak,Bite,True,True
+Shantak,Talons,True,True
+Shantak,Insane Tittering (Recharge 4-6),False,True
+Shard Swarm,Shards,True,True
+Shard Swarm,Shrapnel,False,True
+Shard Swarm,Contain (Recharge 5-6),False,True
+Shockwing,Multiattack,False,True
+Shockwing,Proboscis,True,True
+Shockwing,Fulminating Wings (1/Day),False,True
+Shoreline Scrapper,Multiattack,False,True
+Shoreline Scrapper,Claw,True,True
+Shoreline Scrapper,Magnetic Pulse (Recharge 5-6),False,True
+Sigilian,Multiattack,False,True
+Sigilian,Cut,False,True
+Sigilian,Paste,True,True
+Sigilian,Devour Spell,False,True
+Simhamukha,Multiattack,False,True
+Simhamukha,Bite,True,True
+Simhamukha,Kartika,True,True
+Simhamukha,Staff Sweep (Recharge 5-6),False,True
+Simhamukha,Weird (Recharge 6),False,True
+Simurg,Multiattack,False,True
+Simurg,Bite,True,True
+Simurg,Claws,True,True
+Simurg,Forceful Gale (Recharge 5-6),False,True
+Skull Drake,Multiattack,False,True
+Skull Drake,Bite,True,True
+Skull Drake,Necrotic Breath (Recharge 6),False,True
+Skull Lantern,Bite,True,True
+Skull Lantern,Fire Beam (Recharge 6),False,True
+Sleipnir,Multiattack,False,True
+Sleipnir,Rune Hooves,True,True
+Sleipnir,Gold and Ice (1/Day),False,True
+Snow Cat,Bite,True,True
+Snow Cat,Claw,True,True
+Snow Hag,Claws,True,True
+Snow Hag,Icy Embrace (Recharge 5-6),False,True
+Snow Hag,Illusory Appearance,False,True
+Song Angel,Scimitar,True,True
+Song Angel,Horn of Blasting (Recharges 5-6),False,True
+Song Angel,Horn of Spirits (Recharges after a Long Rest),False,True
+Song Angel,Change Shape,False,True
+Sootwing,Proboscis,True,True
+Sootwing,Sooty Wings (1/Day),False,True
+Sooze,Oozing Slam,True,True
+Sooze,Longsword (Warrior Only),True,True
+Sooze,Merge,False,True
+Spawn of Chernobog,Multiattack,False,True
+Spawn of Chernobog,Bite,True,True
+Spawn of Chernobog,Claws,True,True
+Speaker to the Darkness,Multiattack,False,True
+Speaker to the Darkness,Quarterstaff,True,True
+Speaker to the Darkness,Sling,False,True
+Speaker to the Darkness,Drawn from Beyond (Recharge 5-6),False,True
+Speaker to the Darkness,Extinguish Light (1/rest),False,True
+Spider Drake,Multiattack,False,True
+Spider Drake,Bite,True,True
+Spider Drake,Claw,True,True
+Spider Drake,Poison Breath (Recharge 5-6),False,True
+Spider Drake,Web (Recharge 5-6),False,True
+Spirit Lamp,Multiattack,False,True
+Spirit Lamp,Spirit Claw,True,True
+Spirit Lamp,Lantern Beam,False,True
+Spree,Multiattack,False,True
+Spree,Claw,True,True
+Storm Lord,Multiattack,False,True
+Storm Lord,Slam,True,True
+Storm Lord,Lightning Bolt,False,True
+Storm Lord,Thunder Clap (Recharge 5-6),False,True
+Storm Spirit,Thunder Slam,True,True
+Storm Spirit,Shocking Bolt,False,True
+Storm Spirit,Tempest (Recharge 6),False,True
+Sunset Raptor,Multiattack,False,True
+Sunset Raptor,Bite,True,True
+Sunset Raptor,Claw,True,True
+Suppurating Ooze,Pseudopod,True,True
+Swolbold,Slam,True,True
+Swolbold,Crush,False,True
+Tar Ghoul,Multiattack,False,True
+Tar Ghoul,Bite,True,True
+Tar Ghoul,Claw,True,True
+Tar Ghoul,Vomit Tar (Recharge 5-6),False,True
+Terror Bird,Serrated Beak,True,True
+The Barbed,Barbed Slash,True,True
+The Barbed,Javelin,False,True
+Thorned Sulfurlord,Multiattack,False,True
+Thorned Sulfurlord,Sulfur Slam,True,True
+Thorned Sulfurlord,Fiery Spike,False,True
+Thorned Sulfurlord,The World Shall Know Fire (Recharge 5-6),False,True
+Thread-Bound Constrictor Snake,Constrict,True,True
+Three-Headed Clockwork Dragon,Multiattack,False,True
+Three-Headed Clockwork Dragon,Bite,True,True
+Three-Headed Clockwork Dragon,Fist,True,True
+Three-Headed Clockwork Dragon,Fire Breath (Recharge 6),False,True
+Three-Headed Clockwork Dragon,Oil Spray,False,True
+Three-Headed Clockwork Dragon,Tail Sweep,False,True
+Three-Headed Cobra,Multiattack,False,True
+Three-Headed Cobra,Bite,True,True
+Tosculi Jeweled Drone,Multiattack,False,True
+Tosculi Jeweled Drone,Claws,True,True
+Tosculi Jeweled Drone,Scimitar,True,True
+Trollkin Shaman,Multiattack,False,True
+Trollkin Shaman,Staff,True,True
+Trollkin Shaman,Inspire Ferocity (1/Day),False,True
+Trollking Grunt,Multiattack,False,True
+Trollking Grunt,Spear,True,True
+Trollking Grunt,Longbow,False,True
+Tulpa,Multiattack,False,True
+Tulpa,Black Claw,True,True
+Tulpa,Psychic Blast,False,True
+Tulpa,Imposing Dread (1/Day),False,True
+Tusked Crimson Ogre,Multiattack,False,True
+Tusked Crimson Ogre,Morningstar,True,True
+Tusked Crimson Ogre,Bite,True,True
+Tusked Crimson Ogre,Berserker's Blood (Recharge 5-6),False,True
+Tveirherjar,Multiattack,False,True
+Tveirherjar,Niflheim Longsword,True,True
+Tveirherjar,Spear of the Northern Sky (Recharge 5-6),False,True
+Tveirherjar,Terrifying Glare (Recharge 5-6),False,True
+Two-Headed Eagle,Multiattack,False,True
+Two-Headed Eagle,Bite,True,True
+Two-Headed Eagle,Talons,True,True
+Undead Phoenix,Multiattack,False,True
+Undead Phoenix,Claws,True,True
+Undead Phoenix,Decaying Bite,True,True
+Unhatched,Multiattack,False,True
+Unhatched,Claw,True,True
+Unhatched,Bite,True,True
+Unhatched,Desiccating Breath (Recharge 5-6),False,True
+Ursa Polaris,Multiattack,False,True
+Ursa Polaris,Bite,True,True
+Ursa Polaris,Claw,True,True
+Ursa Polaris,Cold Breath (Recharge 5-6),False,True
+Ursa Polaris,Hypnotic Array (Recharge 5-6),False,True
+Vampire Patrician,Multiattack,False,True
+Vampire Patrician,Rapier,True,True
+Vampire Patrician,Bite,True,True
+Vampire Patrician,Bone-Chilling Gaze,False,True
+Vampire Patrician,Release the Hounds! (1/Day),False,True
+Vampire Priestess,Multiattack,False,True
+Vampire Priestess,Scourge,True,True
+Vampire Priestess,Bite,True,True
+Vampire Priestess,Bewitching Gaze,False,True
+Vampiric Knight,Multiattack,False,True
+Vampiric Knight,Impaling Longsword,True,True
+Vampiric Knight,Channel Corruption (Recharge 5-6),False,True
+Vanara,Slam,True,True
+Vanara,Sling,False,True
+Vanara,Howl (Recharge 5-6),False,True
+Vellso,Multiattack,False,True
+Vellso,Bite,True,True
+Vellso,Claws,True,True
+Venom Elemental,Multiattack,False,True
+Venom Elemental,Bite,True,True
+Venom Maw Hydra,Multiattack,False,True
+Venom Maw Hydra,Bite,True,True
+Venom Maw Hydra,Spit,False,True
+Venom Maw Hydra,Venom Spray (Recharge 5-6),False,True
+Vines of Nemthyr,Multiattack,False,True
+Vines of Nemthyr,Slam,True,True
+Vines of Nemthyr,Thorny Lash,True,True
+Vines of Nemthyr,Thorn Spray (Recharge 6),False,True
+Void Giant,Multiattack,False,True
+Void Giant,Slam,True,True
+War Machine Golem,Multiattack,False,True
+War Machine Golem,Slam,True,True
+War Machine Golem,Catapult,False,True
+War Machine Golem,Fire Breath (Recharge 5-6),False,True
+War Wyvern,Multiattack,False,True
+War Wyvern,Bite,True,True
+War Wyvern,Claws,True,True
+War Wyvern,Stinger,True,True
+War Wyvern,Spit Venom (Recharge 5-6),False,True
+Warlock's Trumpetbloom,Multiattack,False,True
+Warlock's Trumpetbloom,Stinger,True,True
+Warlock's Trumpetbloom,Tendril,True,True
+Wasteland Dragon Wyrmling,Bite,True,True
+Wasteland Dragon Wyrmling,Warped Energy Breath (Recharge 6),False,True
+Water Horse,Multiattack,False,True
+Water Horse,Bite (Hybrid or Horse Form Only),True,True
+Water Horse,Longsword (Humanoid or Hybrid Form Only),True,True
+Water Horse,Longbow (Humanoid or Hybrid Form Only),False,True
+Water Horse,Charming Gaze,False,True
+Weirding Scroll,Dominate,False,True
+Weirding Scroll,Tendril of Light,True,True
+Wendigo,Multiattack,False,True
+Wendigo,Icy Claw,True,True
+Wendigo,Bite,True,True
+Wendigo,Frozen Spittle,False,True
+Werebat,Multiattack (Humanoid or Hybrid Form Only),False,True
+Werebat,Bite (Bat or Hybrid Form Only),True,True
+Werebat,Claws (Hybrid Form Only),True,True
+Werebat,Mace (Humanoid Form Only),True,True
+Werehyena,Multiattack (Gnoll or Hybrid Form Only),False,True
+Werehyena,Bite (Hyena or Hybrid Form Only),True,True
+Werehyena,Claws (Hybrid Form Only),True,True
+Werehyena,Scimitar (Gnoll or Hybrid Form Only),True,True
+Whisperer in Darkness,Multiattack,False,True
+Whisperer in Darkness,Grasp of the Void,True,True
+White Stag,Multiattack,False,True
+White Stag,Gore,True,True
+White Stag,Hooves,True,True
+Wickerman,Multiattack,False,True
+Wickerman,Blazing Ray,False,True
+Wickerman,Slam,True,True
+Wickerman,Imprison,False,True
+Wind Demon,Multiattack,False,True
+Wind Demon,Frost Claw,True,True
+Wind Eater,Multiattack,False,True
+Wind Eater,Claw,True,True
+Wind Weasel,Multiattack,False,True
+Wind Weasel,Bite,True,True
+Wind Weasel,Scythe Claw,True,True
+Wind Weasel,Whirling Leaves (Whirlwind Form Only),False,True
+Wind's Harp,Multiattack,False,True
+Wind's Harp,Infernal Noise,False,True
+Wind's Harp,Hellish Chorus (Recharge 5-6),False,True
+Wirbeln Fungi,Poison Needle,True,True
+Wirbeln Fungi,Poison Dart,False,True
+Wirbeln Fungi,Spore Cloud,False,True
+Witch Queen,Maddening Scimitar,True,True
+Wizard Kobold,Dagger,True,True
+Wizard Kobold,Draconic Visage (1/Day),False,True
+Wizard Kobold,Breath of the Visage,False,True
+Wolpertinger,Bite,True,True
+Wolpertinger,Gore,True,True
+Wolpertinger,Keening (Recharge 6),False,True
+Wood Golem,Multiattack,False,True
+Wood Golem,Slam,True,True
+Woodwose,Club,True,True
+Woodwose,Shortbow,False,True
+Wyvern Knight,Multiattack,False,True
+Wyvern Knight,Lance,True,True
+Wyvern Knight,Heavy Crossbow,False,True
+Wyvern Knight,Dagger,True,True
+Xenabsorber,Multiattack,False,True
+Xenabsorber,Slam,True,True
+Xiphus,Multiattack,False,True
+Xiphus,Hidden Dagger,True,True
+Yaga Goo,Multiattack,False,True
+Yaga Goo,Pseudopod,True,True
+Yaga Goo,Foul Transit (Recharge 4-6),False,True
+Yakirian,Multiattack,False,True
+Yakirian,Gore,True,True
+Yakirian,Ritual Knife,True,True
+Yakirian,Consume Heart,False,True
+Yann-An-Oed,Bite,True,True
+Yann-An-Oed,Tentacles,True,True
+Yann-An-Oed,Swallow,False,True
+Yann-An-Oed,Hoot (Recharges after a Short or Long Rest),False,True
+Yek,Multiattack,False,True
+Yek,Bite,True,True
+Yek,Claw,True,True
+Young Light Dragon,Bite,True,True
+Young Light Dragon,Breath Weapon (Recharge 5-6),False,True
+Young Wasteland Dragon,Multiattack,False,True
+Young Wasteland Dragon,Bite,True,True
+Young Wasteland Dragon,Claw,True,True
+Young Wasteland Dragon,Warped Energy Breath (Recharge 6),False,True
+Ziphius,Multiattack,False,True
+Ziphius,Claw,True,True
+Ziphius,Beak,True,True
+Ziphius,Dorsal Fin,True,True
+Zoog,Bite,True,True
+Zoryas,Multiattack,False,True
+Zoryas,Morningstar,True,True
+Zoryas,Light of Dawn (Recharges after a Long Rest),False,True
+Zoryas,Dusk's Arrival (Recharges after a Long Rest),False,True
+Aboleth,Multiattack,False,True
+Aboleth,Tentacle,True,True
+Aboleth,Slimy Cloud (1/Day, While Bloodied),False,True
+Aboleth Thrall,Poison Ink Knife,True,True
+Abominable Snowman,Multiattack,False,True
+Abominable Snowman,Claw,True,True
+Abominable Snowman,Chilling Gaze (Gaze),False,True
+Accursed Guardian Naga,Bite,True,True
+Accursed Guardian Naga,Spit Poison,True,True
+Accursed Guardian Naga,Command (1st-Level; V),False,True
+Accursed Guardian Naga,Hold Person (2nd-Level; V, Concentration),False,True
+Accursed Guardian Naga,Flame Strike (5th-Level; V),False,True
+Accursed Guardian Naga,Multiattack,False,True
+Accursed Guardian Naga,Vampiric Bite,False,True
+Accursed Spirit Naga,Bite,True,True
+Accursed Spirit Naga,Hypnotic Pattern (3rd-Level; V, Concentration),False,True
+Accursed Spirit Naga,Lightning Bolt (3rd-Level; V),False,True
+Accursed Spirit Naga,Blight (4th-Level; V, Concentration),False,True
+Accursed Spirit Naga,Multiattack,False,True
+Accursed Spirit Naga,Vampiric Bite,False,True
+Acolyte,Club,True,True
+Acolyte,Sacred Flame (Cantrip; V, S),False,True
+Acolyte,Bless (1st-Level; V, S, M, Concentration),False,True
+Acolyte,Cure Wounds (1st-Level; V, S),False,True
+Acolyte,An acolyte is a priest in training or an assistant to a more senior member of the clergy,False,True
+Adult Amethyst Dragon,Multiattack,False,True
+Adult Amethyst Dragon,Bite,True,True
+Adult Amethyst Dragon,Claws,True,True
+Adult Amethyst Dragon,Psionic Wave,False,True
+Adult Amethyst Dragon,Concussive Breath (Recharge 5-6),False,True
+Adult Black Dragon,Multiattack,False,True
+Adult Black Dragon,Bite,True,True
+Adult Black Dragon,Claw,True,True
+Adult Black Dragon,Tail,True,True
+Adult Black Dragon,Acid Spit,False,True
+Adult Black Dragon,Acid Breath (Recharge 5-6),False,True
+Adult Black Dragon Lich,Multiattack,False,True
+Adult Black Dragon Lich,Bite,True,True
+Adult Black Dragon Lich,Claw,True,True
+Adult Black Dragon Lich,Tail,True,True
+Adult Black Dragon Lich,Acid Spit,False,True
+Adult Black Dragon Lich,Acid Breath (Recharge 5-6),False,True
+Adult Blue Dragon,Multiattack,False,True
+Adult Blue Dragon,Bite,True,True
+Adult Blue Dragon,Claw,True,True
+Adult Blue Dragon,Tail,True,True
+Adult Blue Dragon,Arc Lightning,False,True
+Adult Blue Dragon,Lightning Breath (Recharge 5-6),False,True
+Adult Blue Dragon,Quake,False,True
+Adult Brass Dragon,Multiattack,False,True
+Adult Brass Dragon,Bite,True,True
+Adult Brass Dragon,Claws,True,True
+Adult Brass Dragon,Tail,True,True
+Adult Brass Dragon,Staff (Humanoid Form Only),True,True
+Adult Brass Dragon,Molten Spit,False,True
+Adult Brass Dragon,Breath Weapons (Recharge 5-6),False,True
+Adult Brass Dragon,Molten Breath,False,True
+Adult Brass Dragon,Sleep Breath,False,True
+Adult Brass Dragon,Change Shape,False,True
+Adult Bronze Dragon,Multiattack,False,True
+Adult Bronze Dragon,Bite,True,True
+Adult Bronze Dragon,Claw,True,True
+Adult Bronze Dragon,Tail,True,True
+Adult Bronze Dragon,Trident (Humanoid Form Only),True,True
+Adult Bronze Dragon,Lightning Pulse,False,True
+Adult Bronze Dragon,Breath Weapons (Recharge 5-6),False,True
+Adult Bronze Dragon,Lightning Breath,False,True
+Adult Bronze Dragon,Ocean Surge,False,True
+Adult Bronze Dragon,Change Shape,False,True
+Adult Copper Dragon,Multiattack,False,True
+Adult Copper Dragon,Bite,True,True
+Adult Copper Dragon,Claws,True,True
+Adult Copper Dragon,Tail,True,True
+Adult Copper Dragon,War Pick (Humanoid Form Only),True,True
+Adult Copper Dragon,Acid Spit,False,True
+Adult Copper Dragon,Breath Weapons (Recharge 5-6),False,True
+Adult Copper Dragon,Acid Breath,False,True
+Adult Copper Dragon,Slowing Breath,False,True
+Adult Copper Dragon,Change Shape,False,True
+Adult Earth Dragon,Multiattack,False,True
+Adult Earth Dragon,Bite,True,True
+Adult Earth Dragon,Slam,True,True
+Adult Earth Dragon,Scouring Breath (Recharge 5-6),False,True
+Adult Earth Dragon,Rock Spire,False,True
+Adult Emerald Dragon,Multiattack,False,True
+Adult Emerald Dragon,Bite,True,True
+Adult Emerald Dragon,Claws,True,True
+Adult Emerald Dragon,Psionic Wave,False,True
+Adult Emerald Dragon,Maddening Breath (Recharge 5-6),False,True
+Adult Gold Dragon,Multiattack,False,True
+Adult Gold Dragon,Bite,True,True
+Adult Gold Dragon,Claws,True,True
+Adult Gold Dragon,Tail,True,True
+Adult Gold Dragon,Greatsword (Humanoid Form Only),True,True
+Adult Gold Dragon,Molten Spit,False,True
+Adult Gold Dragon,Breath Weapons (Recharge 5-6),False,True
+Adult Gold Dragon,Molten Breath,False,True
+Adult Gold Dragon,Weakening Breath,False,True
+Adult Gold Dragon,Change Shape,False,True
+Adult Green Dragon,Multiattack,False,True
+Adult Green Dragon,Bite,True,True
+Adult Green Dragon,Claw,True,True
+Adult Green Dragon,Tail,True,True
+Adult Green Dragon,Spit Poison,False,True
+Adult Green Dragon,Poison Breath (Recharge 5-6),False,True
+Adult Green Dragon,Honeyed Words,False,True
+Adult Red Dragon,Multiattack,False,True
+Adult Red Dragon,Bite,True,True
+Adult Red Dragon,Claw,True,True
+Adult Red Dragon,Tail,True,True
+Adult Red Dragon,Cruel Tyranny,False,True
+Adult Red Dragon,Spit Fire,False,True
+Adult Red Dragon,Fire Breath (Recharge 5-6),False,True
+Adult River Dragon,Multiattack,False,True
+Adult River Dragon,Bite,True,True
+Adult River Dragon,Claws,True,True
+Adult River Dragon,Torrential Breath (Recharge 5-6),False,True
+Adult Sapphire Dragon,Multiattack,False,True
+Adult Sapphire Dragon,Bite,True,True
+Adult Sapphire Dragon,Claws,True,True
+Adult Sapphire Dragon,Psionic Wave,False,True
+Adult Sapphire Dragon,Discognitive Breath (Recharge 5-6),False,True
+Adult Sapphire Dragon,Prognosticate (3/Day),False,True
+Adult Shadow Dragon,Multiattack,False,True
+Adult Shadow Dragon,Bite,True,True
+Adult Shadow Dragon,Claws,True,True
+Adult Shadow Dragon,Grasp of Shadows,False,True
+Adult Shadow Dragon,Anguished Breath (Recharge 5-6),False,True
+Adult Silver Dragon,Multiattack,False,True
+Adult Silver Dragon,Bite,True,True
+Adult Silver Dragon,Claws,True,True
+Adult Silver Dragon,Tail,True,True
+Adult Silver Dragon,Rapier (Humanoid Form Only),True,True
+Adult Silver Dragon,Spit Frost,False,True
+Adult Silver Dragon,Breath Weapons (Recharge 5-6),False,True
+Adult Silver Dragon,Frost Breath,False,True
+Adult Silver Dragon,Paralyzing Breath,False,True
+Adult Silver Dragon,Change Shape,False,True
+Adult White Dragon,Multiattack,False,True
+Adult White Dragon,Bite,True,True
+Adult White Dragon,Claw,True,True
+Adult White Dragon,Tail,True,True
+Adult White Dragon,Spit Ice,False,True
+Adult White Dragon,Cold Breath (Recharge 5-6),False,True
+Air Elemental,Multiattack,False,True
+Air Elemental,Slam,True,True
+Air Elemental,Whirlwind (Recharge 5-6),False,True
+Aklea,Maul,True,True
+Aklea,Lightning Bolt (3rd-Level; V, S),False,True
+Aklea,Flame Strike (5th-Level; V, S),False,True
+Aklea,Hold Monster (5th-Level; V, S, Concentration),False,True
+Alchemist,Multiattack,False,True
+Alchemist,Dagger,True,True
+Alchemist,Bomb (3/Day),False,True
+Allosaurus,Bite,True,True
+Alpha Werewolf,Multiattack,False,True
+Alpha Werewolf,Greatclub (Humanoid or Hybrid Form Only),True,True
+Alpha Werewolf,Claw (Wolf or Hybrid Form Only),True,True
+Alpha Werewolf,Bite (Wolf or Hybrid Form Only),True,True
+Amethyst Dragon Wyrmling,Bite,True,True
+Amethyst Dragon Wyrmling,Concussive Breath (Recharge 5-6),False,True
+Ancient Aboleth,Multiattack,False,True
+Ancient Aboleth,Tentacle,True,True
+Ancient Aboleth,Slimy Cloud (1/Day, While Bloodied),False,True
+Ancient Amethyst Dragon,Multiattack,False,True
+Ancient Amethyst Dragon,Bite,True,True
+Ancient Amethyst Dragon,Claws,True,True
+Ancient Amethyst Dragon,Psionic Wave,False,True
+Ancient Amethyst Dragon,Concussive Breath (Recharge 5-6),False,True
+Ancient Black Dragon,Multiattack,False,True
+Ancient Black Dragon,Bite,True,True
+Ancient Black Dragon,Claw,True,True
+Ancient Black Dragon,Tail,True,True
+Ancient Black Dragon,Acid Spit,False,True
+Ancient Black Dragon,Acid Breath (Recharge 5-6),False,True
+Ancient Blue Dragon,Multiattack,False,True
+Ancient Blue Dragon,Bite,True,True
+Ancient Blue Dragon,Claw,True,True
+Ancient Blue Dragon,Tail,True,True
+Ancient Blue Dragon,Arc Lightning,False,True
+Ancient Blue Dragon,Lightning Breath (Recharge 5-6),False,True
+Ancient Blue Dragon,Quake,False,True
+Ancient Brass Dragon,Multiattack,False,True
+Ancient Brass Dragon,Bite,True,True
+Ancient Brass Dragon,Claws,True,True
+Ancient Brass Dragon,Tail,True,True
+Ancient Brass Dragon,Staff (Humanoid Form Only),True,True
+Ancient Brass Dragon,Molten Spit,False,True
+Ancient Brass Dragon,Breath Weapons (Recharge 5-6),False,True
+Ancient Brass Dragon,Molten Breath,False,True
+Ancient Brass Dragon,Sleep Breath,False,True
+Ancient Brass Dragon,Change Shape,False,True
+Ancient Bronze Dragon,Multiattack,False,True
+Ancient Bronze Dragon,Bite,True,True
+Ancient Bronze Dragon,Claws,True,True
+Ancient Bronze Dragon,Tail,True,True
+Ancient Bronze Dragon,Trident (Humanoid Form Only),True,True
+Ancient Bronze Dragon,Lightning Pulse,False,True
+Ancient Bronze Dragon,Breath Weapons (Recharge 5-6),False,True
+Ancient Bronze Dragon,Lightning Breath,False,True
+Ancient Bronze Dragon,Ocean Surge,False,True
+Ancient Copper Dragon,Multiattack,False,True
+Ancient Copper Dragon,Bite,True,True
+Ancient Copper Dragon,Claws,True,True
+Ancient Copper Dragon,Tail,True,True
+Ancient Copper Dragon,War Pick (Humanoid Form Only),True,True
+Ancient Copper Dragon,Acid Spit,False,True
+Ancient Copper Dragon,Breath Weapons (Recharge 5-6),False,True
+Ancient Copper Dragon,Acid Breath,False,True
+Ancient Copper Dragon,Slowing Breath,False,True
+Ancient Earth Dragon,Multiattack,False,True
+Ancient Earth Dragon,Bite,True,True
+Ancient Earth Dragon,Slam,True,True
+Ancient Earth Dragon,Scouring Breath (Recharge 5-6),False,True
+Ancient Earth Dragon,Rock Spire,False,True
+Ancient Emerald Dragon,Multiattack,False,True
+Ancient Emerald Dragon,Bite,True,True
+Ancient Emerald Dragon,Claws,True,True
+Ancient Emerald Dragon,Psionic Wave,False,True
+Ancient Emerald Dragon,Maddening Breath (Recharge 5-6),False,True
+Ancient Gold Dragon,Multiattack,False,True
+Ancient Gold Dragon,Bite,True,True
+Ancient Gold Dragon,Claws,True,True
+Ancient Gold Dragon,Tail,True,True
+Ancient Gold Dragon,Greatsword (Humanoid Form Only),True,True
+Ancient Gold Dragon,Molten Spit,False,True
+Ancient Gold Dragon,Breath Weapons (Recharge 5-6),False,True
+Ancient Gold Dragon,Molten Breath,False,True
+Ancient Gold Dragon,Weakening Breath,False,True
+Ancient Gold Dragon,Change Shape,False,True
+Ancient Green Dragon,Multiattack,False,True
+Ancient Green Dragon,Bite,True,True
+Ancient Green Dragon,Claw,True,True
+Ancient Green Dragon,Tail,True,True
+Ancient Green Dragon,Spit Poison,False,True
+Ancient Green Dragon,Poison Breath (Recharge 5-6),False,True
+Ancient Green Dragon,Honeyed Words,False,True
+Ancient Red Dragon,Multiattack,False,True
+Ancient Red Dragon,Bite,True,True
+Ancient Red Dragon,Claw,True,True
+Ancient Red Dragon,Tail,True,True
+Ancient Red Dragon,Cruel Tyranny,False,True
+Ancient Red Dragon,Spit Fire,False,True
+Ancient Red Dragon,Fire Breath (Recharge 5-6),False,True
+Ancient River Dragon,Multiattack,False,True
+Ancient River Dragon,Bite,True,True
+Ancient River Dragon,Claws,True,True
+Ancient River Dragon,Torrential Breath (Recharge 5-6),False,True
+Ancient Sapphire Dragon,Multiattack,False,True
+Ancient Sapphire Dragon,Bite,True,True
+Ancient Sapphire Dragon,Claws,True,True
+Ancient Sapphire Dragon,Psionic Wave,False,True
+Ancient Sapphire Dragon,Discognitive Breath (Recharge 5-6),False,True
+Ancient Sapphire Dragon,Prognosticate (3/Day),False,True
+Ancient Shadow Dragon,Multiattack,False,True
+Ancient Shadow Dragon,Bite,True,True
+Ancient Shadow Dragon,Claws,True,True
+Ancient Shadow Dragon,Grasp of Shadows,False,True
+Ancient Shadow Dragon,Anguished Breath (Recharge 5-6),False,True
+Ancient Silver Dragon,Multiattack,False,True
+Ancient Silver Dragon,Bite,True,True
+Ancient Silver Dragon,Claws,True,True
+Ancient Silver Dragon,Tail,True,True
+Ancient Silver Dragon,Rapier (Humanoid Form Only),True,True
+Ancient Silver Dragon,Spit Frost,False,True
+Ancient Silver Dragon,Breath Weapons (Recharge 5-6),False,True
+Ancient Silver Dragon,Frost Breath,False,True
+Ancient Silver Dragon,Paralyzing Breath,False,True
+Ancient Silver Dragon,Change Shape,False,True
+Ancient White Dragon,Multiattack,False,True
+Ancient White Dragon,Bite,True,True
+Ancient White Dragon,Claw,True,True
+Ancient White Dragon,Tail,True,True
+Ancient White Dragon,Spit Ice,False,True
+Ancient White Dragon,Cold Breath (Recharge 5-6),False,True
+Animated Armor,Weapon,True,True
+Ankheg,Claws,True,True
+Ankheg,Bite,True,True
+Ankheg,Acid Spray (Recharge 6),False,True
+Ankheg Queen,Claws,True,True
+Ankheg Queen,Bite,True,True
+Ankheg Queen,Acid Spray (Recharge 6),False,True
+Ankheg Spawn,Bite,True,True
+Ankheg Spawn,Claws,True,True
+Ankheg Spawn,Acid Spit,False,True
+Ankylosaurus,Tail,True,True
+Ape,Multiattack,False,True
+Ape,Fists,True,True
+Ape,Rock,False,True
+Apprentice Mage,Dagger,True,True
+Apprentice Mage,Fire Bolt (Cantrip; V, S),False,True
+Apprentice Mage,Magic Missile (1st-Level; V, S),False,True
+Arcane Blademaster,Multiattack,False,True
+Arcane Blademaster,Longsword,True,True
+Arcane Blademaster,Composite Longbow,False,True
+Arcane Blademaster,Shocking Grasp (Cantrip; V, S),True,True
+Arcane Blademaster,Fire Bolt (Cantrip; V, S),False,True
+Arcane Blademaster,Globe of Invulnerability (6th-Level; V, S, M, Concentration),False,True
+Arcane Blademaster,Teleport (7th-Level; V),False,True
+Arcane Blademaster,Unholy Star (7th-Level; V, S),False,True
+Arcane Blademaster,Power Word Stun (8th-Level; V),False,True
+Arcane Blademaster,Meteor Swarm (9th-Level; V, S),False,True
+Archfey,Multiattack,False,True
+Archfey,Glittering Scimitar,True,True
+Archfey,Gleaming Longbow,False,True
+Archfey,Evil Eye (Gaze),False,True
+Archfey,The target falls asleep,False,True
+Archfey,The target is frightened,False,True
+Archfey,The target is poisoned,False,True
+Archfey,Summon Midnight (1/Day),False,True
+Archfey,Weird (9th-Level; V, S, Concentration),False,True
+Archmage,Dagger,True,True
+Archmage,Fire Bolt (Cantrip; V, S),False,True
+Archmage,Lightning Bolt (3rd-Level; V, S, M),False,True
+Archmage,Confusion (4th-Level; V, S, M, Concentration),False,True
+Archmage,Cone of Cold (5th-Level; V, S, M),False,True
+Archmage,Mislead (5th-Level; S, Concentration),False,True
+Archmage,Globe of Invulnerability (6th-Level; V, S, M, Concentration),False,True
+Archmage,Teleport (7th-Level; V),False,True
+Archpriest,Multiattack,False,True
+Archpriest,Mace,True,True
+Archpriest,Flame Strike (5th-Level; V, S, M),False,True
+Archpriest,Fire Storm (7th-Level; V, S),False,True
+Archpriest,Holy Aura (8th-Level; V, S, M, Concentration),False,True
+Archpriest,Mass Heal (9th-Level; V, S),False,True
+Ascetic Grandmaster,Multiattack,False,True
+Ascetic Grandmaster,Unarmed Strike,True,True
+Assassin,Shortsword,True,True
+Assassin,Hand Crossbow,False,True
+Awakened Shrub,Rake,True,True
+Awakened Tree,Slam,True,True
+Axe Beak,Beak,True,True
+Azer,Hammer,True,True
+Azer,Heat Metal,False,True
+Azer Forgemaster,Multiattack,False,True
+Azer Forgemaster,Returning Hammer,True,True
+Azer Forgemaster,Bonfire (3/Day),False,True
+Baboon,Bite,True,True
+Badger,Bite,True,True
+Balor,Multiattack,False,True
+Balor,Lightning Sword,True,True
+Balor,Fire Whip,True,True
+Balor,Whip Crack (1/Day),False,True
+Balor,Teleport,False,True
+Balor General,Multiattack,False,True
+Balor General,Lightning Sword,True,True
+Balor General,Fire Whip,True,True
+Balor General,Whip Crack (1/Day),False,True
+Balor General,Teleport,False,True
+Bandit,Scimitar,True,True
+Bandit,Light Crossbow,False,True
+Bandit,Bandits are outlaws who live by violence,False,True
+Bandit Captain,Multiattack,False,True
+Bandit Captain,Scimitar,True,True
+Bandit Captain,Dagger,True,True
+Banshee,Presage Death,False,True
+Banshee,Baleful Wail,False,True
+Barbed Devil,Multiattack,False,True
+Barbed Devil,Claws,True,True
+Barbed Devil,Tail,True,True
+Barbed Devil,Hurl Flame,False,True
+Basilisk,Stone Gaze (Gaze),False,True
+Basilisk,Venomous Bite,True,True
+Bat,Bite,True,True
+Bearded Devil,Multiattack,False,True
+Bearded Devil,Beard,True,True
+Bearded Devil,Glaive,True,True
+Behir,Multiattack,False,True
+Behir,Bite,True,True
+Behir,If a swallowed creature deals 30 or more damage to the behir in a single turn, or if the behir dies, the behir vomits up the creature,False,True
+Behir,Constrict,True,True
+Behir,Lightning Breath (Recharge 5-6),False,True
+Behir Magus,Multiattack,False,True
+Behir Magus,Bite,True,True
+Behir Magus,If a swallowed creature deals 30 or more damage to the behir in a single turn, or if the behir dies, the behir vomits up the creature,False,True
+Behir Magus,Constrict,True,True
+Behir Magus,Lightning Breath (Recharge 5-6),False,True
+Berserker,Multiattack,False,True
+Berserker,Greataxe,True,True
+Berserker,Handaxe,True,True
+Berserker,Berserkers are lightly-armored and heavily-armed shock troops,False,True
+Black Bear,Multiattack,False,True
+Black Bear,Bite,True,True
+Black Bear,Claws,True,True
+Black Dragon Wyrmling,Bite,True,True
+Black Dragon Wyrmling,Acid Breath (Recharge 5-6),False,True
+Black Pudding,Pseudopod,True,True
+Blackguard,Multiattack,False,True
+Blackguard,Greatsword,True,True
+Blackguard,Lance (Mounted Only),True,True
+Blackguard,Heavy Crossbow,False,True
+Blackguard,Vile Curse (1/Day),False,True
+Blink Dog,Bite,True,True
+Blood Hawk,Beak,True,True
+Blue Dragon Wyrmling,Bite,True,True
+Blue Dragon Wyrmling,Lightning Breath (Recharge 5-6),False,True
+Boar,Tusk,True,True
+Boggard,Vaulting Leap,False,True
+Boggard,Spear,True,True
+Boggard,Bite,True,True
+Boggard Bravo,Vaulting Leap,False,True
+Boggard Bravo,Spear,True,True
+Boggard Bravo,Bite,True,True
+Boggard Sovereign,Parting Bite,True,True
+Boggard Sovereign,Incite Frenzy (1/Day),False,True
+Boggard Sovereign,Earthshaking Croak (1/Day),False,True
+Boggard Sovereign,Summon Frog Guardians (1/Day),False,True
+Bolt-Thrower,Multiattack,False,True
+Bolt-Thrower,Light Crossbow,False,True
+Bolt-Thrower,Heavy Crossbow,False,True
+Bone Devil,Barbed Spear,True,True
+Bone Devil,Claw,True,True
+Bone Devil,Invisibility,False,True
+Brass Dragon Wyrmling,Bite,True,True
+Brass Dragon Wyrmling,Breath Weapons (Recharge 5-6),False,True
+Brass Dragon Wyrmling,Molten Breath,False,True
+Brass Dragon Wyrmling,Sleep Breath,False,True
+Bronze Dragon Wyrmling,Bite,True,True
+Bronze Dragon Wyrmling,Breath Weapons (Recharge 5-6),False,True
+Bronze Dragon Wyrmling,Lightning Breath,False,True
+Bronze Dragon Wyrmling,Ocean Surge,False,True
+Brown Bear,Bite,True,True
+Brown Bear,Claws,True,True
+Bugbear,Strangle,True,True
+Bugbear,Maul,True,True
+Bugbear,Javelin,True,True
+Bugbear,Stealthy Sneak,False,True
+Bugbear Chief,Multiattack,False,True
+Bugbear Chief,Maul,True,True
+Bugbear Chief,Javelin,True,True
+Bugbear Chief,Move Out (1/Day),False,True
+Bulette,Leap (Recharge 5-6),False,True
+Bulette,Burrow,False,True
+Bulette,Bite,True,True
+Bunyip,Multiattack,False,True
+Bunyip,Bite,True,True
+Bunyip,Slam,True,True
+Cambion,Multiattack,False,True
+Cambion,Black Iron Blade,True,True
+Cambion,Fire Blast,False,True
+Cambion,Fiery Escape (1/Day),False,True
+Camel,Bite,True,True
+Cat,Claws,True,True
+Cave Bear,Multiattack,False,True
+Cave Bear,Bite,True,True
+Cave Bear,Claws,True,True
+Cave Ogre,Greatclub,True,True
+Cave Ogre,Sweeping Strike,True,True
+Cave Ogre,Javelin,True,True
+Cave Troll,Multiattack,False,True
+Cave Troll,Bite,True,True
+Cave Troll,Claw,True,True
+Cave Troll,Rock,False,True
+Centaur,Multiattack,False,True
+Centaur,Pike,True,True
+Centaur,Hooves,True,True
+Centaur,Shortbow,False,True
+Centaur,Deadeye Shot (1/Day),False,True
+Chain Devil,Multiattack,False,True
+Chain Devil,Chain,True,True
+Champion Warrior,Multiattack,False,True
+Champion Warrior,Greataxe,True,True
+Chimera,Headbutt,True,True
+Chimera,Bite,True,True
+Chimera,Claw,True,True
+Chimera,Breath Weapon (Recharge 5-6),False,True
+Chuul,Multiattack,False,True
+Chuul,Pincer,True,True
+Chuul,Tentacle,False,True
+Clay Guardian,Multiattack,False,True
+Clay Guardian,Slam,True,True
+Cloaker,Bite,True,True
+Cloaker,Tail,True,True
+Cloaker,Moan,False,True
+Cloaker,Phantasms (1/Day),False,True
+Clockwork Sentinel,Multiattack,False,True
+Clockwork Sentinel,Halberd,True,True
+Clockwork Sentinel,Calculated Sweep,False,True
+Cloud Giant,Multiattack,False,True
+Cloud Giant,Glaive,True,True
+Cloud Giant,Rock,False,True
+Cloud Giant,Fog Cloud (1st-Level; V, S, Concentration),False,True
+Cloud Giant Noble,Multiattack,False,True
+Cloud Giant Noble,Glaive,True,True
+Cloud Giant Noble,Rock,False,True
+Cloud Giant Noble,Fog Cloud (1st-Level; V, S, Concentration),False,True
+Cloud Giant Noble,Arc Lightning (1/Day),False,True
+Cloud Giant Noble,Blinking Blades (1/Day),False,True
+Cloud Giant Noble,Reverse Gravity (1/Day),False,True
+Cloud Giant Noble,Silver Tongue (1/Day),False,True
+Cockatrice,Bite,True,True
+Commoner,Club,True,True
+Commoner,Stone,False,True
+Commoner Mob,Clubs,True,True
+Commoner Mob,Stones,False,True
+Constrictor Snake,Bite,True,True
+Constrictor Snake,Constrict,True,True
+Copper Dragon Wyrmling,Bite,True,True
+Copper Dragon Wyrmling,Breath Weapons (Recharge 5-6),False,True
+Copper Dragon Wyrmling,Acid Breath,False,True
+Copper Dragon Wyrmling,Slowing Breath,False,True
+Coralfish,Bite,True,True
+Corrupted Unicorn,Multiattack,False,True
+Corrupted Unicorn,Hooves,True,True
+Corrupted Unicorn,Horn,True,True
+Corrupted Unicorn,Trample,False,True
+Corrupted Unicorn,Darkness Aura (1/Day),False,True
+Corrupted Unicorn,Grant Boon (3/Day),False,True
+Corrupted Unicorn,Healing,False,True
+Corrupted Unicorn,Luck: During the next 24 hours, the creature can roll a d12 and add the result to one ability check, attack roll, or saving throw after seeing the result,False,True
+Corrupted Unicorn,Protection: A glowing mote of light orbits the creatures head,False,True
+Corrupted Unicorn,Resolution,False,True
+Cosmopolitan Alchemist,Multiattack,False,True
+Cosmopolitan Alchemist,Dagger,True,True
+Cosmopolitan Alchemist,Bomb (3/Day),False,True
+Couatl,Constrict,True,True
+Couatl,Bite,True,True
+Couatl,Heal (1/Day),False,True
+Couatl,Shapeshift,False,True
+Coven Green Hag,Multiattack,False,True
+Coven Green Hag,Beast Form,False,True
+Coven Green Hag,Claws,True,True
+Coven Green Hag,Hex (Gaze),False,True
+Coven Green Hag,1,False,True
+Coven Green Hag,2,False,True
+Coven Green Hag,3,False,True
+Coven Green Hag,4,False,True
+Coven Green Hag,Invisibility (2nd-Level; V, S, Concentration),False,True
+Coven Night Hag,Claws,True,True
+Coven Night Hag,Sleep Touch,True,True
+Coven Night Hag,Shapeshift,False,True
+Coven Night Hag,Planar Travel (3/Day),False,True
+Coven Night Hag,Nightmare Haunting (1/Day),False,True
+Coven Sea Hag,Claws,True,True
+Coven Sea Hag,Death Glare (Gaze),False,True
+Coven Sea Hag,Multiattack,False,True
+Coven Sea Hag,Lightning Blast (Recharge 5-6),False,True
+Coven Winter Hag,Multiattack,False,True
+Coven Winter Hag,Claws,True,True
+Coven Winter Hag,Ice Bolt,False,True
+Coven Winter Hag,Shapeshift,False,True
+Coven Winter Hag,Invisibility (2nd-Level; V, S, Concentration),False,True
+Coven Winter Hag,Cone of Cold (5th-Level; V, S),False,True
+Coven Winter Hag,Wall of Ice (6th-level; V, S, Concentration),False,True
+Coven Winter Hag,If the wall enters a creatures space when it appears, the creature is pushed to one side of the wall (hags choice),False,True
+Crab,Claws,True,True
+Crime Boss,Multiattack,False,True
+Crime Boss,Shortsword,True,True
+Crime Boss,Dagger,True,True
+Crime Boss,Mark for Death,False,True
+Crocodile,Bite,True,True
+Crusher,Crush,False,True
+Crusher,Ram,True,True
+Cult Fanatic,Dagger,True,True
+Cult Fanatic,Sacred Flame (Cantrip; V, S),False,True
+Cult Fanatic,Command (1st-Level; V),False,True
+Cult Fanatic,Inflict Wounds (1st-Level; V, S),True,True
+Cult Fanatic,Blindness/Deafness (2nd-Level; V),False,True
+Cult Fanatic,Hold Person (2nd-Level; V, S, M, Concentration),False,True
+Cultist,Dagger,True,True
+Cultist,Cultists worship forbidden gods, devils, demons, and other sinister beings,False,True
+Cutthroat,Shortsword,True,True
+Cutthroat,Hand Crossbow,False,True
+Cyclops,Multiattack,False,True
+Cyclops,Club,True,True
+Cyclops,Rock,False,True
+Cyclops Myrmidon,Multiattack,False,True
+Cyclops Myrmidon,Maul,True,True
+Cyclops Myrmidon,Rock,False,True
+Darkmantle,Multiattack,False,True
+Darkmantle,Darkness Aura,False,True
+Darkmantle,Crush,True,True
+Dead Mans Fingers,Multiattack,False,True
+Dead Mans Fingers,Tendril (Ethereal or Material Plane),True,True
+Dead Mans Fingers,Ethereal Spores (While Bloodied, Ethereal Plane Only),False,True
+Death Dog,Multiattack,False,True
+Death Dog,Bite,True,True
+Deep Dwarf Soldier,War Pick,True,True
+Deep Dwarf Soldier,Enlarge (2nd-Level; V, S, Concentration),False,True
+Deep Dwarf Soldier,Invisibility (2nd-Level; V, S, Concentration),False,True
+Deep Dwarf Soldier,Heavy Crossbow,False,True
+Deep Gnome Scout,War Pick,True,True
+Deep Gnome Scout,Blindness (2nd-Level; V),False,True
+Deer,Bite,True,True
+Deer,Headbutt,True,True
+Demilich,Devour Soul,False,True
+Demilich,A demilich begins combat with one or two empty soul gems,False,True
+Demilich Mastermind,Devour Soul,False,True
+Demilich Mastermind,A demilich mastermind begins combat with up to four empty soul gems,False,True
+Deva,Multiattack,False,True
+Deva,Celestial Hammer (Deva Form Only),True,True
+Deva,Divine Blast,False,True
+Deva,Radiant Energy (1/Day),False,True
+Deva,Change Form,False,True
+Diplodocus,Multiattack,False,True
+Diplodocus,Stomp,True,True
+Diplodocus,Tail,True,True
+Dire Centipede,Bite,True,True
+Dire Tyrannosaurus Rex,Multiattack,False,True
+Dire Tyrannosaurus Rex,Bite,True,True
+Dire Tyrannosaurus Rex,Tail,True,True
+Dire Wolf,Bite,True,True
+Diseased Giant Rat,Bite,True,True
+Divi,Multiattack,False,True
+Divi,Crushing Hand,True,True
+Divi,Stone Club,True,True
+Divi,Quake (Recharge 5-6),False,True
+Divi Noble,Multiattack,False,True
+Divi Noble,Crushing Hand,True,True
+Divi Noble,Stone Club,True,True
+Divi Noble,Quake (Recharge 5-6),False,True
+Djinni,Multiattack,False,True
+Djinni,Scimitar,True,True
+Djinni,Lightning Blast,False,True
+Djinni,Scimitar Sweep (1/Day, Giant Form Only),False,True
+Djinni Noble,Multiattack,False,True
+Djinni Noble,Scimitar,True,True
+Djinni Noble,Lightning Blast,False,True
+Djinni Noble,Scimitar Sweep (1/Day, Giant Form Only),False,True
+Doppelganger,Precise Strike,True,True
+Draft Horse,Hooves,True,True
+Dragon Cultist,Dagger,True,True
+Dragon Cultist,Sacred Flame (Cantrip; V, S),False,True
+Dragon Cultist,Command (1st-Level; V),False,True
+Dragon Cultist,Inflict Wounds (1st-Level; V, S),True,True
+Dragon Cultist,Blindness/Deafness (2nd-Level; V),False,True
+Dragon Cultist,Hold Person (2nd-Level; V, S, M, Concentration),False,True
+Dragon Turtle,Bite,True,True
+Dragon Turtle,Ram,True,True
+Dragon Turtle,Tail,True,True
+Dragon Turtle,Steam Breath (Recharge 5-6),False,True
+Dragon Turtle,Lightning Storm (1/Day),False,True
+Dragonbound Warrior,Spear,True,True
+Drainpipe Gargoyle,Multiattack,False,True
+Drainpipe Gargoyle,Bite,True,True
+Drainpipe Gargoyle,Claws,True,True
+Drainpipe Gargoyle,Rock,False,True
+Drainpipe Gargoyle,Spit (Recharge 5-6),False,True
+Dread Knight,Cursed Greatsword,True,True
+Dread Knight,Fire Blast (1/Day),False,True
+Dread Knight,Ice Wall (1/Day),False,True
+Dread Knight,If the wall enters a creatures space when it appears, the creature is pushed to one side of the wall (creatures choice),False,True
+Dread Knight,Soul Wrack (1/Day),False,True
+Dread Knight,Summon Fiendish Steed (1/Day),False,True
+Dread Knight Champion,Cursed Greatsword,True,True
+Dread Knight Champion,Fire Blast (1/Day),False,True
+Dread Knight Champion,Ice Wall (1/Day),False,True
+Dread Knight Champion,If the wall enters a creatures space when it appears, the creature is pushed to one side of the wall (creatures choice),False,True
+Dread Knight Champion,Soul Wrack (1/Day),False,True
+Dread Knight Champion,Summon Fiendish Steed (1/Day),False,True
+Dread Troll,Multiattack,False,True
+Dretch,Bite,True,True
+Drider,Multiattack,False,True
+Drider,Claws,True,True
+Drider,Bite,True,True
+Drider,Longsword (wielded two-handed),True,True
+Drider,Longbow,True,True
+Drop Bear,Multiattack,False,True
+Drop Bear,Bite,True,True
+Drop Bear,Claws,True,True
+Druid,Shillelagh (True Form Only),True,True
+Druid,Bite (Medium or Large Beast Form Only),True,True
+Druid,Beast Form,False,True
+Druid,Produce Flame (Cantrip; V, S),False,True
+Druid,Entangle (1st-Level; V, S, Concentration),False,True
+Druid,Thunderwave (1st-Level; V, S),False,True
+Dryad,Club,True,True
+Dryad,Entangling Plants,False,True
+Dryad,Fey Charm (3/Day),False,True
+Duelist,Multiattack,False,True
+Duelist,Rapier,True,True
+Dust Mephit,Claws,True,True
+Dust Mephit,Blinding Breath (1/Day),False,True
+Dust Mephit,Sleep Sand (1/Day),False,True
+Eagle,Talons,True,True
+Earth Dragon Wyrmling,Bite,True,True
+Earth Dragon Wyrmling,Scouring Breath (Recharge 5-6),False,True
+Earth Elemental,Multiattack,False,True
+Earth Elemental,Slam,True,True
+Earth Elemental,Earths Embrace,True,True
+Earth Elemental,Rock,False,True
+Efreeti,Multiattack,False,True
+Efreeti,Brass Sword,True,True
+Efreeti,Kick,True,True
+Efreeti,Hurl Flame,False,True
+Efreeti Noble,Multiattack,False,True
+Efreeti Noble,Brass Sword,True,True
+Efreeti Noble,Kick,True,True
+Efreeti Noble,Hurl Flame,False,True
+Elder Black Pudding,Pseudopod,True,True
+Elder Black Pudding,Multiattack,False,True
+Elder Vampire,Grab (Vampire Form Only),True,True
+Elder Vampire,Charm,False,True
+Elephant,Gore,True,True
+Elephant,Stomp,True,True
+Elk,Ram,True,True
+Emerald Dragon Wyrmling,Bite,True,True
+Emerald Dragon Wyrmling,Maddening Breath (Recharge 5-6),False,True
+Empyrean,Maul,True,True
+Empyrean,Lightning Bolt (3rd-Level; V, S),False,True
+Empyrean,Flame Strike (5th-Level; V, S),False,True
+Empyrean,Hold Monster (5th-Level; V, S, Concentration),False,True
+Erinyes,Multiattack,False,True
+Erinyes,Longsword,True,True
+Erinyes,Longbow,False,True
+Erinyes,Lasso,True,True
+Ettercap,Multiattack,False,True
+Ettercap,Bite,True,True
+Ettercap,Claws,True,True
+Ettercap,Strangle,True,True
+Ettin,Multiattack,False,True
+Ettin,Battleaxe,True,True
+Ettin,Club,True,True
+Ettin,Rock,False,True
+Ettin,Axe Whirl (1/Day),False,True
+Faerie Dragon,Bite,True,True
+Faerie Dragon,Euphoria Breath (Recharge 5-6),False,True
+Faerie Dragon,Prismatic Light (3/Day),False,True
+Faerie Dragon,Beast Form (1/Day, 50+ Years Old Only),False,True
+Faerie Dragon Familiar,Bite,True,True
+Faerie Dragon Familiar,Euphoria Breath (Recharge 5-6),False,True
+Faerie Dragon Familiar,Prismatic Light (3/Day),False,True
+Faerie Dragon Familiar,Beast Form (1/Day, 50+ Years Old Only),False,True
+Faerie Eater Troll,Multiattack,False,True
+Faerie Eater Troll,Bite,True,True
+Faerie Eater Troll,Claw,True,True
+Faerie Eater Troll,Charming Murmur,False,True
+Faerie Noble,Multiattack,False,True
+Faerie Noble,Glittering Scimitar,True,True
+Faerie Noble,Gleaming Longbow,False,True
+Faerie Noble,Evil Eye (Gaze),False,True
+Faerie Noble,The target falls asleep,False,True
+Faerie Noble,The target is frightened,False,True
+Faerie Noble,The target is poisoned,False,True
+Fallen Deva,Multiattack,False,True
+Fallen Deva,Celestial Hammer (Deva Form Only),True,True
+Fallen Deva,Divine Blast,False,True
+Fallen Deva,Radiant Energy (1/Day),False,True
+Fallen Deva,Change Form,False,True
+Fallen Deva,Consume Life Energy (1/Day),False,True
+Fallen Planetar,Multiattack,False,True
+Fallen Planetar,Flaming Sword,True,True
+Fallen Planetar,Heavenly Bolt,False,True
+Fallen Planetar,Heal (2/Day),False,True
+Fallen Planetar,Consume Life Energy (1/Day),False,True
+Fallen Solar,Multiattack,False,True
+Fallen Solar,Holy Sword,True,True
+Fallen Solar,Column of Flame,False,True
+Fallen Solar,Consume Life Energy (1/Day),False,True
+Fell Nightmare,Hooves,True,True
+Fell Nightmare,Ethereal Shift (Recharge 5-6),False,True
+Fey Knight,Multiattack,False,True
+Fey Knight,Glittering Scimitar,True,True
+Fey Knight,Longbow,False,True
+Fey Knight,Fey Glamour,False,True
+Fire Elemental,Multiattack,False,True
+Fire Elemental,Slam,True,True
+Fire Elemental,Wildfire (Recharge 4-6),False,True
+Fire Giant,Multiattack,False,True
+Fire Giant,Greatsword,True,True
+Fire Giant,Rock,False,True
+Fire Giant,Sword Sweep (1/Day, While Bloodied),False,True
+Fire Giant War Priest,Multiattack,False,True
+Fire Giant War Priest,Greatsword,True,True
+Fire Giant War Priest,Rock,False,True
+Fire Giant War Priest,Sword Sweep (1/Day, While Bloodied),False,True
+Fire Giant War Priest,Ignite Blades (1/Day),False,True
+Fire Giant War Priest,Pillar of Flame (1/Day),False,True
+Flesh Guardian,Multiattack,False,True
+Flesh Guardian,Slam,True,True
+Flesh Guardian,Hurl Object,False,True
+Flesh Guardian,Lightning Bolt (1/Day, While Bloodied),False,True
+Flumph,Tendrils,True,True
+Flumph,Stench Spray (1/Day),False,True
+Flying Lion,Multiattack,False,True
+Flying Lion,Bite,True,True
+Flying Lion,Talons,True,True
+Flying Snake,Bite,True,True
+Flying Sword,Longsword,True,True
+Fomorian,Multiattack,False,True
+Fomorian,Warhammer,True,True
+Forest Gnome Illusionist,Dagger,True,True
+Forest Gnome Illusionist,Fire Bolt (Cantrip; V, S),False,True
+Forest Gnome Illusionist,Hypnotic Pattern (3rd-Level; S, M, Concentration),False,True
+Forest Gnome Illusionist,Fireball (3rd-Level; V, S, M),False,True
+Forest Gnome Illusionist,Dimension Door (4th-Level; V),False,True
+Forest Gnome Illusionist,Greater Invisibility (4th-Level; V, S, Concentration),False,True
+Forest Gnome Illusionist,Cone of Cold (5th-Level; V, S, M),False,True
+Forest Gnome Scout,Shortsword,True,True
+Forest Gnome Scout,Longbow,False,True
+Forgotten God,Divine Weapon,True,True
+Forgotten God,Stunning Gaze (Gaze),False,True
+Forgotten God,Divine Wrath (1/Day, While Bloodied),False,True
+Forgotten God,Spirit Guardians (3rd-Level; V, S, Concentration),False,True
+Forgotten God,Flame Strike (5th-Level; V, S),False,True
