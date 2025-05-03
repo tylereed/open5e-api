@@ -9,7 +9,10 @@ def main():
             for v1_actions in actions:
                 # try:
                     csv_data = parseAttack(v1_actions['desc'])
-                    print(v1_monster.name, v1_actions['name'], csv_data, sep=",")
+                    if csv_data is not None:
+                        print('"' + v1_monster.name + '"', '"' + v1_actions['name'] + '"', csv_data, sep=',')
+                    else:
+                        print('"' + v1_monster.name + '"', '"' + v1_actions['name'] + '"', sep=',')
                 # except:
                 #     pass
 

@@ -17,7 +17,11 @@ def parseAttack(desc):
     listener = AttackActionListener()
     walker = ParseTreeWalker()
     walker.walk(listener, tree)
-    return listener.buildCsv()
+    
+    if listener.result['isWeapon'] or listener.result['isSpell']:
+        return listener.buildCsv()
+    else:
+        return None
 
 def main(argv):
 

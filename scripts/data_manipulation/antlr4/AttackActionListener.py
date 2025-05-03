@@ -16,7 +16,13 @@ class AttackActionListener(AttackListener):
             'numberTargets': 0,
             'damageAverage': None,
             'damageDice': None,
-            'damageType': None
+            'damageType': None,
+            'plusDamageAverage': None,
+            'plusDamageDice': None,
+            'plusDamageType': None,
+            'twoHandedDamageAverage': None,
+            'twoHandedDamageDice': None,
+            'twoHandedDamageType': None,
         }
 
     def enterMeleeRanged(self, ctx):
@@ -68,7 +74,34 @@ class AttackActionListener(AttackListener):
         damageType = ctx.DAMAGE_TYPE()
         if damageType is not None:
             self.result['damageType'] = damageType.getText()
-    
+
+    def enterPlusDamage(self, ctx):
+        damageAverage = ctx.NUMBER()
+        if damageAverage is not None:
+            self.result['plusDamageAverage'] = int(damageAverage.getText())
+        damageDice = ctx.DICE()
+        if damageDice is not None:
+            self.result['plusDamageDice'] = damageDice.getText()
+        damageType = ctx.DAMAGE_TYPE()
+        if damageType is not None:
+            self.result['plusDamageType'] = damageType.getText()
+
+    def enterVersatileDamage(self, ctx):
+        damageAverage = ctx.NUMBER()
+        if damageAverage is not None:
+            self.result['twoHandedDamageAverage'] = int(damageAverage.getText())
+        damageDice = ctx.DICE()
+        if damageDice is not None:
+            self.result['twoHandedDamageDice'] = damageDice.getText()
+        damageType = ctx.DAMAGE_TYPE()
+        if damageType is not None:
+            self.result['twoHandedDamageType'] = damageType.getText()
+
+    # def exitAttack(self, ctx):
+    #     extra = ctx.extraText()
+    #     if extra is not None:
+    #       self.result['extraText'] = extra.getText()
+
     def wordToNumber(word):
         if word == "one": return 1
         if word == "two": return 2
@@ -82,13 +115,18 @@ class AttackActionListener(AttackListener):
         return None
 
     def buildCsvHeader():
-        return ','.join(['isMelee','isRanged','isWeapon','isSpell','toHitBonus','reach','range','rangeMax',
-                         'numberTargets','damageAverage','damageDice','damageType'])
+        return ','.join(['isMelee','isRanged','isWeapon','isSpell','toHitBonus','reach','range','rangeMax', 'numberTargets',
+                        'damageAverage','damageDice','damageType',
+                        'plusDamageAverage','plusDamageDice','plusDamageType',
+                        'twoHandedDamageAverage','twoHandedDamageDice','twoHandedDamageType',
+                    ])
 
     def buildCsv(self):
-        return ','.join([
+        return '"' + '","'.join([
             str(self.result['isMelee']),str(self.result['isRanged']),str(self.result['isWeapon']),
             str(self.result['isSpell']),str(self.result['toHitBonus']),str(self.result['reach']),
             str(self.result['range']),str(self.result['rangeMax']),str(self.result['numberTargets']),
-            str(self.result['damageAverage']),str(self.result['damageDice']),str(self.result['damageType'])
-        ])
+            str(self.result['damageAverage']),str(self.result['damageDice']),str(self.result['damageType']),
+            str(self.result['plusDamageAverage']),str(self.result['plusDamageDice']),str(self.result['plusDamageType']),
+            str(self.result['twoHandedDamageAverage']),str(self.result['twoHandedDamageDice']),str(self.result['twoHandedDamageType'])
+        ]) + '"'
