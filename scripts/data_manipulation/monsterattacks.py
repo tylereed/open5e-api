@@ -52,6 +52,7 @@ def add_v2_attack(v1_monster: v1_model, v2_creature: v2_model):
                     bonus_dice = None if bonus_dice_text is None else parseDice(bonus_dice_text)
 
                     v2_attack = v2_creatureattack(
+                        name=v1_action['name'] + ' attack',
                         key=v2_attack_key,
                         parent=v2_action,
                         attack_type='WEAPON' if parsedAction['isWeapon'] else 'SPELL',
