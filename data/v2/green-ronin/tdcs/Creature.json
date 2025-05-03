@@ -44,6 +44,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "red dragon scale mail",
     "hit_points": 92,
     "hit_dice": "16d8+20",
     "nonmagical_attack_resistance": false,
@@ -63,6 +64,7 @@
     "alignment": "neutral good",
     "challenge_rating_decimal": "7.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "druidic"
@@ -73,8 +75,7 @@
       "fire"
     ],
     "condition_immunities": [],
-    "environments": [],
-    "armor_detail": "red dragon scale mail"
+    "environments": []
   }
 },
 {
@@ -122,6 +123,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "",
     "hit_points": 63,
     "hit_dice": "14d8",
     "nonmagical_attack_resistance": false,
@@ -141,6 +143,7 @@
     "alignment": "chaotic neutral",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "druidic"
@@ -197,6 +200,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "granite half plate",
     "hit_points": 152,
     "hit_dice": "16d8+80",
     "nonmagical_attack_resistance": false,
@@ -216,6 +220,7 @@
     "alignment": "lawful neutral",
     "challenge_rating_decimal": "7.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "druidic"
@@ -226,8 +231,7 @@
     "condition_immunities": [
       "petrified"
     ],
-    "environments": [],
-    "armor_detail": "granite half plate"
+    "environments": []
   }
 },
 {
@@ -275,6 +279,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "hide armor of cold resistance",
     "hit_points": 77,
     "hit_dice": "14d8+14",
     "nonmagical_attack_resistance": false,
@@ -294,6 +299,7 @@
     "alignment": "neutral good",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "druidic"
@@ -304,8 +310,7 @@
       "cold"
     ],
     "condition_immunities": [],
-    "environments": [],
-    "armor_detail": "hide armor of cold resistance"
+    "environments": []
   }
 }
 ]

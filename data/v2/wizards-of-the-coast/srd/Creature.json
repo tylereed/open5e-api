@@ -44,6 +44,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 135,
     "hit_dice": "18d10+36",
     "nonmagical_attack_resistance": false,
@@ -63,6 +64,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "10.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "deep-speech"
     ],
@@ -76,8 +78,7 @@
       "sewer",
       "srd_plane-of-water",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -125,6 +126,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 9,
     "hit_dice": "2d8",
     "nonmagical_attack_resistance": false,
@@ -144,7 +146,10 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
@@ -202,6 +207,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 195,
     "hit_dice": "17d12+85",
     "nonmagical_attack_resistance": false,
@@ -221,6 +227,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "14.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -233,8 +240,7 @@
     "condition_immunities": [],
     "environments": [
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -302,6 +308,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "16.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -363,6 +370,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 172,
     "hit_dice": "15d12+75",
     "nonmagical_attack_resistance": false,
@@ -382,6 +390,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "13.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -394,8 +403,7 @@
     "condition_immunities": [],
     "environments": [
       "desert"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -443,6 +451,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 212,
     "hit_dice": "17d12+102",
     "nonmagical_attack_resistance": false,
@@ -462,6 +471,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "15.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -476,8 +486,7 @@
       "coast",
       "desert",
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -525,6 +534,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 184,
     "hit_dice": "16d12+80",
     "nonmagical_attack_resistance": false,
@@ -544,6 +554,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "14.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -557,8 +568,7 @@
     "environments": [
       "hills",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -606,6 +616,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 256,
     "hit_dice": "19d12+133",
     "nonmagical_attack_resistance": false,
@@ -625,6 +636,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "17.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -641,8 +653,7 @@
       "ocean",
       "ruins",
       "srd_astral-plane"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -690,6 +701,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 207,
     "hit_dice": "18d12+90",
     "nonmagical_attack_resistance": false,
@@ -709,6 +721,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "15.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -723,8 +736,7 @@
     ],
     "environments": [
       "forest"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -772,6 +784,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 256,
     "hit_dice": "19d12+133",
     "nonmagical_attack_resistance": false,
@@ -791,6 +804,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "17.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -804,8 +818,7 @@
     "environments": [
       "hills",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -853,6 +866,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 243,
     "hit_dice": "18d12+126",
     "nonmagical_attack_resistance": false,
@@ -872,6 +886,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "16.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -886,8 +901,7 @@
       "mountain",
       "srd_feywild",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -935,6 +949,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 200,
     "hit_dice": "16d12+96",
     "nonmagical_attack_resistance": false,
@@ -954,6 +969,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "13.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -966,8 +982,7 @@
     "condition_immunities": [],
     "environments": [
       "arctic"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1015,6 +1030,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "",
     "hit_points": 90,
     "hit_dice": "12d10+24",
     "nonmagical_attack_resistance": true,
@@ -1034,6 +1050,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -1108,6 +1125,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 22,
+    "armor_detail": "natural armor",
     "hit_points": 367,
     "hit_dice": "21d20+147",
     "nonmagical_attack_resistance": false,
@@ -1127,6 +1145,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "21.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -1139,8 +1158,7 @@
     "condition_immunities": [],
     "environments": [
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1188,6 +1206,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 22,
+    "armor_detail": "natural armor",
     "hit_points": 481,
     "hit_dice": "26d20+208",
     "nonmagical_attack_resistance": false,
@@ -1207,6 +1226,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "23.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -1220,8 +1240,7 @@
     "environments": [
       "coast",
       "desert"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1269,6 +1288,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 20,
+    "armor_detail": "natural armor",
     "hit_points": 297,
     "hit_dice": "17d20+119",
     "nonmagical_attack_resistance": false,
@@ -1288,6 +1308,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "20.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -1300,8 +1321,7 @@
     "condition_immunities": [],
     "environments": [
       "desert"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1349,6 +1369,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 22,
+    "armor_detail": "natural armor",
     "hit_points": 444,
     "hit_dice": "24d20+192",
     "nonmagical_attack_resistance": false,
@@ -1368,6 +1389,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "22.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -1382,8 +1404,7 @@
       "coast",
       "desert",
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1431,6 +1452,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 21,
+    "armor_detail": "natural armor",
     "hit_points": 350,
     "hit_dice": "20d20+140",
     "nonmagical_attack_resistance": false,
@@ -1450,6 +1472,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "21.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -1463,8 +1486,7 @@
     "environments": [
       "hills",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1512,6 +1534,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 22,
+    "armor_detail": "natural armor",
     "hit_points": 546,
     "hit_dice": "28d20+252",
     "nonmagical_attack_resistance": false,
@@ -1531,6 +1554,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "24.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -1547,8 +1571,7 @@
       "ocean",
       "ruins",
       "srd_astral-plane"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1596,6 +1619,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 21,
+    "armor_detail": "natural armor",
     "hit_points": 385,
     "hit_dice": "22d20+154",
     "nonmagical_attack_resistance": false,
@@ -1615,6 +1639,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "22.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -1629,8 +1654,7 @@
     ],
     "environments": [
       "forest"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1678,6 +1702,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 22,
+    "armor_detail": "natural armor",
     "hit_points": 546,
     "hit_dice": "28d20+252",
     "nonmagical_attack_resistance": false,
@@ -1697,6 +1722,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "24.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -1710,8 +1736,7 @@
     "environments": [
       "hills",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1759,6 +1784,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 22,
+    "armor_detail": "natural armor",
     "hit_points": 487,
     "hit_dice": "25d20+225",
     "nonmagical_attack_resistance": false,
@@ -1778,6 +1804,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "23.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -1792,8 +1819,7 @@
       "mountain",
       "srd_feywild",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1841,6 +1867,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 20,
+    "armor_detail": "natural armor",
     "hit_points": 333,
     "hit_dice": "18d20+144",
     "nonmagical_attack_resistance": false,
@@ -1860,6 +1887,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "20.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -1872,8 +1900,7 @@
     "condition_immunities": [],
     "environments": [
       "arctic"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -1921,6 +1948,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 199,
     "hit_dice": "19d10+95",
     "nonmagical_attack_resistance": false,
@@ -1940,6 +1968,7 @@
     "alignment": "lawful neutral",
     "challenge_rating_decimal": "17.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common"
     ],
@@ -1958,8 +1987,7 @@
     "environments": [
       "desert",
       "ruins"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -2007,6 +2035,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 33,
     "hit_dice": "6d8+6",
     "nonmagical_attack_resistance": false,
@@ -2026,6 +2055,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -2047,8 +2077,7 @@
       "laboratory",
       "ruins",
       "temple"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -2096,6 +2125,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "14 (natural armor), 11 while prone",
     "hit_points": 39,
     "hit_dice": "6d10+6",
     "nonmagical_attack_resistance": false,
@@ -2115,6 +2145,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -2126,8 +2157,7 @@
       "grassland",
       "hills",
       "urban"
-    ],
-    "armor_detail": "14 (natural armor), 11 while prone"
+    ]
   }
 },
 {
@@ -2175,6 +2205,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 19,
     "hit_dice": "3d8+6",
     "nonmagical_attack_resistance": false,
@@ -2194,6 +2225,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -2249,6 +2281,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "15 with _mage armor_",
     "hit_points": 99,
     "hit_dice": "18d8+18",
     "nonmagical_attack_resistance": false,
@@ -2268,6 +2301,7 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "12.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -2279,8 +2313,7 @@
       "forest",
       "laboratory",
       "urban"
-    ],
-    "armor_detail": "15 with _mage armor_"
+    ]
   }
 },
 {
@@ -2328,6 +2361,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "studded leather",
     "hit_points": 78,
     "hit_dice": "12d8+24",
     "nonmagical_attack_resistance": false,
@@ -2347,6 +2381,7 @@
     "alignment": "any non-good alignment",
     "challenge_rating_decimal": "8.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -2359,8 +2394,7 @@
       "forest",
       "sewer",
       "urban"
-    ],
-    "armor_detail": "studded leather"
+    ]
   }
 },
 {
@@ -2408,6 +2442,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 9,
+    "armor_detail": "",
     "hit_points": 10,
     "hit_dice": "3d6",
     "nonmagical_attack_resistance": false,
@@ -2427,6 +2462,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "fire"
@@ -2488,6 +2524,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 59,
     "hit_dice": "7d12+14",
     "nonmagical_attack_resistance": false,
@@ -2507,6 +2544,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "fire"
@@ -2520,8 +2558,7 @@
     "environments": [
       "forest",
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -2569,6 +2606,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 19,
     "hit_dice": "3d10+3",
     "nonmagical_attack_resistance": false,
@@ -2588,6 +2626,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -2646,6 +2685,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor, shield",
     "hit_points": 39,
     "hit_dice": "6d8+12",
     "nonmagical_attack_resistance": false,
@@ -2665,6 +2705,7 @@
     "alignment": "lawful neutral",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -2678,8 +2719,7 @@
     "environments": [
       "caves",
       "srd_plane-of-fire"
-    ],
-    "armor_detail": "natural armor, shield"
+    ]
   }
 },
 {
@@ -2727,6 +2767,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 3,
     "hit_dice": "1d6",
     "nonmagical_attack_resistance": false,
@@ -2746,6 +2787,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -2803,6 +2845,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 3,
     "hit_dice": "1d4+1",
     "nonmagical_attack_resistance": false,
@@ -2822,6 +2865,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -2878,6 +2922,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 262,
     "hit_dice": "21d12+126",
     "nonmagical_attack_resistance": true,
@@ -2897,6 +2942,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "19.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal"
     ],
@@ -2917,8 +2963,7 @@
     ],
     "environments": [
       "srd_abyss"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -2966,6 +3011,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "leather armor",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -2985,7 +3031,10 @@
     "alignment": "any non-lawful alignment",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
@@ -3004,8 +3053,7 @@
       "sewer",
       "swamp",
       "urban"
-    ],
-    "armor_detail": "leather armor"
+    ]
   }
 },
 {
@@ -3053,6 +3101,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "studded leather",
     "hit_points": 65,
     "hit_dice": "10d8+20",
     "nonmagical_attack_resistance": false,
@@ -3072,6 +3121,7 @@
     "alignment": "any non-lawful alignment",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -3091,8 +3141,7 @@
       "sewer",
       "swamp",
       "urban"
-    ],
-    "armor_detail": "studded leather"
+    ]
   }
 },
 {
@@ -3140,6 +3189,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 110,
     "hit_dice": "13d8+52",
     "nonmagical_attack_resistance": true,
@@ -3159,6 +3209,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "infernal"
     ],
@@ -3178,8 +3229,7 @@
     ],
     "environments": [
       "srd_hell"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -3227,6 +3277,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 52,
     "hit_dice": "8d8+16",
     "nonmagical_attack_resistance": false,
@@ -3246,6 +3297,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -3259,8 +3311,7 @@
       "mountain",
       "ruins",
       "srd_plane-of-earth"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -3308,6 +3359,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -3327,6 +3379,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -3384,6 +3437,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 52,
     "hit_dice": "8d8+16",
     "nonmagical_attack_resistance": true,
@@ -3403,6 +3457,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "infernal"
     ],
@@ -3422,8 +3477,7 @@
     ],
     "environments": [
       "srd_hell"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -3471,6 +3525,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 168,
     "hit_dice": "16d12+64",
     "nonmagical_attack_resistance": false,
@@ -3490,6 +3545,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "11.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -3504,8 +3560,7 @@
       "ruins",
       "srd_plane-of-earth",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -3553,6 +3608,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "hide armor",
     "hit_points": 67,
     "hit_dice": "9d8+27",
     "nonmagical_attack_resistance": false,
@@ -3572,7 +3628,10 @@
     "alignment": "any chaotic alignment",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
@@ -3586,8 +3645,7 @@
       "hills",
       "mountain",
       "swamp"
-    ],
-    "armor_detail": "hide armor"
+    ]
   }
 },
 {
@@ -3635,6 +3693,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "natural armor",
     "hit_points": 19,
     "hit_dice": "3d8+6",
     "nonmagical_attack_resistance": false,
@@ -3654,6 +3713,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -3662,8 +3722,7 @@
     "environments": [
       "forest",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -3711,6 +3770,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 33,
     "hit_dice": "6d8+6",
     "nonmagical_attack_resistance": false,
@@ -3730,6 +3790,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -3741,8 +3802,7 @@
     "condition_immunities": [],
     "environments": [
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -3790,6 +3850,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 7,
+    "armor_detail": "",
     "hit_points": 85,
     "hit_dice": "10d10+30",
     "nonmagical_attack_resistance": false,
@@ -3809,6 +3870,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -3880,6 +3942,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "4d8+4",
     "nonmagical_attack_resistance": false,
@@ -3899,6 +3962,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -3956,6 +4020,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 7,
     "hit_dice": "2d6",
     "nonmagical_attack_resistance": false,
@@ -3975,6 +4040,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -4036,6 +4102,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 52,
     "hit_dice": "8d8+16",
     "nonmagical_attack_resistance": false,
@@ -4055,6 +4122,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -4066,8 +4134,7 @@
     "condition_immunities": [],
     "environments": [
       "desert"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -4115,6 +4182,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "natural armor",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -4134,6 +4202,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -4143,8 +4212,7 @@
       "forest",
       "grassland",
       "hills"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -4192,6 +4260,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 142,
     "hit_dice": "15d10+60",
     "nonmagical_attack_resistance": true,
@@ -4211,6 +4280,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "9.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "infernal"
     ],
@@ -4230,8 +4300,7 @@
     ],
     "environments": [
       "srd_hell"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -4279,6 +4348,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "natural armor",
     "hit_points": 16,
     "hit_dice": "3d8+3",
     "nonmagical_attack_resistance": false,
@@ -4298,6 +4368,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -4309,8 +4380,7 @@
     "condition_immunities": [],
     "environments": [
       "desert"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -4358,6 +4428,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 32,
     "hit_dice": "5d8+10",
     "nonmagical_attack_resistance": false,
@@ -4377,6 +4448,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -4388,8 +4460,7 @@
     "condition_immunities": [],
     "environments": [
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -4437,6 +4508,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "natural armor",
     "hit_points": 34,
     "hit_dice": "4d10+12",
     "nonmagical_attack_resistance": false,
@@ -4456,6 +4528,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -4467,8 +4540,7 @@
       "hills",
       "mountain",
       "srd_feywild"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -4516,6 +4588,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "hide armor, shield",
     "hit_points": 27,
     "hit_dice": "5d8+5",
     "nonmagical_attack_resistance": false,
@@ -4535,6 +4608,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "goblin"
@@ -4551,8 +4625,7 @@
       "mountain",
       "swamp",
       "underworld"
-    ],
-    "armor_detail": "hide armor, shield"
+    ]
   }
 },
 {
@@ -4600,6 +4673,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 94,
     "hit_dice": "9d10+45",
     "nonmagical_attack_resistance": false,
@@ -4619,6 +4693,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -4633,8 +4708,7 @@
       "ruins",
       "srd_plane-of-earth",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -4682,6 +4756,7 @@
     "size": "large",
     "weight": "600.000",
     "armor_class": 9,
+    "armor_detail": "",
     "hit_points": 15,
     "hit_dice": "2d10+4",
     "nonmagical_attack_resistance": false,
@@ -4701,6 +4776,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -4757,6 +4833,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 2,
     "hit_dice": "1d4",
     "nonmagical_attack_resistance": false,
@@ -4776,6 +4853,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -4833,6 +4911,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 45,
     "hit_dice": "6d10+12",
     "nonmagical_attack_resistance": false,
@@ -4852,6 +4931,7 @@
     "alignment": "neutral good",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "elvish",
       "sylvan"
@@ -4912,6 +4992,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "natural armor",
     "hit_points": 85,
     "hit_dice": "10d8+40",
     "nonmagical_attack_resistance": true,
@@ -4931,6 +5012,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "11.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "infernal"
     ],
@@ -4950,8 +5032,7 @@
     ],
     "environments": [
       "srd_hell"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -4999,6 +5080,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 114,
     "hit_dice": "12d10+48",
     "nonmagical_attack_resistance": false,
@@ -5018,6 +5100,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "6.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -5035,8 +5118,7 @@
       "srd_feywild",
       "swamp",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -5084,6 +5166,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "natural armor",
     "hit_points": 93,
     "hit_dice": "11d10+33",
     "nonmagical_attack_resistance": false,
@@ -5103,6 +5186,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -5117,8 +5201,7 @@
       "ocean",
       "srd_plane-of-water",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -5166,6 +5249,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 133,
     "hit_dice": "14d10+56",
     "nonmagical_attack_resistance": false,
@@ -5185,6 +5269,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "9.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -5236,8 +5321,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -5285,6 +5369,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 78,
     "hit_dice": "12d10+12",
     "nonmagical_attack_resistance": false,
@@ -5304,6 +5389,7 @@
     "alignment": "chaotic neutral",
     "challenge_rating_decimal": "8.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "deep-speech",
       "undercommon"
@@ -5317,8 +5403,7 @@
       "laboratory",
       "sewer",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -5366,6 +5451,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 200,
     "hit_dice": "16d12+96",
     "nonmagical_attack_resistance": false,
@@ -5385,6 +5471,7 @@
     "alignment": "neutral good (50%) or neutral evil (50%)",
     "challenge_rating_decimal": "9.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "giant"
@@ -5396,8 +5483,7 @@
     "environments": [
       "mountain",
       "srd_plane-of-air"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -5445,6 +5531,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 27,
     "hit_dice": "6d6+6",
     "nonmagical_attack_resistance": false,
@@ -5464,6 +5551,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -5525,6 +5613,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 4,
     "hit_dice": "1d8",
     "nonmagical_attack_resistance": false,
@@ -5544,7 +5633,10 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
@@ -5605,6 +5697,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 13,
     "hit_dice": "2d10+2",
     "nonmagical_attack_resistance": false,
@@ -5624,6 +5717,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -5681,6 +5775,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "natural armor",
     "hit_points": 22,
     "hit_dice": "4d8+4",
     "nonmagical_attack_resistance": false,
@@ -5700,6 +5795,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -5712,8 +5808,7 @@
     "environments": [
       "hills",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -5761,6 +5856,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 97,
     "hit_dice": "13d8+39",
     "nonmagical_attack_resistance": false,
@@ -5780,6 +5876,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -5798,8 +5895,7 @@
       "grassland",
       "srd_astral-plane",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -5847,6 +5943,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "natural armor",
     "hit_points": 2,
     "hit_dice": "1d4",
     "nonmagical_attack_resistance": false,
@@ -5866,6 +5963,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -5875,8 +5973,7 @@
       "coast",
       "desert",
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -5924,6 +6021,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 19,
     "hit_dice": "3d10+3",
     "nonmagical_attack_resistance": false,
@@ -5943,6 +6041,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -5952,8 +6051,7 @@
       "ocean",
       "swamp",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -6001,6 +6099,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "leather armor",
     "hit_points": 22,
     "hit_dice": "6d8+6",
     "nonmagical_attack_resistance": false,
@@ -6020,7 +6119,10 @@
     "alignment": "any non-good alignment",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
@@ -6033,8 +6135,7 @@
       "sewer",
       "temple",
       "urban"
-    ],
-    "armor_detail": "leather armor"
+    ]
   }
 },
 {
@@ -6082,6 +6183,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "leather armor",
     "hit_points": 9,
     "hit_dice": "2d8",
     "nonmagical_attack_resistance": false,
@@ -6101,7 +6203,10 @@
     "alignment": "any non-good alignment",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
@@ -6114,8 +6219,7 @@
       "sewer",
       "temple",
       "urban"
-    ],
-    "armor_detail": "leather armor"
+    ]
   }
 },
 {
@@ -6163,6 +6267,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "5d6+5",
     "nonmagical_attack_resistance": false,
@@ -6182,6 +6287,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -6239,6 +6345,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 39,
     "hit_dice": "6d8+12",
     "nonmagical_attack_resistance": false,
@@ -6258,6 +6365,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -6317,6 +6425,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "chain shirt",
     "hit_points": 16,
     "hit_dice": "3d6+6",
     "nonmagical_attack_resistance": false,
@@ -6336,6 +6445,7 @@
     "alignment": "neutral good",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "gnomish",
       "undercommon"
@@ -6347,8 +6457,7 @@
     "environments": [
       "caves",
       "underworld"
-    ],
-    "armor_detail": "chain shirt"
+    ]
   }
 },
 {
@@ -6396,6 +6505,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 4,
     "hit_dice": "1d8",
     "nonmagical_attack_resistance": false,
@@ -6415,6 +6525,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -6472,6 +6583,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 136,
     "hit_dice": "16d8+64",
     "nonmagical_attack_resistance": true,
@@ -6491,6 +6603,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "10.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -6508,8 +6621,7 @@
     "environments": [
       "srd_astral-plane",
       "temple"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -6557,6 +6669,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 37,
     "hit_dice": "5d10+10",
     "nonmagical_attack_resistance": false,
@@ -6576,6 +6689,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -6588,8 +6702,7 @@
       "hills",
       "mountain",
       "srd_feywild"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -6637,6 +6750,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 161,
     "hit_dice": "14d10+84",
     "nonmagical_attack_resistance": false,
@@ -6656,6 +6770,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "11.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -6668,8 +6783,7 @@
       "coast",
       "desert",
       "srd_plane-of-air"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -6717,6 +6831,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 11,
     "hit_dice": null,
     "nonmagical_attack_resistance": false,
@@ -6736,6 +6851,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -6789,6 +6905,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "",
     "hit_points": 52,
     "hit_dice": "8d8+16",
     "nonmagical_attack_resistance": false,
@@ -6808,6 +6925,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common"
     ],
@@ -6876,6 +6994,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 19,
     "hit_dice": "3d10+3",
     "nonmagical_attack_resistance": false,
@@ -6895,6 +7014,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -6950,6 +7070,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 20,
+    "armor_detail": "natural armor",
     "hit_points": 341,
     "hit_dice": "22d20+110",
     "nonmagical_attack_resistance": false,
@@ -6969,6 +7090,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "17.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -6983,8 +7105,7 @@
       "desert",
       "ocean",
       "srd_plane-of-water"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -7032,6 +7153,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "natural armor",
     "hit_points": 18,
     "hit_dice": "4d6+4",
     "nonmagical_attack_resistance": false,
@@ -7051,6 +7173,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal"
     ],
@@ -7068,8 +7191,7 @@
     ],
     "environments": [
       "srd_abyss"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -7117,6 +7239,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 123,
     "hit_dice": "13d10+52",
     "nonmagical_attack_resistance": false,
@@ -7136,6 +7259,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "6.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "elvish",
       "undercommon"
@@ -7148,8 +7272,7 @@
       "ruins",
       "srd_feywild",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -7197,6 +7320,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "chain shirt",
     "hit_points": 13,
     "hit_dice": "3d8",
     "nonmagical_attack_resistance": false,
@@ -7216,6 +7340,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "elvish",
       "undercommon"
@@ -7226,8 +7351,7 @@
     "condition_immunities": [],
     "environments": [
       "underworld"
-    ],
-    "armor_detail": "chain shirt"
+    ]
   }
 },
 {
@@ -7275,6 +7399,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "16 with _barkskin_",
     "hit_points": 27,
     "hit_dice": "5d8+5",
     "nonmagical_attack_resistance": false,
@@ -7294,6 +7419,7 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -7309,8 +7435,7 @@
       "mountain",
       "swamp",
       "underworld"
-    ],
-    "armor_detail": "16 with _barkskin_"
+    ]
   }
 },
 {
@@ -7358,6 +7483,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "16 with _barkskin_",
     "hit_points": 22,
     "hit_dice": "5d8",
     "nonmagical_attack_resistance": false,
@@ -7377,6 +7503,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "elvish",
       "sylvan"
@@ -7387,8 +7514,7 @@
     "condition_immunities": [],
     "environments": [
       "forest"
-    ],
-    "armor_detail": "16 with _barkskin_"
+    ]
   }
 },
 {
@@ -7436,6 +7562,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "scale mail, shield",
     "hit_points": 26,
     "hit_dice": "4d8+8",
     "nonmagical_attack_resistance": false,
@@ -7455,6 +7582,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "dwarvish",
       "undercommon"
@@ -7467,8 +7595,7 @@
     "condition_immunities": [],
     "environments": [
       "underworld"
-    ],
-    "armor_detail": "scale mail, shield"
+    ]
   }
 },
 {
@@ -7516,6 +7643,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 17,
     "hit_dice": "5d6",
     "nonmagical_attack_resistance": false,
@@ -7535,6 +7663,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "fire"
@@ -7599,6 +7728,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 3,
     "hit_dice": "1d6",
     "nonmagical_attack_resistance": false,
@@ -7618,6 +7748,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -7677,6 +7808,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 126,
     "hit_dice": "12d10+60",
     "nonmagical_attack_resistance": true,
@@ -7696,6 +7828,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "thunder"
@@ -7719,8 +7852,7 @@
       "laboratory",
       "srd_plane-of-earth",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -7768,6 +7900,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 200,
     "hit_dice": "16d10+112",
     "nonmagical_attack_resistance": false,
@@ -7787,6 +7920,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "11.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -7798,8 +7932,7 @@
       "desert",
       "mountain",
       "srd_plane-of-fire"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -7847,6 +7980,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 76,
     "hit_dice": "8d12+24",
     "nonmagical_attack_resistance": false,
@@ -7866,6 +8000,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -7875,8 +8010,7 @@
       "desert",
       "forest",
       "grassland"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -7924,6 +8058,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "",
     "hit_points": 13,
     "hit_dice": null,
     "nonmagical_attack_resistance": false,
@@ -7943,6 +8078,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -7996,6 +8132,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 13,
     "hit_dice": "2d10+2",
     "nonmagical_attack_resistance": false,
@@ -8015,6 +8152,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -8073,6 +8211,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "plate",
     "hit_points": 153,
     "hit_dice": "18d8+72",
     "nonmagical_attack_resistance": true,
@@ -8092,6 +8231,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "12.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "infernal"
     ],
@@ -8111,8 +8251,7 @@
     ],
     "environments": [
       "srd_hell"
-    ],
-    "armor_detail": "plate"
+    ]
   }
 },
 {
@@ -8160,6 +8299,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 44,
     "hit_dice": "8d8+8",
     "nonmagical_attack_resistance": false,
@@ -8179,6 +8319,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -8187,8 +8328,7 @@
     "environments": [
       "forest",
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -8236,6 +8376,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 85,
     "hit_dice": "10d10+30",
     "nonmagical_attack_resistance": false,
@@ -8255,6 +8396,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "giant",
       "orc"
@@ -8268,8 +8410,7 @@
       "mountain",
       "ruins",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -8317,6 +8458,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 102,
     "hit_dice": "12d10+36",
     "nonmagical_attack_resistance": true,
@@ -8336,6 +8478,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -8408,6 +8551,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "plate",
     "hit_points": 162,
     "hit_dice": "13d12+78",
     "nonmagical_attack_resistance": false,
@@ -8427,6 +8571,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "9.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "giant"
     ],
@@ -8442,8 +8587,7 @@
       "srd_plane-of-fire",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "plate"
+    ]
   }
 },
 {
@@ -8491,6 +8635,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 9,
+    "armor_detail": "",
     "hit_points": 93,
     "hit_dice": "11d8+44",
     "nonmagical_attack_resistance": false,
@@ -8510,6 +8655,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -8608,6 +8754,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "",
     "hit_points": 5,
     "hit_dice": "2d4",
     "nonmagical_attack_resistance": false,
@@ -8627,6 +8774,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -8687,6 +8835,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 17,
     "hit_dice": "5d6",
     "nonmagical_attack_resistance": false,
@@ -8706,6 +8855,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -8725,8 +8875,7 @@
     "environments": [
       "laboratory",
       "ruins"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -8774,6 +8923,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -8793,6 +8943,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -8849,6 +9000,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "patchwork armor",
     "hit_points": 138,
     "hit_dice": "12d12+60",
     "nonmagical_attack_resistance": false,
@@ -8868,6 +9020,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "8.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "giant"
     ],
@@ -8881,8 +9034,7 @@
       "arctic",
       "mountain",
       "shadowfell"
-    ],
-    "armor_detail": "patchwork armor"
+    ]
   }
 },
 {
@@ -8930,6 +9082,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 52,
     "hit_dice": "7d8+21",
     "nonmagical_attack_resistance": true,
@@ -8949,6 +9102,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -8974,8 +9128,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -9023,6 +9176,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 6,
+    "armor_detail": "",
     "hit_points": 84,
     "hit_dice": "8d10+40",
     "nonmagical_attack_resistance": false,
@@ -9042,6 +9196,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -9109,6 +9264,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 36,
     "hit_dice": "8d8",
     "nonmagical_attack_resistance": false,
@@ -9128,6 +9284,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common"
     ],
@@ -9208,6 +9365,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 45,
     "hit_dice": "10d8",
     "nonmagical_attack_resistance": true,
@@ -9227,6 +9385,7 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -9318,6 +9477,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "5d8",
     "nonmagical_attack_resistance": false,
@@ -9337,6 +9497,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common"
     ],
@@ -9415,6 +9576,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 157,
     "hit_dice": "15d12+60",
     "nonmagical_attack_resistance": false,
@@ -9434,6 +9596,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "7.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -9489,6 +9652,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 13,
     "hit_dice": "2d8+4",
     "nonmagical_attack_resistance": false,
@@ -9508,6 +9672,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -9564,6 +9729,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "4d10",
     "nonmagical_attack_resistance": false,
@@ -9583,6 +9749,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -9640,6 +9807,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 42,
     "hit_dice": "5d10+15",
     "nonmagical_attack_resistance": false,
@@ -9659,6 +9827,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -9669,8 +9838,7 @@
       "grassland",
       "hills",
       "srd_feywild"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -9718,6 +9886,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 4,
     "hit_dice": "1d6+1",
     "nonmagical_attack_resistance": false,
@@ -9737,6 +9906,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -9747,8 +9917,7 @@
       "ruins",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -9796,6 +9965,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 60,
     "hit_dice": "8d12+8",
     "nonmagical_attack_resistance": false,
@@ -9815,6 +9985,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -9873,6 +10044,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 13,
     "hit_dice": "3d8",
     "nonmagical_attack_resistance": false,
@@ -9892,6 +10064,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -9901,8 +10074,7 @@
       "coast",
       "desert",
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -9950,6 +10122,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 85,
     "hit_dice": "9d12+27",
     "nonmagical_attack_resistance": false,
@@ -9969,6 +10142,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -9977,8 +10151,7 @@
     "environments": [
       "ocean",
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -10026,6 +10199,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 26,
     "hit_dice": "4d10+4",
     "nonmagical_attack_resistance": false,
@@ -10045,6 +10219,7 @@
     "alignment": "neutral good",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -10105,6 +10280,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 42,
     "hit_dice": "5d12+10",
     "nonmagical_attack_resistance": false,
@@ -10124,6 +10300,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "elvish"
     ],
@@ -10137,8 +10314,7 @@
       "grassland",
       "hills",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -10186,6 +10362,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 4,
     "hit_dice": "1d6+1",
     "nonmagical_attack_resistance": false,
@@ -10205,6 +10382,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -10213,8 +10391,7 @@
     "environments": [
       "caves",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -10262,6 +10439,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 18,
     "hit_dice": "4d8",
     "nonmagical_attack_resistance": false,
@@ -10281,6 +10459,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -10338,6 +10517,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "natural armor",
     "hit_points": 19,
     "hit_dice": "3d10+3",
     "nonmagical_attack_resistance": false,
@@ -10357,6 +10537,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -10366,8 +10547,7 @@
       "grassland",
       "hills",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -10415,6 +10595,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 45,
     "hit_dice": "6d10+12",
     "nonmagical_attack_resistance": false,
@@ -10434,6 +10615,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -10494,6 +10676,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 19,
     "hit_dice": "3d10+3",
     "nonmagical_attack_resistance": false,
@@ -10513,6 +10696,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -10526,8 +10710,7 @@
       "ruins",
       "swamp",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -10575,6 +10758,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 52,
     "hit_dice": "8d10+8",
     "nonmagical_attack_resistance": false,
@@ -10594,6 +10778,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -10649,6 +10834,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 19,
     "hit_dice": "3d10+3",
     "nonmagical_attack_resistance": false,
@@ -10668,6 +10854,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "elvish"
     ],
@@ -10728,6 +10915,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -10747,6 +10935,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -10814,6 +11003,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 7,
     "hit_dice": "2d6",
     "nonmagical_attack_resistance": false,
@@ -10833,6 +11023,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -10894,6 +11085,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 7,
     "hit_dice": "2d6",
     "nonmagical_attack_resistance": false,
@@ -10913,6 +11105,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -10973,6 +11166,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 52,
     "hit_dice": "7d10+14",
     "nonmagical_attack_resistance": false,
@@ -10992,6 +11186,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11001,8 +11196,7 @@
       "desert",
       "forest",
       "shadowfell"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -11050,6 +11244,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 16,
     "hit_dice": "3d10",
     "nonmagical_attack_resistance": false,
@@ -11069,6 +11264,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11076,8 +11272,7 @@
     "condition_immunities": [],
     "environments": [
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -11125,6 +11320,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 126,
     "hit_dice": "11d12+55",
     "nonmagical_attack_resistance": false,
@@ -11144,6 +11340,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11152,8 +11349,7 @@
     "environments": [
       "ocean",
       "srd_plane-of-water"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -11201,6 +11397,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 26,
     "hit_dice": "4d10+4",
     "nonmagical_attack_resistance": false,
@@ -11220,6 +11417,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11234,8 +11432,7 @@
       "swamp",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -11283,6 +11480,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 39,
     "hit_dice": "6d10+6",
     "nonmagical_attack_resistance": false,
@@ -11302,6 +11500,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11362,6 +11561,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "3d10+6",
     "nonmagical_attack_resistance": false,
@@ -11381,6 +11581,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11437,6 +11638,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 13,
     "hit_dice": "3d8",
     "nonmagical_attack_resistance": false,
@@ -11456,6 +11658,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11514,6 +11717,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 9,
     "hit_dice": "2d8",
     "nonmagical_attack_resistance": false,
@@ -11533,6 +11737,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11591,6 +11796,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -11610,6 +11816,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11671,6 +11878,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 9,
+    "armor_detail": "",
     "hit_points": 67,
     "hit_dice": "9d8+27",
     "nonmagical_attack_resistance": false,
@@ -11690,6 +11898,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11751,6 +11960,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 157,
     "hit_dice": "15d10+75",
     "nonmagical_attack_resistance": true,
@@ -11770,6 +11980,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "9.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal"
     ],
@@ -11790,8 +12001,7 @@
     ],
     "environments": [
       "srd_abyss"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -11839,6 +12049,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "studded leather, shield",
     "hit_points": 112,
     "hit_dice": "15d8+45",
     "nonmagical_attack_resistance": false,
@@ -11858,15 +12069,17 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
     "condition_immunities": [],
     "environments": [
       "urban"
-    ],
-    "armor_detail": "studded leather, shield"
+    ]
   }
 },
 {
@@ -11914,6 +12127,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "hide armor, shield",
     "hit_points": 22,
     "hit_dice": "5d8",
     "nonmagical_attack_resistance": false,
@@ -11933,6 +12147,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -11946,8 +12161,7 @@
       "mountain",
       "srd_abyss",
       "urban"
-    ],
-    "armor_detail": "hide armor, shield"
+    ]
   }
 },
 {
@@ -11995,6 +12209,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "",
     "hit_points": 16,
     "hit_dice": null,
     "nonmagical_attack_resistance": false,
@@ -12014,6 +12229,7 @@
     "alignment": "neutral good",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -12067,6 +12283,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 4,
     "hit_dice": "1d8",
     "nonmagical_attack_resistance": false,
@@ -12086,6 +12303,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -12144,6 +12362,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "leather armor, shield",
     "hit_points": 7,
     "hit_dice": "2d6",
     "nonmagical_attack_resistance": false,
@@ -12163,6 +12382,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "goblin"
@@ -12185,8 +12405,7 @@
       "swamp",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "leather armor, shield"
+    ]
   }
 },
 {
@@ -12234,6 +12453,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 60,
     "hit_dice": "8d8+24",
     "nonmagical_attack_resistance": false,
@@ -12253,6 +12473,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -12267,8 +12488,7 @@
       "ocean",
       "ruins",
       "srd_astral-plane"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -12316,6 +12536,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 114,
     "hit_dice": "12d10+48",
     "nonmagical_attack_resistance": false,
@@ -12335,6 +12556,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -12348,8 +12570,7 @@
       "grassland",
       "hills",
       "srd_plane-of-earth"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -12397,6 +12618,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 8,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "3d8+9",
     "nonmagical_attack_resistance": false,
@@ -12416,6 +12638,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -12488,6 +12711,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 38,
     "hit_dice": "7d8+7",
     "nonmagical_attack_resistance": false,
@@ -12507,6 +12731,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -12520,8 +12745,7 @@
     ],
     "environments": [
       "forest"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -12569,6 +12793,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 82,
     "hit_dice": "11d8+33",
     "nonmagical_attack_resistance": false,
@@ -12588,6 +12813,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic",
@@ -12606,8 +12832,7 @@
       "srd_feywild",
       "swamp",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -12655,6 +12880,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 27,
     "hit_dice": "6d8",
     "nonmagical_attack_resistance": true,
@@ -12674,6 +12900,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -12692,8 +12919,7 @@
       "srd_plane-of-earth",
       "tomb",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -12741,6 +12967,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 59,
     "hit_dice": "7d10+21",
     "nonmagical_attack_resistance": false,
@@ -12760,6 +12987,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -12821,6 +13049,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -12840,6 +13069,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "undercommon"
     ],
@@ -12905,6 +13135,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "chain shirt, shield",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -12924,7 +13155,10 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
@@ -12937,8 +13171,7 @@
       "hills",
       "mountain",
       "urban"
-    ],
-    "armor_detail": "chain shirt, shield"
+    ]
   }
 },
 {
@@ -12986,6 +13219,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 127,
     "hit_dice": "15d10+45",
     "nonmagical_attack_resistance": false,
@@ -13005,6 +13239,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "10.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "celestial",
       "common"
@@ -13026,8 +13261,7 @@
       "ruins",
       "srd_astral-plane",
       "temple"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -13075,6 +13309,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 136,
     "hit_dice": "16d10+48",
     "nonmagical_attack_resistance": true,
@@ -13094,6 +13329,7 @@
     "alignment": "lawful neutral",
     "challenge_rating_decimal": "11.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common"
     ],
@@ -13113,8 +13349,7 @@
     "environments": [
       "desert",
       "ruins"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -13162,6 +13397,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "plate",
     "hit_points": 65,
     "hit_dice": "10d8+20",
     "nonmagical_attack_resistance": false,
@@ -13181,6 +13417,7 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -13198,8 +13435,7 @@
       "ruins",
       "srd_plane-of-fire",
       "urban"
-    ],
-    "armor_detail": "plate"
+    ]
   }
 },
 {
@@ -13247,6 +13483,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 38,
     "hit_dice": "7d8+7",
     "nonmagical_attack_resistance": false,
@@ -13266,6 +13503,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common"
     ],
@@ -13330,6 +13568,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -13349,6 +13588,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -13407,6 +13647,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 45,
     "hit_dice": "7d8+14",
     "nonmagical_attack_resistance": false,
@@ -13426,6 +13667,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -13442,8 +13684,7 @@
       "srd_hell",
       "srd_plane-of-fire",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -13491,6 +13732,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "natural armor",
     "hit_points": 136,
     "hit_dice": "13d10+65",
     "nonmagical_attack_resistance": true,
@@ -13510,6 +13752,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "8.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal"
     ],
@@ -13530,8 +13773,7 @@
     ],
     "environments": [
       "srd_abyss"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -13579,6 +13821,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 105,
     "hit_dice": "10d12+40",
     "nonmagical_attack_resistance": false,
@@ -13598,6 +13841,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "giant"
     ],
@@ -13612,8 +13856,7 @@
       "ruins",
       "srd_feywild",
       "srd_plane-of-earth"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -13661,6 +13904,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 19,
     "hit_dice": "3d10+3",
     "nonmagical_attack_resistance": false,
@@ -13680,6 +13924,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -13739,6 +13984,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "chain mail, shield",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -13758,6 +14004,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "goblin"
@@ -13774,8 +14021,7 @@
       "hills",
       "mountain",
       "underworld"
-    ],
-    "armor_detail": "chain mail, shield"
+    ]
   }
 },
 {
@@ -13823,6 +14069,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 5,
     "hit_dice": "2d4",
     "nonmagical_attack_resistance": false,
@@ -13842,6 +14089,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -13854,8 +14102,7 @@
     ],
     "environments": [
       "laboratory"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -13903,6 +14150,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 178,
     "hit_dice": "17d10+85",
     "nonmagical_attack_resistance": true,
@@ -13922,6 +14170,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "11.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "infernal"
     ],
@@ -13941,8 +14190,7 @@
     ],
     "environments": [
       "srd_hell"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -13990,6 +14238,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 45,
     "hit_dice": "6d10+12",
     "nonmagical_attack_resistance": false,
@@ -14009,6 +14258,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -14016,8 +14266,7 @@
     "condition_immunities": [],
     "environments": [
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -14065,6 +14314,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 172,
     "hit_dice": "15d12+75",
     "nonmagical_attack_resistance": false,
@@ -14084,6 +14334,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "8.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -14094,8 +14345,7 @@
       "ocean",
       "srd_plane-of-water",
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -14143,6 +14393,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 5,
     "hit_dice": "1d8+1",
     "nonmagical_attack_resistance": false,
@@ -14162,6 +14413,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -14222,6 +14474,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 180,
     "hit_dice": "19d10+76",
     "nonmagical_attack_resistance": true,
@@ -14241,6 +14494,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "14.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "infernal"
     ],
@@ -14259,8 +14513,7 @@
     ],
     "environments": [
       "srd_hell"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -14308,6 +14561,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 21,
     "hit_dice": "6d6",
     "nonmagical_attack_resistance": false,
@@ -14327,6 +14581,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "bludgeoning",
@@ -14393,6 +14648,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 10,
     "hit_dice": "3d4+3",
     "nonmagical_attack_resistance": true,
@@ -14412,6 +14668,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "infernal"
@@ -14480,6 +14737,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "",
     "hit_points": 104,
     "hit_dice": "16d8+32",
     "nonmagical_attack_resistance": true,
@@ -14499,6 +14757,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "6.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -14574,6 +14833,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 20,
+    "armor_detail": "natural armor",
     "hit_points": 210,
     "hit_dice": "20d10+100",
     "nonmagical_attack_resistance": false,
@@ -14593,6 +14853,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "16.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -14644,8 +14905,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -14693,6 +14953,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 3,
     "hit_dice": "1d6",
     "nonmagical_attack_resistance": false,
@@ -14712,6 +14973,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -14770,6 +15032,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 90,
     "hit_dice": "12d12+12",
     "nonmagical_attack_resistance": false,
@@ -14789,6 +15052,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -14796,8 +15060,7 @@
     "condition_immunities": [],
     "environments": [
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -14845,6 +15108,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "plate",
     "hit_points": 52,
     "hit_dice": "8d8+16",
     "nonmagical_attack_resistance": false,
@@ -14864,7 +15128,10 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
@@ -14875,8 +15142,7 @@
       "mountain",
       "temple",
       "urban"
-    ],
-    "armor_detail": "plate"
+    ]
   }
 },
 {
@@ -14924,6 +15190,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 5,
     "hit_dice": "2d6-2",
     "nonmagical_attack_resistance": false,
@@ -14943,6 +15210,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -15013,6 +15281,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 472,
     "hit_dice": "27d20+189",
     "nonmagical_attack_resistance": false,
@@ -15032,6 +15301,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "23.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "celestial",
       "infernal"
@@ -15051,8 +15321,7 @@
     "environments": [
       "ocean",
       "srd_plane-of-water"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -15100,6 +15369,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 97,
     "hit_dice": "13d10+26",
     "nonmagical_attack_resistance": false,
@@ -15119,6 +15389,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal",
       "common"
@@ -15132,8 +15403,7 @@
       "grassland",
       "hills",
       "srd_abyss"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -15181,6 +15451,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 7,
+    "armor_detail": "",
     "hit_points": 13,
     "hit_dice": "3d8",
     "nonmagical_attack_resistance": false,
@@ -15200,6 +15471,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -15264,6 +15536,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 135,
     "hit_dice": "18d8+54",
     "nonmagical_attack_resistance": false,
@@ -15283,6 +15556,7 @@
     "alignment": "any evil alignment",
     "challenge_rating_decimal": "21.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -15308,8 +15582,7 @@
       "ruins",
       "shadowfell",
       "tomb"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -15357,6 +15630,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 26,
     "hit_dice": "4d10+4",
     "nonmagical_attack_resistance": false,
@@ -15376,6 +15650,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -15435,6 +15710,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 2,
     "hit_dice": "1d4",
     "nonmagical_attack_resistance": false,
@@ -15454,6 +15730,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -15513,6 +15790,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor, shield",
     "hit_points": 22,
     "hit_dice": "4d8+4",
     "nonmagical_attack_resistance": false,
@@ -15532,6 +15810,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -15571,8 +15850,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor, shield"
+    ]
   }
 },
 {
@@ -15620,6 +15898,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "15 with _mage armor_",
     "hit_points": 40,
     "hit_dice": "9d8",
     "nonmagical_attack_resistance": false,
@@ -15639,6 +15918,7 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "6.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -15655,8 +15935,7 @@
       "srd_feywild",
       "swamp",
       "urban"
-    ],
-    "armor_detail": "15 with _mage armor_"
+    ]
   }
 },
 {
@@ -15704,6 +15983,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "5d6+5",
     "nonmagical_attack_resistance": false,
@@ -15723,6 +16003,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "cold"
@@ -15789,6 +16070,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 9,
     "hit_dice": "2d6+2",
     "nonmagical_attack_resistance": true,
@@ -15808,6 +16090,7 @@
     "alignment": "chaotic neutral",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -15825,8 +16108,7 @@
       "laboratory",
       "mountain",
       "srd_plane-of-fire"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -15874,6 +16156,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 126,
     "hit_dice": "11d12+55",
     "nonmagical_attack_resistance": false,
@@ -15893,6 +16176,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "6.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -15900,8 +16184,7 @@
     "condition_immunities": [],
     "environments": [
       "arctic"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -15949,6 +16232,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 68,
     "hit_dice": "8d10+24",
     "nonmagical_attack_resistance": false,
@@ -15968,6 +16252,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -15981,8 +16266,7 @@
       "grassland",
       "hills",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -16030,6 +16314,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 189,
     "hit_dice": "18d10+90",
     "nonmagical_attack_resistance": true,
@@ -16049,6 +16334,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "16.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal"
     ],
@@ -16069,8 +16355,7 @@
     ],
     "environments": [
       "srd_abyss"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -16118,6 +16403,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 5,
     "hit_dice": "1d8+1",
     "nonmagical_attack_resistance": false,
@@ -16137,6 +16423,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -16194,6 +16481,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 127,
     "hit_dice": "17d8+51",
     "nonmagical_attack_resistance": false,
@@ -16213,6 +16501,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "6.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common"
     ],
@@ -16228,8 +16517,7 @@
       "mountain",
       "srd_plane-of-earth",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -16277,6 +16565,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -16296,6 +16585,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common"
     ],
@@ -16355,6 +16645,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 45,
     "hit_dice": "6d10+12",
     "nonmagical_attack_resistance": false,
@@ -16374,6 +16665,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal"
     ],
@@ -16386,8 +16678,7 @@
       "desert",
       "ocean",
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -16435,6 +16726,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 58,
     "hit_dice": "9d8+18",
     "nonmagical_attack_resistance": false,
@@ -16454,6 +16746,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -16470,8 +16763,7 @@
       "ruins",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -16519,6 +16811,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 76,
     "hit_dice": "9d10+27",
     "nonmagical_attack_resistance": false,
@@ -16538,6 +16831,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal"
     ],
@@ -16550,8 +16844,7 @@
       "srd_abyss",
       "srd_plane-of-earth",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -16599,6 +16892,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 67,
     "hit_dice": "9d10+18",
     "nonmagical_attack_resistance": false,
@@ -16618,6 +16912,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "bludgeoning"
@@ -16632,8 +16927,7 @@
     ],
     "environments": [
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -16681,6 +16975,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -16700,6 +16995,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -16757,6 +17053,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "natural armor",
     "hit_points": 58,
     "hit_dice": "9d8+18",
     "nonmagical_attack_resistance": true,
@@ -16776,6 +17073,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "fire"
@@ -16805,8 +17103,7 @@
       "shadowfell",
       "temple",
       "tomb"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -16854,6 +17151,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 97,
     "hit_dice": "13d8+39",
     "nonmagical_attack_resistance": false,
@@ -16873,6 +17171,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "15.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "bludgeoning"
@@ -16898,8 +17197,7 @@
       "shadowfell",
       "temple",
       "tomb"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -16947,6 +17245,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 184,
     "hit_dice": "16d10+96",
     "nonmagical_attack_resistance": true,
@@ -16966,6 +17265,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "13.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal"
     ],
@@ -16986,8 +17286,7 @@
     ],
     "environments": [
       "srd_abyss"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -17035,6 +17334,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 112,
     "hit_dice": "15d8+45",
     "nonmagical_attack_resistance": true,
@@ -17054,6 +17354,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal",
       "common",
@@ -17081,8 +17382,7 @@
       "srd_hell",
       "swamp",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -17130,6 +17430,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 68,
     "hit_dice": "8d10+24",
     "nonmagical_attack_resistance": false,
@@ -17149,6 +17450,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common"
     ],
@@ -17162,8 +17464,7 @@
       "shadowfell",
       "srd_abyss",
       "srd_hell"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -17211,6 +17512,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "breastplate",
     "hit_points": 9,
     "hit_dice": "2d8",
     "nonmagical_attack_resistance": false,
@@ -17230,6 +17532,7 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -17239,8 +17542,7 @@
       "grassland",
       "hills",
       "urban"
-    ],
-    "armor_detail": "breastplate"
+    ]
   }
 },
 {
@@ -17288,6 +17590,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 8,
+    "armor_detail": "",
     "hit_points": 45,
     "hit_dice": "6d10+12",
     "nonmagical_attack_resistance": false,
@@ -17307,6 +17610,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -17378,6 +17682,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 3,
     "hit_dice": "1d6",
     "nonmagical_attack_resistance": false,
@@ -17397,6 +17702,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -17452,6 +17758,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "hide armor",
     "hit_points": 59,
     "hit_dice": "7d10+21",
     "nonmagical_attack_resistance": false,
@@ -17471,6 +17778,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "giant"
@@ -17493,8 +17801,7 @@
       "srd_plane-of-earth",
       "swamp",
       "underworld"
-    ],
-    "armor_detail": "hide armor"
+    ]
   }
 },
 {
@@ -17542,6 +17849,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 8,
+    "armor_detail": "",
     "hit_points": 85,
     "hit_dice": "9d10+36",
     "nonmagical_attack_resistance": false,
@@ -17561,6 +17869,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -17623,6 +17932,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "chain mail",
     "hit_points": 110,
     "hit_dice": "13d10+39",
     "nonmagical_attack_resistance": false,
@@ -17642,6 +17952,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "7.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "giant"
@@ -17653,8 +17964,7 @@
     "environments": [
       "forest",
       "urban"
-    ],
-    "armor_detail": "chain mail"
+    ]
   }
 },
 {
@@ -17702,6 +18012,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "hide armor",
     "hit_points": 15,
     "hit_dice": "2d8+6",
     "nonmagical_attack_resistance": false,
@@ -17721,6 +18032,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "orc"
@@ -17737,8 +18049,7 @@
       "mountain",
       "swamp",
       "underworld"
-    ],
-    "armor_detail": "hide armor"
+    ]
   }
 },
 {
@@ -17786,6 +18097,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 114,
     "hit_dice": "12d10+48",
     "nonmagical_attack_resistance": false,
@@ -17805,6 +18117,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -17817,8 +18130,7 @@
       "sewer",
       "swamp",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -17866,6 +18178,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -17885,6 +18198,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -17941,6 +18255,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 59,
     "hit_dice": "7d10+21",
     "nonmagical_attack_resistance": false,
@@ -17960,6 +18275,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -17970,8 +18286,7 @@
       "hills",
       "mountain",
       "srd_feywild"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -18019,6 +18334,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 13,
     "hit_dice": "3d8",
     "nonmagical_attack_resistance": false,
@@ -18038,6 +18354,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -18095,6 +18412,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 59,
     "hit_dice": "7d10+21",
     "nonmagical_attack_resistance": false,
@@ -18114,6 +18432,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "elvish"
@@ -18177,6 +18496,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 32,
     "hit_dice": "5d10+5",
     "nonmagical_attack_resistance": false,
@@ -18196,6 +18516,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -18214,8 +18535,7 @@
       "srd_feywild",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -18263,6 +18583,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 300,
     "hit_dice": "24d10+168",
     "nonmagical_attack_resistance": true,
@@ -18282,6 +18603,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "20.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "infernal"
     ],
@@ -18301,8 +18623,7 @@
     ],
     "environments": [
       "srd_hell"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -18350,6 +18671,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 200,
     "hit_dice": "16d10+112",
     "nonmagical_attack_resistance": true,
@@ -18369,6 +18691,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "16.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -18386,8 +18709,7 @@
     "environments": [
       "srd_astral-plane",
       "temple"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -18435,6 +18757,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 68,
     "hit_dice": "8d10+24",
     "nonmagical_attack_resistance": false,
@@ -18454,6 +18777,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -18464,8 +18788,7 @@
       "desert",
       "ocean",
       "srd_plane-of-water"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -18513,6 +18836,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 2,
     "hit_dice": "1d4",
     "nonmagical_attack_resistance": false,
@@ -18532,6 +18856,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -18598,6 +18923,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 42,
     "hit_dice": "5d10+15",
     "nonmagical_attack_resistance": false,
@@ -18617,6 +18943,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -18625,8 +18952,7 @@
     "environments": [
       "arctic",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -18674,6 +19000,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -18693,6 +19020,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -18749,6 +19077,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "chain shirt",
     "hit_points": 27,
     "hit_dice": "5d8+5",
     "nonmagical_attack_resistance": false,
@@ -18768,6 +19097,7 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -18778,8 +19108,7 @@
       "hills",
       "temple",
       "urban"
-    ],
-    "armor_detail": "chain shirt"
+    ]
   }
 },
 {
@@ -18827,6 +19156,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 7,
     "hit_dice": "2d4+2",
     "nonmagical_attack_resistance": false,
@@ -18846,6 +19176,7 @@
     "alignment": "neutral good",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -18859,8 +19190,7 @@
       "mountain",
       "swamp",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -18908,6 +19238,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 247,
     "hit_dice": "15d20+90",
     "nonmagical_attack_resistance": false,
@@ -18927,6 +19258,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "15.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -18936,8 +19268,7 @@
       "caves",
       "mountain",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -18985,6 +19316,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 7,
     "hit_dice": "3d4",
     "nonmagical_attack_resistance": true,
@@ -19004,6 +19336,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal",
       "common"
@@ -19103,6 +19436,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -19122,6 +19456,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -19178,6 +19513,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "natural armor",
     "hit_points": 110,
     "hit_dice": "13d8+52",
     "nonmagical_attack_resistance": false,
@@ -19197,6 +19533,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "13.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "infernal"
@@ -19220,8 +19557,7 @@
       "srd_hell",
       "swamp",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -19269,6 +19605,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -19288,6 +19625,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -19348,6 +19686,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -19367,6 +19706,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -19425,6 +19765,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 75,
     "hit_dice": "10d8+30",
     "nonmagical_attack_resistance": false,
@@ -19444,6 +19785,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -19455,8 +19797,7 @@
     "condition_immunities": [],
     "environments": [
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -19504,6 +19845,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 22,
     "hit_dice": "4d8+1",
     "nonmagical_attack_resistance": false,
@@ -19523,6 +19865,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -19530,8 +19873,7 @@
     "condition_immunities": [],
     "environments": [
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -19579,6 +19921,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 195,
     "hit_dice": "17d12+85",
     "nonmagical_attack_resistance": false,
@@ -19598,6 +19941,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "11.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -19609,8 +19953,7 @@
     "environments": [
       "arctic",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -19658,6 +20001,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "natural armor",
     "hit_points": 45,
     "hit_dice": "6d10+12",
     "nonmagical_attack_resistance": false,
@@ -19677,6 +20021,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -19685,8 +20030,7 @@
     "environments": [
       "desert",
       "grassland"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -19734,6 +20078,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 13,
     "hit_dice": "2d10+2",
     "nonmagical_attack_resistance": false,
@@ -19753,6 +20098,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -19809,6 +20155,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 248,
     "hit_dice": "16d20+80",
     "nonmagical_attack_resistance": false,
@@ -19828,6 +20175,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "11.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -19841,8 +20189,7 @@
       "hills",
       "mountain",
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -19890,6 +20237,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 20,
+    "armor_detail": "natural armor",
     "hit_points": 93,
     "hit_dice": "11d10+33",
     "nonmagical_attack_resistance": false,
@@ -19909,6 +20257,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -19917,8 +20266,7 @@
     "environments": [
       "caves",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -19966,6 +20314,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 33,
     "hit_dice": "6d10",
     "nonmagical_attack_resistance": false,
@@ -19985,6 +20334,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -20052,6 +20402,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 27,
     "hit_dice": "5d8+5",
     "nonmagical_attack_resistance": false,
@@ -20071,6 +20422,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -20079,8 +20431,7 @@
     "environments": [
       "caves",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -20128,6 +20479,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 52,
     "hit_dice": "7d10+14",
     "nonmagical_attack_resistance": false,
@@ -20147,6 +20499,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -20204,6 +20557,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 22,
     "hit_dice": "4d8+4",
     "nonmagical_attack_resistance": false,
@@ -20223,6 +20577,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -20232,8 +20587,7 @@
       "coast",
       "desert",
       "ocean"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -20281,6 +20635,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 90,
     "hit_dice": "12d10+24",
     "nonmagical_attack_resistance": true,
@@ -20300,6 +20655,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "cold"
@@ -20317,8 +20673,7 @@
       "caves",
       "srd_plane-of-fire",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -20366,6 +20721,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "leather armor",
     "hit_points": 31,
     "hit_dice": "7d8",
     "nonmagical_attack_resistance": false,
@@ -20385,6 +20741,7 @@
     "alignment": "chaotic neutral",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "elvish",
@@ -20398,8 +20755,7 @@
       "forest",
       "hills",
       "srd_feywild"
-    ],
-    "armor_detail": "leather armor"
+    ]
   }
 },
 {
@@ -20447,6 +20803,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "natural armor",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -20466,6 +20823,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -20474,8 +20832,7 @@
     "environments": [
       "desert",
       "grassland"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -20523,6 +20880,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "leather armor",
     "hit_points": 16,
     "hit_dice": "3d8+3",
     "nonmagical_attack_resistance": false,
@@ -20542,7 +20900,10 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
@@ -20559,8 +20920,7 @@
       "srd_feywild",
       "swamp",
       "underworld"
-    ],
-    "armor_detail": "leather armor"
+    ]
   }
 },
 {
@@ -20608,6 +20968,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 52,
     "hit_dice": "7d8+21",
     "nonmagical_attack_resistance": false,
@@ -20627,6 +20988,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "giant"
@@ -20641,8 +21003,7 @@
       "ocean",
       "srd_feywild",
       "srd_plane-of-water"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -20690,6 +21051,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -20709,6 +21071,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -20766,6 +21129,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 16,
     "hit_dice": "3d8+3",
     "nonmagical_attack_resistance": true,
@@ -20785,6 +21149,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "radiant"
@@ -20868,6 +21233,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 136,
     "hit_dice": "16d10+48",
     "nonmagical_attack_resistance": false,
@@ -20887,6 +21253,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -20905,8 +21272,7 @@
       "forest",
       "srd_feywild",
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -20954,6 +21320,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 142,
     "hit_dice": "15d10+60",
     "nonmagical_attack_resistance": false,
@@ -20973,6 +21340,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "7.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -20992,8 +21360,7 @@
       "temple",
       "tomb",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -21041,6 +21408,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 5,
+    "armor_detail": "",
     "hit_points": 13,
     "hit_dice": "3d8",
     "nonmagical_attack_resistance": false,
@@ -21060,6 +21428,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -21122,6 +21491,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 45,
     "hit_dice": "6d8+18",
     "nonmagical_attack_resistance": false,
@@ -21141,6 +21511,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -21153,8 +21524,7 @@
     "environments": [
       "mountain",
       "srd_feywild"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -21202,6 +21572,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "armor scraps",
     "hit_points": 13,
     "hit_dice": "2d8+4",
     "nonmagical_attack_resistance": false,
@@ -21221,6 +21592,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "bludgeoning"
@@ -21239,8 +21611,7 @@
       "temple",
       "tomb",
       "urban"
-    ],
-    "armor_detail": "armor scraps"
+    ]
   }
 },
 {
@@ -21288,6 +21659,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 21,
+    "armor_detail": "natural armor",
     "hit_points": 243,
     "hit_dice": "18d10+144",
     "nonmagical_attack_resistance": true,
@@ -21307,6 +21679,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "21.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -21328,8 +21701,7 @@
     "environments": [
       "srd_astral-plane",
       "temple"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -21377,6 +21749,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "5d8",
     "nonmagical_attack_resistance": true,
@@ -21396,6 +21769,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -21477,6 +21851,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -21496,6 +21871,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -21553,6 +21929,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 75,
     "hit_dice": "10d10+20",
     "nonmagical_attack_resistance": false,
@@ -21572,6 +21949,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "8.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal",
       "common"
@@ -21594,8 +21972,7 @@
       "srd_astral-plane",
       "temple",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -21643,6 +22020,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "leather armor",
     "hit_points": 2,
     "hit_dice": "1d4",
     "nonmagical_attack_resistance": false,
@@ -21662,6 +22040,7 @@
     "alignment": "neutral good",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "elvish",
@@ -21675,8 +22054,7 @@
       "forest",
       "srd_feywild",
       "swamp"
-    ],
-    "armor_detail": "leather armor"
+    ]
   }
 },
 {
@@ -21724,6 +22102,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 27,
     "hit_dice": "6d8",
     "nonmagical_attack_resistance": false,
@@ -21743,6 +22122,7 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -21800,6 +22180,7 @@
     "size": "small",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 21,
     "hit_dice": "6d6",
     "nonmagical_attack_resistance": false,
@@ -21819,6 +22200,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -21884,6 +22266,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 2,
     "hit_dice": "1d4",
     "nonmagical_attack_resistance": false,
@@ -21903,6 +22286,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -21919,8 +22303,7 @@
       "swamp",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -21968,6 +22351,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 126,
     "hit_dice": "11d12+55",
     "nonmagical_attack_resistance": false,
@@ -21987,6 +22371,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "7.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "giant"
     ],
@@ -21999,8 +22384,7 @@
       "mountain",
       "srd_plane-of-earth",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -22048,6 +22432,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 178,
     "hit_dice": "17d10+85",
     "nonmagical_attack_resistance": false,
@@ -22067,6 +22452,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "10.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -22117,8 +22503,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -22166,6 +22551,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "scale mail",
     "hit_points": 230,
     "hit_dice": "20d12+100",
     "nonmagical_attack_resistance": false,
@@ -22185,6 +22571,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "13.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "giant"
@@ -22205,8 +22592,7 @@
       "ocean",
       "srd_plane-of-air",
       "srd_plane-of-water"
-    ],
-    "armor_detail": "scale mail"
+    ]
   }
 },
 {
@@ -22254,6 +22640,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 66,
     "hit_dice": "12d8+12",
     "nonmagical_attack_resistance": true,
@@ -22273,6 +22660,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal",
       "common",
@@ -22322,8 +22710,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -22371,6 +22758,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "5d8",
     "nonmagical_attack_resistance": false,
@@ -22390,6 +22778,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -22465,6 +22854,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 22,
     "hit_dice": "5d8",
     "nonmagical_attack_resistance": false,
@@ -22484,6 +22874,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -22506,8 +22897,7 @@
       "caves",
       "desert",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -22555,6 +22945,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 22,
     "hit_dice": "5d8",
     "nonmagical_attack_resistance": false,
@@ -22574,6 +22965,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -22624,8 +23016,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -22673,6 +23064,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 22,
     "hit_dice": "5d8",
     "nonmagical_attack_resistance": false,
@@ -22692,6 +23084,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -22717,8 +23110,7 @@
       "swamp",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -22766,6 +23158,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "",
     "hit_points": 36,
     "hit_dice": "8d8",
     "nonmagical_attack_resistance": false,
@@ -22785,6 +23178,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -22863,6 +23257,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 28,
     "hit_dice": "8d8-8",
     "nonmagical_attack_resistance": false,
@@ -22882,6 +23277,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -22951,6 +23347,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 24,
     "hit_dice": "7d8-7",
     "nonmagical_attack_resistance": false,
@@ -22970,6 +23367,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -23043,6 +23441,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 24,
     "hit_dice": "7d8-7",
     "nonmagical_attack_resistance": false,
@@ -23062,6 +23461,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -23133,6 +23533,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 22,
     "hit_dice": "5d8",
     "nonmagical_attack_resistance": false,
@@ -23152,6 +23553,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -23201,8 +23603,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -23250,6 +23651,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "natural armor",
     "hit_points": 22,
     "hit_dice": "5d8",
     "nonmagical_attack_resistance": false,
@@ -23269,6 +23671,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -23319,8 +23722,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -23368,6 +23770,7 @@
     "size": "gargantuan",
     "weight": "0.000",
     "armor_class": 25,
+    "armor_detail": "natural armor",
     "hit_points": 676,
     "hit_dice": "33d20+330",
     "nonmagical_attack_resistance": false,
@@ -23387,6 +23790,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "30.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -23406,8 +23810,7 @@
     "environments": [
       "hills",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -23455,6 +23858,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "leather armor",
     "hit_points": 32,
     "hit_dice": "5d8+10",
     "nonmagical_attack_resistance": false,
@@ -23474,15 +23878,17 @@
     "alignment": "any non-good alignment",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
     "condition_immunities": [],
     "environments": [
       "urban"
-    ],
-    "armor_detail": "leather armor"
+    ]
   }
 },
 {
@@ -23530,6 +23936,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 37,
     "hit_dice": "5d10+10",
     "nonmagical_attack_resistance": false,
@@ -23549,6 +23956,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "1.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -23605,6 +24013,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "natural armor",
     "hit_points": 138,
     "hit_dice": "12d12+60",
     "nonmagical_attack_resistance": false,
@@ -23624,6 +24033,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "9.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "druidic",
@@ -23642,8 +24052,7 @@
     "environments": [
       "forest",
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -23691,6 +24100,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "hide armor",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -23710,6 +24120,7 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "0.125",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -23725,8 +24136,7 @@
       "mountain",
       "swamp",
       "underworld"
-    ],
-    "armor_detail": "hide armor"
+    ]
   }
 },
 {
@@ -23774,6 +24184,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 95,
     "hit_dice": "10d12+30",
     "nonmagical_attack_resistance": false,
@@ -23793,6 +24204,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -23803,8 +24215,7 @@
       "grassland",
       "mountain",
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -23852,6 +24263,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 84,
     "hit_dice": "8d10+40",
     "nonmagical_attack_resistance": false,
@@ -23871,6 +24283,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "giant"
     ],
@@ -23889,8 +24302,7 @@
       "srd_feywild",
       "swamp",
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -23938,6 +24350,7 @@
     "size": "huge",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 136,
     "hit_dice": "13d12+52",
     "nonmagical_attack_resistance": false,
@@ -23957,6 +24370,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "8.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -23967,8 +24381,7 @@
       "grassland",
       "mountain",
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -24016,6 +24429,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 67,
     "hit_dice": "9d10+18",
     "nonmagical_attack_resistance": false,
@@ -24035,6 +24449,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "celestial",
       "elvish",
@@ -24101,6 +24516,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "natural armor",
     "hit_points": 144,
     "hit_dice": "17d8+68",
     "nonmagical_attack_resistance": true,
@@ -24120,6 +24536,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "13.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -24138,8 +24555,7 @@
       "shadowfell",
       "tomb",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -24187,6 +24603,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 82,
     "hit_dice": "11d8+33",
     "nonmagical_attack_resistance": true,
@@ -24206,6 +24623,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -24225,8 +24643,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -24274,6 +24691,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "splint",
     "hit_points": 58,
     "hit_dice": "9d8+18",
     "nonmagical_attack_resistance": false,
@@ -24293,7 +24711,10 @@
     "alignment": "any alignment",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
-    "languages": ["common"],
+    "initiative_bonus": null,
+    "languages": [
+      "common"
+    ],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
     "damage_resistances": [],
@@ -24308,8 +24729,7 @@
       "mountain",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "splint"
+    ]
   }
 },
 {
@@ -24357,6 +24777,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 5,
+    "armor_detail": "",
     "hit_points": 18,
     "hit_dice": "4d8",
     "nonmagical_attack_resistance": false,
@@ -24376,6 +24797,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -24438,6 +24860,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 15,
+    "armor_detail": "natural armor",
     "hit_points": 104,
     "hit_dice": "11d10+44",
     "nonmagical_attack_resistance": true,
@@ -24457,6 +24880,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "6.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "abyssal"
     ],
@@ -24477,8 +24901,7 @@
     ],
     "environments": [
       "srd_abyss"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -24526,6 +24949,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "",
     "hit_points": 5,
     "hit_dice": "1d8+1",
     "nonmagical_attack_resistance": false,
@@ -24545,6 +24969,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -24602,6 +25027,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "",
     "hit_points": 19,
     "hit_dice": "3d10+3",
     "nonmagical_attack_resistance": false,
@@ -24621,6 +25047,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -24676,6 +25103,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "barding scraps",
     "hit_points": 22,
     "hit_dice": "3d10+6",
     "nonmagical_attack_resistance": false,
@@ -24695,6 +25123,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [
       "bludgeoning"
@@ -24739,8 +25168,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "barding scraps"
+    ]
   }
 },
 {
@@ -24788,6 +25216,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "natural armor",
     "hit_points": 114,
     "hit_dice": "12d10+48",
     "nonmagical_attack_resistance": true,
@@ -24807,6 +25236,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -24835,8 +25265,7 @@
       "ocean",
       "srd_plane-of-water",
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -24884,6 +25313,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 1,
     "hit_dice": "1d4-1",
     "nonmagical_attack_resistance": false,
@@ -24903,6 +25333,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -24958,6 +25389,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "10 in humanoid form, 11 (natural armor) in bear and hybrid form",
     "hit_points": 135,
     "hit_dice": "18d8+54",
     "nonmagical_attack_resistance": false,
@@ -24977,6 +25409,7 @@
     "alignment": "neutral good",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -24994,8 +25427,7 @@
       "shadowfell",
       "srd_feywild",
       "urban"
-    ],
-    "armor_detail": "10 in humanoid form, 11 (natural armor) in bear and hybrid form"
+    ]
   }
 },
 {
@@ -25043,6 +25475,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 10,
+    "armor_detail": "10 in humanoid form, 11 (natural armor) in boar or hybrid form",
     "hit_points": 78,
     "hit_dice": "12d8+24",
     "nonmagical_attack_resistance": false,
@@ -25062,6 +25495,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -25078,8 +25512,7 @@
       "shadowfell",
       "srd_feywild",
       "urban"
-    ],
-    "armor_detail": "10 in humanoid form, 11 (natural armor) in boar or hybrid form"
+    ]
   }
 },
 {
@@ -25127,6 +25560,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 33,
     "hit_dice": "6d8+6",
     "nonmagical_attack_resistance": false,
@@ -25146,6 +25580,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -25211,6 +25646,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 12,
+    "armor_detail": "",
     "hit_points": 120,
     "hit_dice": "16d8+48",
     "nonmagical_attack_resistance": false,
@@ -25230,6 +25666,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "4.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -25290,6 +25727,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 11,
+    "armor_detail": "11 in humanoid form, 12 (natural armor) in wolf or hybrid form",
     "hit_points": 58,
     "hit_dice": "9d8+18",
     "nonmagical_attack_resistance": false,
@@ -25309,6 +25747,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -25321,8 +25760,7 @@
     "environments": [
       "forest",
       "hills"
-    ],
-    "armor_detail": "11 in humanoid form, 12 (natural armor) in wolf or hybrid form"
+    ]
   }
 },
 {
@@ -25370,6 +25808,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 16,
+    "armor_detail": "natural armor",
     "hit_points": 32,
     "hit_dice": "5d8+10",
     "nonmagical_attack_resistance": false,
@@ -25389,6 +25828,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "draconic"
     ],
@@ -25401,8 +25841,7 @@
     "environments": [
       "arctic",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -25450,6 +25889,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 14,
+    "armor_detail": "studded leather",
     "hit_points": 45,
     "hit_dice": "6d8+18",
     "nonmagical_attack_resistance": false,
@@ -25469,6 +25909,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -25485,8 +25926,7 @@
       "swamp",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "studded leather"
+    ]
   }
 },
 {
@@ -25534,6 +25974,7 @@
     "size": "tiny",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "9d4",
     "nonmagical_attack_resistance": true,
@@ -25553,6 +25994,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "2.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -25630,6 +26072,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 75,
     "hit_dice": "10d10+20",
     "nonmagical_attack_resistance": false,
@@ -25649,6 +26092,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "3.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "giant"
@@ -25661,8 +26105,7 @@
     "condition_immunities": [],
     "environments": [
       "arctic"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -25710,6 +26153,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 11,
     "hit_dice": "2d8+2",
     "nonmagical_attack_resistance": false,
@@ -25729,6 +26173,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -25738,8 +26183,7 @@
       "forest",
       "grassland",
       "hills"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -25787,6 +26231,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 26,
     "hit_dice": "4d10+4",
     "nonmagical_attack_resistance": false,
@@ -25806,6 +26251,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "0.500",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "goblin"
     ],
@@ -25817,8 +26263,7 @@
       "forest",
       "grassland",
       "hills"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -25866,6 +26311,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "",
     "hit_points": 67,
     "hit_dice": "9d8+27",
     "nonmagical_attack_resistance": true,
@@ -25885,6 +26331,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [
@@ -25961,6 +26408,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 13,
+    "armor_detail": "natural armor",
     "hit_points": 110,
     "hit_dice": "13d10+39",
     "nonmagical_attack_resistance": false,
@@ -25980,6 +26428,7 @@
     "alignment": "unaligned",
     "challenge_rating_decimal": "6.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -25988,8 +26437,7 @@
     "environments": [
       "hills",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26037,6 +26485,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 19,
+    "armor_detail": "natural armor",
     "hit_points": 73,
     "hit_dice": "7d8+42",
     "nonmagical_attack_resistance": true,
@@ -26056,6 +26505,7 @@
     "alignment": "neutral",
     "challenge_rating_decimal": "5.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
@@ -26067,8 +26517,7 @@
     "condition_immunities": [],
     "environments": [
       "underworld"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26116,6 +26565,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 127,
     "hit_dice": "15d10+45",
     "nonmagical_attack_resistance": false,
@@ -26135,6 +26585,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "7.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -26147,8 +26598,7 @@
     "condition_immunities": [],
     "environments": [
       "swamp"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26196,6 +26646,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 152,
     "hit_dice": "16d10+64",
     "nonmagical_attack_resistance": false,
@@ -26215,6 +26666,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "9.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -26228,8 +26680,7 @@
     "environments": [
       "coast",
       "desert"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26277,6 +26728,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 110,
     "hit_dice": "13d10+39",
     "nonmagical_attack_resistance": false,
@@ -26296,6 +26748,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "6.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -26338,8 +26791,7 @@
       "tomb",
       "underworld",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26387,6 +26839,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 142,
     "hit_dice": "15d10+60",
     "nonmagical_attack_resistance": false,
@@ -26406,6 +26859,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "8.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -26419,8 +26873,7 @@
     "environments": [
       "coast",
       "desert"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26468,6 +26921,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 119,
     "hit_dice": "14d10+42",
     "nonmagical_attack_resistance": false,
@@ -26487,6 +26941,7 @@
     "alignment": "chaotic good",
     "challenge_rating_decimal": "7.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -26499,8 +26954,7 @@
     "condition_immunities": [],
     "environments": [
       "hills"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26548,6 +27002,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 178,
     "hit_dice": "17d10+85",
     "nonmagical_attack_resistance": false,
@@ -26567,6 +27022,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "10.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -26580,8 +27036,7 @@
     "environments": [
       "forest",
       "grassland"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26629,6 +27084,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 136,
     "hit_dice": "16d10+48",
     "nonmagical_attack_resistance": false,
@@ -26648,6 +27104,7 @@
     "alignment": "lawful evil",
     "challenge_rating_decimal": "8.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -26662,8 +27119,7 @@
     ],
     "environments": [
       "forest"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26711,6 +27167,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 178,
     "hit_dice": "17d10+85",
     "nonmagical_attack_resistance": false,
@@ -26730,6 +27187,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "10.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -26743,8 +27201,7 @@
     "environments": [
       "hills",
       "mountain"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26792,6 +27249,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 18,
+    "armor_detail": "natural armor",
     "hit_points": 168,
     "hit_dice": "16d10+80",
     "nonmagical_attack_resistance": false,
@@ -26811,6 +27269,7 @@
     "alignment": "lawful good",
     "challenge_rating_decimal": "9.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -26824,8 +27283,7 @@
     "environments": [
       "mountain",
       "urban"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26873,6 +27331,7 @@
     "size": "large",
     "weight": "0.000",
     "armor_class": 17,
+    "armor_detail": "natural armor",
     "hit_points": 133,
     "hit_dice": "14d10+56",
     "nonmagical_attack_resistance": false,
@@ -26892,6 +27351,7 @@
     "alignment": "chaotic evil",
     "challenge_rating_decimal": "6.000",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [
       "common",
       "draconic"
@@ -26904,8 +27364,7 @@
     "condition_immunities": [],
     "environments": [
       "arctic"
-    ],
-    "armor_detail": "natural armor"
+    ]
   }
 },
 {
@@ -26953,6 +27412,7 @@
     "size": "medium",
     "weight": "0.000",
     "armor_class": 8,
+    "armor_detail": "",
     "hit_points": 22,
     "hit_dice": "3d8+9",
     "nonmagical_attack_resistance": false,
@@ -26972,6 +27432,7 @@
     "alignment": "neutral evil",
     "challenge_rating_decimal": "0.250",
     "experience_points_integer": null,
+    "initiative_bonus": null,
     "languages": [],
     "damage_vulnerabilities": [],
     "damage_immunities": [],
