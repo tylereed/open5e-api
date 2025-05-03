@@ -3,7 +3,9 @@ from antlr4 import *
 from .AttackLexer import AttackLexer
 from .AttackParser import AttackParser
 from .AttackActionListener import AttackActionListener
-
+from .RollLexer import RollLexer
+from .RollParser import RollParser
+from .DamageDiceListener import DamageDiceListener
 def buildCsvHeader():
     return AttackActionListener.buildCsvHeader()
 
@@ -19,9 +21,22 @@ def parseAttack(desc):
     walker.walk(listener, tree)
     
     if listener.result['isWeapon'] or listener.result['isSpell']:
-        return listener.buildCsv()
+        return listener.result
     else:
         return None
+
+def parseDice(text):
+    stream = InputStream(text)
+    lexer = RollLexer(stream)
+    stream = CommonTokenStream(lexer)
+    parser = RollParser(stream)
+    tree = parser.roll()
+
+    listener = DamageDiceListener()
+    walker = ParseTreeWalker()
+    walker.walk(listener, tree)
+
+    return listener.result
 
 def main(argv):
 
