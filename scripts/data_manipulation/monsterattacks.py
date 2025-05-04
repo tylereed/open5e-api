@@ -38,22 +38,33 @@ def add_v2_attack(v1_monster: v1_model, v2_creature: v2_model):
                 
                 parsed_form_condition = None
                 
+                # clean up “ and ” (maybe?)
                 if v1_additional_info:
-                    if re.search('Recharge after a Short or Long rest', v1_additional_info, flags=re.IGNORECASE):
+                    handled = False
+                    if re.search('Recharges? after a Short or Long rest', v1_additional_info, flags=re.IGNORECASE):
+                        handled = True
                         parsed_uses_type = 'RECHARGE_AFTER_REST'
                         parsed_uses_param = None
-                    elif recharge := re.search('Recharge ((\d+)-)?(\d+)', v1_additional_info, flags=re.IGNORECASE):
+                    elif recharge := re.search('Recharges? ((\d+)-)?(\d+)', v1_additional_info, flags=re.IGNORECASE):
+                        handled = True
                         parsed_uses_type = 'RECHARGE_ON_ROLL'
                         parsed_uses_param = int(recharge.group(2) or recharge.group(3))
+                    elif re.search('Recharges? Special', v1_additional_info):
+                        handled = True
+                        parsed_uses_type = 'RECHARGE_SPECIAL'
+                        parsed_uses_param = None
                     elif per_day := re.search('(\d+)/Day', v1_additional_info, flags=re.IGNORECASE):
+                        handled = True
                         parsed_uses_type = 'PER_DAY'
                         parsed_uses_param = int(per_day.group(1))
-                    elif re.search('(\d(st|nd|rd|th)-Level)|(Cantrip)', v1_additional_info, flags=re.IGNORECASE):
+                    if re.search('(\d(st|nd|rd|th)-Level)|(Cantrip)', v1_additional_info, flags=re.IGNORECASE):
+                        handled = True
                         v1_action_desc = '(' + v1_additional_info + ') ' + v1_action_desc
-                    elif re.search('Form Only|Gaze|Bloodied|Mounted|Ablaze|wielded|Plane', v1_additional_info, flags=re.IGNORECASE):
+                    if re.search('Form|Only|Gaze|Bloodied|Mounted|Ablaze|wielded|Plane', v1_additional_info, flags=re.IGNORECASE):
+                        handled = True
                         parsed_form_condition = v1_additional_info
-                    # else:
-                    #     v1_action_cleaned_name = v1_action_name
+                    if not handled: # have the extra text in the name so I know to handle it
+                        v1_action_cleaned_name = v1_action_name
 
                 v2_action_key = get_v2_action_key(v2_creature.key, v1_action_cleaned_name)
                 
@@ -73,7 +84,7 @@ def add_v2_attack(v1_monster: v1_model, v2_creature: v2_model):
                 v2_action.save()
                 order = order + 1
 
-                v2_attack_key = get_v2_attack_key(v2_action_key, v1_action['name'])
+                v2_attack_key = get_v2_attack_key(v2_action_key, v1_action_cleaned_name)
                 parsedAction = parseAttack(v1_action['desc'])
                 
                 if parsedAction:

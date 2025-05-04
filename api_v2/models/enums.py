@@ -65,6 +65,7 @@ CREATURE_USES_TYPES = [
     ("PER_DAY", "X/Day"),
     ("RECHARGE_ON_ROLL", "Recharge X-6"),
     ("RECHARGE_AFTER_REST", "Recharge after a Short or Long rest"),
+    ("RECHARGE_SPECIAL", "Recharge Special")
 ]
 
 # Spell options
