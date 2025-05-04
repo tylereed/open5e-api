@@ -29,35 +29,44 @@ def add_v2_attack(v1_monster: v1_model, v2_creature: v2_model):
                 v1_action_name = v1_action['name']
                 v1_action_cleaned_name = re.sub(' \(.*\)', '', v1_action_name)
                 re_v1_additional_info = re.search('\((.*)\)', v1_action_name)
-                v1_additional_info = re_v1_additional_info.group(0) if re_v1_additional_info else None
+                v1_additional_info = re_v1_additional_info.group(1) if re_v1_additional_info else None
+                
+                v1_action_desc = v1_action['desc']
                 
                 parsed_uses_type = None
                 parsed_uses_param = None
+                
+                parsed_form_condition = None
                 
                 if v1_additional_info:
                     if re.search('Recharge after a Short or Long rest', v1_additional_info, flags=re.IGNORECASE):
                         parsed_uses_type = 'RECHARGE_AFTER_REST'
                         parsed_uses_param = None
-                    elif recharge := re.search('Recharge ((\d+)-)?(\d+)', v1_additional_info):
-                            parsed_uses_type = 'RECHARGE_ON_ROLL'
-                            parsed_uses_param = int(recharge.group(2) or recharge.group(3))
+                    elif recharge := re.search('Recharge ((\d+)-)?(\d+)', v1_additional_info, flags=re.IGNORECASE):
+                        parsed_uses_type = 'RECHARGE_ON_ROLL'
+                        parsed_uses_param = int(recharge.group(2) or recharge.group(3))
                     elif per_day := re.search('(\d+)/Day', v1_additional_info, flags=re.IGNORECASE):
-                            parsed_uses_type = 'PER_DAY'
-                            parsed_uses_param = int(per_day.group(1))
+                        parsed_uses_type = 'PER_DAY'
+                        parsed_uses_param = int(per_day.group(1))
+                    elif re.search('(\d(st|nd|rd|th)-Level)|(Cantrip)', v1_additional_info, flags=re.IGNORECASE):
+                        v1_action_desc = '(' + v1_additional_info + ') ' + v1_action_desc
+                    elif re.search('Form Only|Gaze|Bloodied|Mounted|Ablaze|wielded|Plane', v1_additional_info, flags=re.IGNORECASE):
+                        parsed_form_condition = v1_additional_info
+                    # else:
+                    #     v1_action_cleaned_name = v1_action_name
 
                 v2_action_key = get_v2_action_key(v2_creature.key, v1_action_cleaned_name)
                 
                 #print(v1_action_name, v1_action_cleaned_name, v1_additional_info, parsed_uses_type, parsed_uses_param, sep=",")
 
-                # TODO parse out form from name and set, also recharge
                 v2_action = v2_creatureaction(name=v1_action_cleaned_name,
-                    desc=v1_action['desc'],
+                    desc=v1_action_desc,
                     key = v2_action_key,
                     parent=v2_creature,
                     uses_type=parsed_uses_type,
                     uses_param=parsed_uses_param,
                     action_type='ACTION',
-                    form_condition=None,
+                    form_condition=parsed_form_condition,
                     legendary_cost=None,
                     order=order
                 )
