@@ -16,9 +16,10 @@ from .size import SizeSummarySerializer
 from drf_spectacular.utils import extend_schema_field, inline_serializer
 from drf_spectacular.types import OpenApiTypes
 
-class CreatureActionAttackSerializer(serializers.ModelSerializer):
-
+class CreatureActionAttackSerializer(GameContentSerializer):
     distance_unit = serializers.SerializerMethodField()
+    damage_type = DamageTypeSummarySerializer()
+    extra_damage_type = DamageTypeSummarySerializer()
 
     class Meta:
         model = models.CreatureActionAttack
@@ -46,7 +47,7 @@ class CreatureActionAttackSerializer(serializers.ModelSerializer):
     def get_distance_unit(self, CreatureActionAttack):
         return CreatureActionAttack.get_distance_unit
 
-class CreatureActionSerializer(serializers.ModelSerializer):
+class CreatureActionSerializer(GameContentSerializer):
     attacks = CreatureActionAttackSerializer(many=True, read_only=True)
     usage_limits = serializers.SerializerMethodField()
     
@@ -85,7 +86,7 @@ class CreatureTypeSerializer(GameContentSerializer):
         model = models.CreatureType
         fields = '__all__'
 
-class CreatureTypeSummarySerializer(serializers.ModelSerializer):
+class CreatureTypeSummarySerializer(GameContentSerializer):
     '''
     A slimmer CreatureTypeSerializer, designed to serialize CreatureType FKs on
     other serializers . Not intended to be used directly with in a ModelViewset.
@@ -109,6 +110,30 @@ class CreatureLanguageSerializer(GameContentSerializer):
         model = models.Creature
         fields = ['as_string', 'data']
 
+class CreatureResistancesAndImmunitiesSerializer(GameContentSerializer):
+    '''This serializer formats a Creature's damage modifier as a single obj '''
+    damage_immunities_display = serializers.CharField()
+    damage_immunities = DamageTypeSummarySerializer(many=True)
+    damage_resistances_display = serializers.CharField()
+    damage_resistances = DamageTypeSummarySerializer(many=True)
+    damage_vulnerabilities_display = serializers.CharField()
+    damage_vulnerabilities = DamageTypeSummarySerializer(many=True)
+    condition_immunities_display = serializers.CharField()
+    condition_immunities = ConditionSummarySerializer(many=True)
+
+    class Meta:
+        model = models.Creature
+        fields = [
+            'damage_immunities_display',
+            'damage_immunities',
+            'damage_resistances_display',
+            'damage_resistances',
+            'damage_vulnerabilities_display',
+            'damage_vulnerabilities',
+            'condition_immunities_display',
+            'condition_immunities',
+        ]
+
 class CreatureSerializer(GameContentSerializer):
     '''The serializer for the Creature object.'''
 
@@ -119,10 +144,7 @@ class CreatureSerializer(GameContentSerializer):
     saving_throws_all = serializers.SerializerMethodField()
     skill_bonuses = serializers.SerializerMethodField()
     skill_bonuses_all = serializers.SerializerMethodField()
-    damage_immunities = DamageTypeSummarySerializer(many=True)
-    damage_resistances = DamageTypeSummarySerializer(many=True)
-    damage_vulnerabilities = DamageTypeSummarySerializer(many=True)
-    condition_immunities = ConditionSummarySerializer(many=True)
+    resistances_and_immunities = CreatureResistancesAndImmunitiesSerializer(source='*')
     actions = CreatureActionSerializer(many=True)
     traits = CreatureTraitSerializer(many=True, read_only=True)
     speed = serializers.SerializerMethodField()
@@ -167,12 +189,7 @@ class CreatureSerializer(GameContentSerializer):
             'skill_bonuses',
             'skill_bonuses_all',
             'passive_perception',
-            'damage_immunities',
-            'nonmagical_attack_immunity',
-            'damage_resistances',
-            'nonmagical_attack_resistance',
-            'damage_vulnerabilities',
-            'condition_immunities',
+            'resistances_and_immunities',
             'normal_sight_range',
             'darkvision_range',
             'blindsight_range',
