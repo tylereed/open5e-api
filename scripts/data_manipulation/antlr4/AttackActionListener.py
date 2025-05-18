@@ -1,29 +1,12 @@
 from antlr4 import *
+
+from .common import buildCommonResult, getDamageTypesAsList
 from .AttackListener import AttackListener
 
 class AttackActionListener(AttackListener):
     def __init__(self):
         super().__init__()
-        self.result = {
-            'isMelee': False,
-            'isRanged': False,
-            'isWeapon': False,
-            'isSpell': False,
-            'toHitBonus': 0,
-            'reach': None,
-            'range': None,
-            'rangeMax': None,
-            'numberTargets': 0,
-            'damageAverage': None,
-            'damageDice': None,
-            'damageType': None,
-            'plusDamageAverage': None,
-            'plusDamageDice': None,
-            'plusDamageType': None,
-            'twoHandedDamageAverage': None,
-            'twoHandedDamageDice': None,
-            'twoHandedDamageType': None,
-        }
+        self.result = buildCommonResult()
 
     def enterMeleeRanged(self, ctx):
         meleeRanged = ctx.getText()
@@ -60,9 +43,19 @@ class AttackActionListener(AttackListener):
             self.result['rangeMax'] = int(maxRange.getText())
             
     def enterTargets(self, ctx):
-        targets = ctx.NUMBER_TEXT()
+        targets = ctx.NUMBER_TEXT(0) if ctx.NUMBER_TEXT(1) is None else ctx.NUMBER_TEXT(1)
         if targets is not None:
             self.result['numberTargets'] = AttackActionListener.wordToNumber(targets.getText())
+        else:
+            targets = ctx.NUMBER(0) if ctx.NUMBER(1) is None else ctx.NUMBER(1)
+            if targets is not None:
+                self.result['numberTargets'] = int(targets.getText())
+        targetType = ctx.TARGET_TYPE()
+        if targetType is not None:
+            self.result['targetType'] = targetType.getText()
+    
+    def enterHit(self, ctx):
+        pass
 
     def enterDamage(self, ctx):
         damageAverage = ctx.NUMBER()
@@ -71,9 +64,9 @@ class AttackActionListener(AttackListener):
         damageDice = ctx.DICE()
         if damageDice is not None:
             self.result['damageDice'] = damageDice.getText()
-        damageType = ctx.DAMAGE_TYPE()
+        damageType = ctx.damageType()
         if damageType is not None:
-            self.result['damageType'] = damageType.getText()
+            self.result['damageType'] = getDamageTypesAsList(damageType)
 
     def enterPlusDamage(self, ctx):
         damageAverage = ctx.NUMBER()
@@ -82,9 +75,9 @@ class AttackActionListener(AttackListener):
         damageDice = ctx.DICE()
         if damageDice is not None:
             self.result['plusDamageDice'] = damageDice.getText()
-        damageType = ctx.DAMAGE_TYPE()
+        damageType = ctx.damageType()
         if damageType is not None:
-            self.result['plusDamageType'] = damageType.getText()
+            self.result['plusDamageType'] = getDamageTypesAsList(damageType)
 
     def enterVersatileDamage(self, ctx):
         damageAverage = ctx.NUMBER()
@@ -93,9 +86,48 @@ class AttackActionListener(AttackListener):
         damageDice = ctx.DICE()
         if damageDice is not None:
             self.result['twoHandedDamageDice'] = damageDice.getText()
-        damageType = ctx.DAMAGE_TYPE()
+        damageType = ctx.damageType()
         if damageType is not None:
-            self.result['twoHandedDamageType'] = damageType.getText()
+            self.result['twoHandedDamageType'] = getDamageTypesAsList(damageType)
+
+    def enterSavingThrow(self, ctx):
+        isDamage = False
+        if self.result['damageAverage'] is None and self.result['damageDice'] is None and self.result['damageType'] is None:
+            isDamage = True
+        
+        saveDC = ctx.NUMBER(0)
+        if saveDC is not None:
+            self.result['saveDC'] = int(saveDC.getText())
+        saveType = ctx.ABILITY()
+        if saveType is not None:
+            self.result['saveType'] = saveType.getText()
+        
+        if saveDC is not None and saveType is not None:
+            damageAverage = ctx.NUMBER(1)
+            if damageAverage is not None:
+                if isDamage:
+                    self.result['damageAverage'] = int(damageAverage.getText())
+                else:
+                    self.result['plusDamageAverage'] = int(damageAverage.getText())
+            damageDice = ctx.DICE()
+            if damageDice is not None:
+                if isDamage:
+                    self.result['damageDice'] = damageDice.getText()
+                else:
+                    self.result['plusDamageDice'] = damageDice.getText()
+            damageType = ctx.DAMAGE_TYPE()
+            if damageType is not None:
+                if isDamage:
+                    self.result['damageType'] = [damageType.getText()]
+                else:
+                    self.result['plusDamageType'] = [damageType.getText()]
+
+    def enterExtraDamage(self, ctx):
+        if self.result['plusDamageDice'] is None and ctx.NUMBER() is not None:
+            extraDice = ctx.DICE()
+            if extraDice is not None:
+                self.result['plusDamageDice'] = extraDice.getText()
+                self.result['plusDamageType'] = self.result['damageType']
 
     # def exitAttack(self, ctx):
     #     extra = ctx.extraText()

@@ -1,11 +1,16 @@
 import sys
 from antlr4 import *
+
 from .AttackLexer import AttackLexer
 from .AttackParser import AttackParser
 from .AttackActionListener import AttackActionListener
 from .RollLexer import RollLexer
 from .RollParser import RollParser
 from .DamageDiceListener import DamageDiceListener
+from .SavingThrowLexer import SavingThrowLexer
+from .SavingThrowParser import SavingThrowParser
+from .ForcedSavingThrowListener import ForcedSavingThrowListener
+
 def buildCsvHeader():
     return AttackActionListener.buildCsvHeader()
 
@@ -21,6 +26,22 @@ def parseAttack(desc):
     walker.walk(listener, tree)
     
     if listener.result['isWeapon'] or listener.result['isSpell']:
+        return listener.result
+    else:
+        return None
+
+def parseSavingThrow(desc):
+    stream = InputStream(desc)
+    lexer = SavingThrowLexer(stream)
+    stream = CommonTokenStream(lexer)
+    parser = SavingThrowParser(stream)
+    tree = parser.forcedSavingThrow()
+
+    listener = ForcedSavingThrowListener()
+    walker = ParseTreeWalker()
+    walker.walk(listener, tree)
+
+    if listener.result['saveDC'] is not None:
         return listener.result
     else:
         return None

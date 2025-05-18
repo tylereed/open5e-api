@@ -1,7 +1,9 @@
 grammar Attack;
 
 attack:
-	attackType ':' ' ' toHit ', ' distance ', ' targets ','? '.'? ' ' hit extraText EOF;
+	attackType ':' ' ' toHit (',' | ' ') ' ' (
+		distance (',' | ' ')? ' '
+	)? targets ','? '.'? ' ' hit extraText EOF;
 
 attackType: meleeRanged ' ' weaponSpell ' Attack';
 
@@ -11,27 +13,71 @@ weaponSpell: WEAPON | SPELL;
 
 toHit: '+' NUMBER ' to hit';
 
-distance: reach | range | reach OR range;
+distance: reach | range | reach (OR | ((',' | ' ') ' ')) range;
 
 reach: 'reach '? NUMBER ' ' DISTANCE;
 
-range: 'range ' NUMBER ('/' NUMBER)? ' ' DISTANCE;
+range:
+	'range ' NUMBER ('/' NUMBER)? ' ' DISTANCE ' (see Poor Depth Perception)'?;
 
 targets:
-	NUMBER_TEXT ' ' (SIZE ' or smaller ')? TARGET_TYPE grappled;
+	'up to '? (NUMBER | NUMBER_TEXT) (OR (NUMBER | NUMBER_TEXT))? (
+		' ' (GRAPPLED | 'incapacitated')
+	)? ' ' (SIZE (' or smaller ' | ' or larger '))? TARGET_TYPE grappled?;
 
-hit: damage plusDamage? versatileDamage?;
+hit:
+	'Hit:' (
+		savingThrow
+		| (
+			damage plusDamage? versatileDamage? savingThrow? extraDamage?
+		)
+	);
 
-grappled: (' ' (GRAPPLED | 'This attack'))? (' ' | OR | 'three' | TEXT+)+;
+savingThrow: ('. If the ' (' ' | TEXT)+? ','? ' ')? SAVING_THROW_START NUMBER ' ' ABILITY
+		' saving throw' (',' | ' ')? ' taking ' NUMBER ' '? '(' DICE ') ' DAMAGE_TYPE ' damage';
 
-damage: 'Hit:' ' ' NUMBER ' (' DICE ') ' DAMAGE_TYPE ' damage';
+extraDamage: ('. If the target' TEXT+?)? (
+		'additional '
+		| 'extra '
+		| 'magically aged '
+	) (NUMBER ' ')? '(' DICE ') damage';
+
+grappled: (
+		'.'? ' ' (
+			GRAPPLED
+			| 'This attack'
+			| 'that'
+			| 'within'
+			| 'directly'
+		)
+	)? (
+		' '
+		| GRAPPLED
+		| 'incapacitated'
+		| 'restrained'
+		| OR
+		| NUMBER_TEXT
+		| NUMBER
+		| DISTANCE
+		| 'within'
+		| 'that'
+		| 'directly'
+		| TEXT+
+	)+;
+
+damage: ' '? NUMBER (' '? '(' DICE ') ')? damageType ' damage';
 
 plusDamage:
-	' plus' ' ' NUMBER ' (' DICE ') ' DAMAGE_TYPE ' damage';
+	' plus' ' ' NUMBER ' '? '(' DICE ') ' damageType ' damage';
 
-versatileDamage: (OR | ',' OR) NUMBER ' (' DICE ') ' DAMAGE_TYPE ' damage' (
+versatileDamage: (OR | ',' OR) NUMBER ' '? '(' DICE ') ' damageType ' damage' (
 		plusDamage
 	)? ' if used with two hands' ' to make a melee attack'?;
+
+damageType:
+	DAMAGE_TYPE (
+		((',' | ' ') ' ' DAMAGE_TYPE)* (',' | ' ')? OR DAMAGE_TYPE
+	)?;
 
 extraText: TEXT*? '.';
 
@@ -47,7 +93,7 @@ WEAPON: 'Weapon';
 
 SPELL: 'Spell';
 
-DISTANCE: 'ft.' | 'feet';
+DISTANCE: 'ft' '.'? | 'feet';
 
 SIZE:
 	'Tiny'
@@ -59,6 +105,11 @@ SIZE:
 	| 'Titanic';
 
 TARGET_TYPE: 'target' | 'targets' | 'creature' | 'creatures';
+
+SAVING_THROW_START: (', ' | '. ')? ((' '? T) | (' '? 'and t')) 'he target ' (
+		'must make'
+		| 'makes'
+	) ' a DC ';
 
 DICE: NUMBER? 'd' NUMBER (' '? ('+' | '-') ' '? NUMBER)?;
 
@@ -82,7 +133,8 @@ DAMAGE_TYPE:
 NUMBER: [0-9]+;
 
 NUMBER_TEXT:
-	'one'
+	'all'
+	| 'one'
 	| 'two'
 	| 'three'
 	| 'four'
@@ -92,7 +144,20 @@ NUMBER_TEXT:
 	| 'eight'
 	| 'nine';
 
-OR: ' ' 'or' ' ';
+OR: ' or ';
+
+ABILITY: (S 'trength')
+	| (C 'onstitution')
+	| (D 'exterity')
+	| (I 'ntelligence')
+	| (W 'isdom')
+	| (C 'harisma')
+	| (S T R)
+	| (C O N)
+	| (D E X)
+	| (I N T)
+	| (W I S)
+	| (C H A);
 
 TEXT:
 	.
@@ -110,4 +175,36 @@ TEXT:
 	| OR
 	| ' '
 	| ' damage'
-	| ' plus';
+	| ' plus'
+	| 'within'
+	| 'that'
+	| 'directly'
+	| 'incapacitated'
+	| 'restrained';
+
+fragment A: [aA];
+fragment B: [bB];
+fragment C: [cC];
+fragment D: [dD];
+fragment E: [eE];
+fragment F: [fF];
+fragment G: [gG];
+fragment H: [hH];
+fragment I: [iI];
+fragment J: [jJ];
+fragment K: [kK];
+fragment L: [lL];
+fragment M: [mM];
+fragment N: [nN];
+fragment O: [oO];
+fragment P: [pP];
+fragment Q: [qQ];
+fragment R: [rR];
+fragment S: [sS];
+fragment T: [tT];
+fragment U: [uU];
+fragment V: [vV];
+fragment W: [wW];
+fragment X: [xX];
+fragment Y: [yY];
+fragment Z: [zZ];

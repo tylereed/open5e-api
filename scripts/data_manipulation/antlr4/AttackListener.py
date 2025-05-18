@@ -98,6 +98,24 @@ class AttackListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by AttackParser#savingThrow.
+    def enterSavingThrow(self, ctx:AttackParser.SavingThrowContext):
+        pass
+
+    # Exit a parse tree produced by AttackParser#savingThrow.
+    def exitSavingThrow(self, ctx:AttackParser.SavingThrowContext):
+        pass
+
+
+    # Enter a parse tree produced by AttackParser#extraDamage.
+    def enterExtraDamage(self, ctx:AttackParser.ExtraDamageContext):
+        pass
+
+    # Exit a parse tree produced by AttackParser#extraDamage.
+    def exitExtraDamage(self, ctx:AttackParser.ExtraDamageContext):
+        pass
+
+
     # Enter a parse tree produced by AttackParser#grappled.
     def enterGrappled(self, ctx:AttackParser.GrappledContext):
         pass
@@ -131,6 +149,15 @@ class AttackListener(ParseTreeListener):
 
     # Exit a parse tree produced by AttackParser#versatileDamage.
     def exitVersatileDamage(self, ctx:AttackParser.VersatileDamageContext):
+        pass
+
+
+    # Enter a parse tree produced by AttackParser#damageType.
+    def enterDamageType(self, ctx:AttackParser.DamageTypeContext):
+        pass
+
+    # Exit a parse tree produced by AttackParser#damageType.
+    def exitDamageType(self, ctx:AttackParser.DamageTypeContext):
         pass
 
 

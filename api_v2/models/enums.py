@@ -44,6 +44,7 @@ CREATURE_SENSES = [
 CREATURE_ATTACK_TYPES = [
     ("SPELL", "Spell"),
     ("WEAPON", "Weapon"),
+    ("SAVING_THROW", "Saving Throw")
 ]
 
 CASTER_TYPES = [

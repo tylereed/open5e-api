@@ -3,18 +3,23 @@ from django.template.defaultfilters import slugify
 import re
 
 from api.models import Monster as v1_model
-from api_v2.models import Creature as v2_model, CreatureAction as v2_creatureaction, CreatureActionAttack as v2_creatureattack
-from .antlr4.parsers import parseAttack, parseDice, buildCsvHeader
+from api_v2.models import Creature as v2_model, CreatureAction as v2_creatureaction, CreatureActionAttack as v2_creatureattack, DamageType
+from .antlr4.parsers import parseAttack, parseSavingThrow, parseDice
+
+AllDamageTypes = dict((dt.key, dt) for dt in DamageType.objects.all())
 
 def main():
     #print(','.join(['MonsterName', 'AttackName', buildCsvHeader()]))
 
     v2_creatureaction.objects.filter(action_type='ACTION').delete()
 
+    # .filter(slug='ghost-a5e')
+    # .all()
     for v1_monster in v1_model.objects.all():
 
         computed_v2_key = get_v2_key_from_v1_obj(v1_monster)
         v2_creature = v2_model.objects.filter(key=computed_v2_key).first()
+        
         
         if v2_creature is not None:
             #update_v2_attack(v1_monster, v2_creature)
@@ -39,6 +44,7 @@ def add_v2_attack(v1_monster: v1_model, v2_creature: v2_model):
                 parsed_form_condition = None
                 
                 # clean up “ and ” (maybe?)
+                #TODO: trim condition
                 if v1_additional_info:
                     handled = False
                     infos = v1_additional_info.split(',') #TODO don't split spell stuff (V, S, etc)
@@ -87,45 +93,74 @@ def add_v2_attack(v1_monster: v1_model, v2_creature: v2_model):
                 v2_action.save()
                 order = order + 1
 
+                #TODO: skip parsing multi-attack, better handle saving throws, check if starts with Melee or Ranged and skip parsing
                 v2_attack_key = get_v2_attack_key(v2_action_key, v1_action_cleaned_name)
-                parsedAction = parseAttack(v1_action['desc'])
                 
-                if parsedAction:
-                    damage_dice_text = parsedAction['damageDice']
-                    damage_dice = None if damage_dice_text is None else parseDice(damage_dice_text)
+                if v1_action_name == 'Multiattack' or v1_action_name == 'Spellcasting':
+                    pass
+                elif re.match("_?(Melee|Ranged)", v1_action['desc']):
+                    parsedAction = parseAttack(v1_action['desc'])
+                    saveParsed(parsedAction, v1_action_cleaned_name + " attack", v2_attack_key, v2_action)
+
+                elif re.search(
+                    '(DC \d+ ((\S{3} save)|(\S+ saving throw))(([, ] taking \d+)|(\. +On a failure[, ] (it|a (creature|target)) takes \d+)))|(or half damage with a successful DC \d+ \S+ saving throw)'
+                    , v1_action['desc']):
                     
-                    bonus_dice_text = parsedAction['plusDamageDice']
-                    bonus_dice = None if bonus_dice_text is None else parseDice(bonus_dice_text)
-
-                    v2_attack = v2_creatureattack(
-                        name=v1_action['name'] + ' attack',
-                        key=v2_attack_key,
-                        parent=v2_action,
-                        attack_type='WEAPON' if parsedAction['isWeapon'] else 'SPELL',
-                        to_hit_mod=parsedAction['toHitBonus'],
-                        range=parsedAction['range'],
-                        long_range=parsedAction['rangeMax'],
-                        target_creature_only=False, #TODO, parse this out
-                        
-                        damage_die_count=None if damage_dice is None else damage_dice['count'],
-                        damage_die_type=None if damage_dice is None else 'D' + str(damage_dice['sides']),
-                        damage_bonus=None if damage_dice is None else damage_dice['modifier'],
-                        
-                        extra_damage_die_count=None if bonus_dice is None else bonus_dice['count'],
-                        extra_damage_die_type=None if bonus_dice is None else 'D' + str(bonus_dice['sides']),
-                        extra_damage_bonus=None if bonus_dice is None else bonus_dice['modifier'],
-                        
-                        damage_type_id=parsedAction['damageType'],
-                        extra_damage_type_id=parsedAction['plusDamageType'],
-                        reach=parsedAction['reach']
-                    )
-
-                    v2_attack.save()
+                    savingThrow = parseSavingThrow(v1_action['desc'])
+                    saveParsed(savingThrow, v1_action_cleaned_name + " attack", v2_attack_key, v2_action)
+                else:
+                    pass
 
                 #TODO add new attack for weapons that are melee or ranged, and versatile
 
             # except:
             #     pass
+
+def saveParsed(parsedAction, v1_action_name, v2_attack_key, v2_action):
+    if parsedAction:
+        damage_dice_text = parsedAction['damageDice']
+        damage_dice = None if damage_dice_text is None else parseDice(damage_dice_text)
+        damage_average = parsedAction['damageAverage']
+        
+        bonus_dice_text = parsedAction['plusDamageDice']
+        bonus_dice = None if bonus_dice_text is None else parseDice(bonus_dice_text)
+
+        v2_attack = v2_creatureattack(
+            name=v1_action_name,
+            key=v2_attack_key,
+            parent=v2_action,
+            attack_type='WEAPON' if parsedAction['isWeapon'] else 'SPELL' if parsedAction['isSpell'] else 'SAVING_THROW',
+            to_hit_mod=parsedAction['toHitBonus'],
+            reach=parsedAction['reach'],
+            range=parsedAction['range'],
+            long_range=parsedAction['rangeMax'],
+            distance_unit='feet' if (parsedAction['reach'] or parsedAction['range']) is not None else None,
+            target_creature_only=re.match('creature', parsedAction['targetType']) is not None if parsedAction['targetType'] is not None else False,
+
+            damage_die_count=None if damage_dice is None else damage_dice['count'],
+            damage_die_type=None if damage_dice is None else 'D' + str(damage_dice['sides']),
+            # If no dice are thrown, but damage is done (typically 1), then put damage done in damage_bonus
+            damage_bonus=damage_average if damage_dice is None else damage_dice['modifier'],
+            
+            extra_damage_die_count=None if bonus_dice is None else bonus_dice['count'],
+            extra_damage_die_type=None if bonus_dice is None else 'D' + str(bonus_dice['sides']),
+            extra_damage_bonus=None if bonus_dice is None else bonus_dice['modifier']
+        )
+
+        try:
+            v2_attack.save()
+            
+            damage_type_keys = parsedAction['damageType']
+            if damage_type_keys is not None:
+                for damage_type_key in damage_type_keys:
+                    v2_attack.damage_type.add(AllDamageTypes.get(damage_type_key))
+                    
+            extra_damage_type_keys = parsedAction['plusDamageType']
+            if extra_damage_type_keys is not None:
+                for damage_type_key in extra_damage_type_keys:
+                    v2_attack.extra_damage_type.add(AllDamageTypes.get(damage_type_key))
+        except Exception as e:
+            print(e)
 
 # def update_v2_attack(v1_monster: v1_model, v2_creature: v2_model):
 

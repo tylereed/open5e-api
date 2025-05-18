@@ -242,7 +242,7 @@ class CreatureActionAttack(HasName):
     attack_type = models.CharField(
         max_length=20,
         choices=CREATURE_ATTACK_TYPES,
-        help_text='Whether this is a Weapon or Spell attack.'
+        help_text='Whether this is a Weapon, Spell, or Saving Throw attack.'
     )
 
     to_hit_mod = models.SmallIntegerField(
@@ -270,26 +270,22 @@ class CreatureActionAttack(HasName):
     damage_die_type = damage_die_type_field()
     damage_bonus = damage_bonus_field()
 
-    damage_type = models.ForeignKey(
-        "DamageType",
-        blank=True,
-        null=True,
-        related_name="+", # No backwards relation.
-        on_delete=models.CASCADE,
-        help_text='What kind of damage this attack deals')
+    damage_type = models.ManyToManyField(
+        DamageType,
+        related_name='+',
+        help_text='What kind of damage this attack deals'
+    )
 
     # Additional damage fields
     extra_damage_die_count = damage_die_count_field()
     extra_damage_die_type = damage_die_type_field()
     extra_damage_bonus = damage_bonus_field()
 
-    extra_damage_type = models.ForeignKey(
-        "DamageType",
-        blank=True,
-        null=True,
-        on_delete=models.CASCADE,
-        related_name="+", # No backwards relation.
-        help_text='What kind of extra damage this attack deals')
+    extra_damage_type = models.ManyToManyField(
+        DamageType,
+        related_name='+',
+        help_text='What kind of extra damage this attack deals'
+    )
 
 
 class CreatureTrait(Modification):
