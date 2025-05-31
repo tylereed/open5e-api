@@ -17,6 +17,15 @@ class SavingThrowListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by SavingThrowParser#damageThenSave.
+    def enterDamageThenSave(self, ctx:SavingThrowParser.DamageThenSaveContext):
+        pass
+
+    # Exit a parse tree produced by SavingThrowParser#damageThenSave.
+    def exitDamageThenSave(self, ctx:SavingThrowParser.DamageThenSaveContext):
+        pass
+
+
     # Enter a parse tree produced by SavingThrowParser#savingThrow.
     def enterSavingThrow(self, ctx:SavingThrowParser.SavingThrowContext):
         pass
@@ -41,6 +50,24 @@ class SavingThrowListener(ParseTreeListener):
 
     # Exit a parse tree produced by SavingThrowParser#preText.
     def exitPreText(self, ctx:SavingThrowParser.PreTextContext):
+        pass
+
+
+    # Enter a parse tree produced by SavingThrowParser#preHalfSuccess.
+    def enterPreHalfSuccess(self, ctx:SavingThrowParser.PreHalfSuccessContext):
+        pass
+
+    # Exit a parse tree produced by SavingThrowParser#preHalfSuccess.
+    def exitPreHalfSuccess(self, ctx:SavingThrowParser.PreHalfSuccessContext):
+        pass
+
+
+    # Enter a parse tree produced by SavingThrowParser#preFailure.
+    def enterPreFailure(self, ctx:SavingThrowParser.PreFailureContext):
+        pass
+
+    # Exit a parse tree produced by SavingThrowParser#preFailure.
+    def exitPreFailure(self, ctx:SavingThrowParser.PreFailureContext):
         pass
 
 

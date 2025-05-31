@@ -1,23 +1,47 @@
 grammar SavingThrow;
 
-forcedSavingThrow: preText savingThrow postText EOF;
+forcedSavingThrow: preText (damageThenSave | savingThrow) postText EOF;
+
+damageThenSave:
+	('take ' | 'takes ' | 'deals ') NUMBER ' '? ('(' DICE ') ')? damageType
+		' damage' preHalfSuccess* ', or half damage with a successful DC ' NUMBER ' ' ABILITY (
+		' save'
+		| ' saving throw'
+	);
 
 savingThrow:
-	'DC ' NUMBER ' ' ABILITY ('save' | 'saving throw') (
-		( ' taking ')
-		| (
-			'. On a failure' COMMA_SPACE (' a ' | ' ') TARGET_TYPE ' takes '
+	'DC ' NUMBER ' ' ABILITY (' save' | ' saving throw') (
+		(
+			(' or ' | ',' | ' ') (
+				(' '? 'taking ')
+				| (' '? 'take ')
+			)
 		)
-	) NUMBER ' '? '(' DICE ') ' damageType ' damage';
-
-damageType:
-	DAMAGE_TYPE (
-		(COMMA_SPACE ' ' DAMAGE_TYPE)* COMMA_SPACE? ' or ' DAMAGE_TYPE
+		| (
+			preFailure* ON_A_FAILURE (',' | ' ') (
+				' a '
+				| ' the '
+				| ' '
+			) TARGET_TYPE ' ' 'takes '
+		)
+	) NUMBER ' '? ('(' DICE ') ')? damageType? ' damage'? (
+		' and ' NUMBER ' '? ('(' DICE ') ')? damageType ' damage'
 	)?;
 
-preText: ~'DC '+?;
+damageType:
+	'points of '? DAMAGE_TYPE (
+		((',' | ' ') ' ' DAMAGE_TYPE)* (',' | ' ')? ' or ' DAMAGE_TYPE
+	)?;
+
+preText: ~'takes damage'+? ~('DC ' | 'take ' | 'takes ' | 'deals ')+?;
+
+preHalfSuccess: ~', or half damage with a successful DC ';
+
+preFailure: ~(' or ' | ON_A_FAILURE)+?;
 
 postText: .+?;
+
+ON_A_FAILURE: '. On a fail' ('ure' | 'ed save');
 
 NUMBER: [0-9]+;
 

@@ -91,7 +91,7 @@ RANGED: 'Ranged';
 
 WEAPON: 'Weapon';
 
-SPELL: 'Spell';
+SPELL: 'Spell' | 'Magical';
 
 DISTANCE: 'ft' '.'? | 'feet';
 

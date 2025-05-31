@@ -89,6 +89,5 @@ TEXT=53
 'Melee'=38
 'Ranged'=39
 'Weapon'=40
-'Spell'=41
 'grappled'=47
 ' or '=51

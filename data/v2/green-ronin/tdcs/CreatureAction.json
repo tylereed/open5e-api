@@ -1,22 +1,22 @@
 [
 {
   "model": "api_v2.creatureaction",
-  "pk": "tdcs_firetamer_flamecharm",
+  "pk": "tdcs_firetamer_flamecharm-action",
   "fields": {
-    "name": "Flamecharm ",
+    "name": "Flamecharm",
     "desc": "The firetamer can cast _dominate monster_ (save DC 16) on a fire elemental or other fire elemental creature. If the elemental has 150 or more hit points, it has advantage on the saving throw.",
     "parent": "tdcs_firetamer",
     "uses_type": "RECHARGE_AFTER_REST",
     "uses_param": null,
     "action_type": "ACTION",
-    "order": null,
+    "order": 1,
     "form_condition": null,
     "legendary_cost": null
   }
 },
 {
   "model": "api_v2.creatureaction",
-  "pk": "tdcs_firetamer_scimitar",
+  "pk": "tdcs_firetamer_scimitar-action",
   "fields": {
     "name": "Scimitar",
     "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 14 (4d6) fire damage. Flamecharm (Recharges after a Short or Long Rest). The firetamer can cast dominate monster (save DC 16) on a fire elemental or other fire elemental creature. If the elemental has 150 or more hit points, it has advantage on the saving throw.",
@@ -31,7 +31,7 @@
 },
 {
   "model": "api_v2.creatureaction",
-  "pk": "tdcs_skydancer_multiattack",
+  "pk": "tdcs_skydancer_multiattack-action",
   "fields": {
     "name": "Multiattack",
     "desc": "The skydancer makes two skysail staff attacks.",
@@ -46,7 +46,7 @@
 },
 {
   "model": "api_v2.creatureaction",
-  "pk": "tdcs_skydancer_skysail-staff",
+  "pk": "tdcs_skydancer_skysail-staff-action",
   "fields": {
     "name": "Skysail Staff",
     "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage. If the skydancer makes this attack while flying, the target must make a DC 14 Dexterity saving throw, taking 21 (6d6) lightning damage on a failure or half as much damage on a success.",
@@ -61,7 +61,7 @@
 },
 {
   "model": "api_v2.creatureaction",
-  "pk": "tdcs_skydancer_slow-fall",
+  "pk": "tdcs_skydancer_slow-fall-reaction",
   "fields": {
     "name": "Slow Fall",
     "desc": "When the skydancer takes falling damage, it may reduce the damage by half.",
@@ -76,7 +76,7 @@
 },
 {
   "model": "api_v2.creatureaction",
-  "pk": "tdcs_stoneguard_granite-maul",
+  "pk": "tdcs_stoneguard_granite-maul-action",
   "fields": {
     "name": "Granite Maul",
     "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. If the attack hits, the stoneguard may also immediately cast _thunderwave_ as a bonus action. This casting uses a spell slot, but no material components.",
@@ -91,7 +91,7 @@
 },
 {
   "model": "api_v2.creatureaction",
-  "pk": "tdcs_stoneguard_multiattack",
+  "pk": "tdcs_stoneguard_multiattack-action",
   "fields": {
     "name": "Multiattack",
     "desc": "The stoneguard makes three granite maul attacks.",
@@ -106,7 +106,7 @@
 },
 {
   "model": "api_v2.creatureaction",
-  "pk": "tdcs_stoneguard_sentinel",
+  "pk": "tdcs_stoneguard_sentinel-reaction",
   "fields": {
     "name": "Sentinel",
     "desc": "When a creature within 5 feet of the stoneguard attacks a target other than the stoneguard, it can make a single attack roll against the attacker.",
@@ -121,10 +121,10 @@
 },
 {
   "model": "api_v2.creatureaction",
-  "pk": "tdcs_stoneguard_skin-to-stone",
+  "pk": "tdcs_stoneguard_skin-to-stone-reaction",
   "fields": {
     "name": "Skin to Stone",
-    "desc": "When the stoneguard is attacked, it may gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks until the end of the attacker's turn.",
+    "desc": "When the stoneguard is attacked, it may gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks until the end of the attacker’s turn.",
     "parent": "tdcs_stoneguard",
     "uses_type": null,
     "uses_param": null,
@@ -136,7 +136,7 @@
 },
 {
   "model": "api_v2.creatureaction",
-  "pk": "tdcs_waverider_harpoon",
+  "pk": "tdcs_waverider_harpoon-action",
   "fields": {
     "name": "Harpoon",
     "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Attacks with this weapon while underwater are not made with disadvantage.",

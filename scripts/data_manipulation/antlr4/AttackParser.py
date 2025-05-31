@@ -140,7 +140,7 @@ class AttackParser ( Parser ):
                      "') damage'", "'This attack'", "'that'", "'within'", 
                      "'directly'", "'restrained'", "' plus'", "' if used with two hands'", 
                      "' to make a melee attack'", "<INVALID>", "<INVALID>", 
-                     "'Melee'", "'Ranged'", "'Weapon'", "'Spell'", "<INVALID>", 
+                     "'Melee'", "'Ranged'", "'Weapon'", "<INVALID>", "<INVALID>", 
                      "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                      "'grappled'", "<INVALID>", "<INVALID>", "<INVALID>", 
                      "' or '" ]

@@ -22,7 +22,7 @@ class AttackActionListener(AttackListener):
         weaponSpell = ctx.getText()
         if weaponSpell == "Weapon":
             self.result['isWeapon'] = True
-        elif weaponSpell == "Spell":
+        elif weaponSpell == "Spell" or weaponSpell == "Magical":
             self.result['isSpell'] = True
             
     def enterToHit(self, ctx):

@@ -41,7 +41,7 @@ def parseSavingThrow(desc):
     walker = ParseTreeWalker()
     walker.walk(listener, tree)
 
-    if listener.result['saveDC'] is not None:
+    if listener.result['damageAverage'] is not None:
         return listener.result
     else:
         return None
