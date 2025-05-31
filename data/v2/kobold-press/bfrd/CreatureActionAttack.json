@@ -5358,10 +5358,7 @@
     "extra_damage_die_count": null,
     "extra_damage_die_type": null,
     "extra_damage_bonus": null,
-    "damage_type": [
-      "force",
-      "necrotic"
-    ],
+    "damage_type": [],
     "extra_damage_type": []
   }
 },

@@ -67,6 +67,7 @@
     "damage_resistances_display": "acid, fire, lightning, thunder (only when in ethereal form); bludgeoning, piercing and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -171,6 +172,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -288,6 +290,7 @@
     "damage_resistances_display": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, poisoned",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -381,6 +384,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "16.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -474,6 +478,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "16.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -563,6 +568,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed",
     "challenge_rating_decimal": "14.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -657,6 +663,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -770,6 +777,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "16.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -855,6 +863,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "14.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -945,6 +954,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhausted, paralyzed, restrained",
     "challenge_rating_decimal": "17.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -1037,6 +1047,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -1152,6 +1163,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -1271,6 +1283,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "paralyzed, unconscious",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -1357,6 +1370,7 @@
     "damage_resistances_display": "acid, cold, lightning",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "10.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -1485,6 +1499,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -1569,6 +1584,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -1651,6 +1667,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -1731,6 +1748,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "24.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -1820,6 +1838,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from",
     "condition_immunities_display": "charmed",
     "challenge_rating_decimal": "18.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -1913,6 +1932,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "22.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -2000,6 +2020,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -2118,6 +2139,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "24.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -2211,6 +2233,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhausted, paralyzed, restrained",
     "challenge_rating_decimal": "22.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -2309,6 +2332,7 @@
     "damage_resistances_display": "acid, cold, fire, lightning",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "15.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -2431,6 +2455,7 @@
     "damage_resistances_display": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -2523,6 +2548,7 @@
     "damage_resistances_display": "piercing",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -2642,6 +2668,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "blinded, charmed, deafened, poisoned, prone",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -2732,6 +2759,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -2859,6 +2887,7 @@
     "damage_resistances_display": "fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "frightened, poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -2953,6 +2982,7 @@
     "damage_resistances_display": "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "charmed, frightened, poisoned, stunned",
     "challenge_rating_decimal": "21.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -3050,6 +3080,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -3130,6 +3161,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -3244,6 +3276,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -3326,6 +3359,7 @@
     "damage_resistances_display": "fire",
     "condition_immunities_display": "paralyzed, unconscious",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -3415,6 +3449,7 @@
     "damage_resistances_display": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "10.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -3537,6 +3572,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -3653,6 +3689,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "exhaustion, paralyzed, poisoned",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -3746,6 +3783,7 @@
     "damage_resistances_display": "cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "exhaustion, paralyzed, poisoned",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -3840,6 +3878,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "blinded, charmed, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -3936,6 +3975,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -4019,6 +4059,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -4129,6 +4170,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -4211,6 +4253,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -4294,6 +4337,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, poisoned",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -4385,6 +4429,7 @@
     "damage_resistances_display": "cold, fire, lightning",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -4472,6 +4517,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -4590,6 +4636,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -4676,6 +4723,7 @@
     "damage_resistances_display": "acid, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -4768,6 +4816,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -4878,6 +4927,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -4961,6 +5011,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, poisoned",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -5079,6 +5130,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -5163,6 +5215,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "exhaustion, poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -5285,6 +5338,7 @@
     "damage_resistances_display": "bludgeoning",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -5367,6 +5421,7 @@
     "damage_resistances_display": "piercing and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, poisoned, prone, restrained, stunned",
     "challenge_rating_decimal": "10.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -5497,6 +5552,7 @@
     "damage_resistances_display": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -5598,6 +5654,7 @@
     "damage_resistances_display": "acid, lightning; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "charmed, exhaustion, poisoned",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -5725,6 +5782,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -5848,6 +5906,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -5960,6 +6019,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -6045,6 +6105,7 @@
     "damage_resistances_display": "radiant; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -6168,6 +6229,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -6250,6 +6312,7 @@
     "damage_resistances_display": "bludgeoning, piercing",
     "condition_immunities_display": "blinded, deafened",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -6338,6 +6401,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "exhaustion, poisoned",
     "challenge_rating_decimal": "14.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -6428,6 +6492,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "paralysis",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -6540,6 +6605,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -6630,6 +6696,7 @@
     "damage_resistances_display": "acid, cold, fire; slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, deafened, frightened, paralyzed, prone, stunned, unconscious",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -6727,6 +6794,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, poisoned",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -6812,6 +6880,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silver weapons",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -6900,6 +6969,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -6985,6 +7055,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -7110,6 +7181,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "exhaustion, paralyzed, petrified, poisoned, unconscious",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -7234,6 +7306,7 @@
     "damage_resistances_display": "acid, fire, poison",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.125",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -7348,6 +7421,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -7430,6 +7504,7 @@
     "damage_resistances_display": "acid, cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -7559,6 +7634,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -7679,6 +7755,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -7804,6 +7881,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -7895,6 +7973,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -7986,6 +8065,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -8078,6 +8158,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -8170,6 +8251,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "frightened, poisoned",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -8257,6 +8339,7 @@
     "damage_resistances_display": "bludgeoning, piercing, slashing",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, stunned",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -8351,6 +8434,7 @@
     "damage_resistances_display": "cold",
     "condition_immunities_display": "paralyzed, poisoned, prone, unconscious",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -8440,6 +8524,7 @@
     "damage_resistances_display": "necrotic",
     "condition_immunities_display": "charmed, exhaustion, frightened, poisoned",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -8559,6 +8644,7 @@
     "damage_resistances_display": "slashing, bludgeoning",
     "condition_immunities_display": "exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -8682,6 +8768,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "paralyzed, unconscious",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -8770,6 +8857,7 @@
     "damage_resistances_display": "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -8868,6 +8956,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -8952,6 +9041,7 @@
     "damage_resistances_display": "bludgeoning, piercing, slashing",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, restrained, petrified",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -9047,6 +9137,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -9125,6 +9216,7 @@
     "damage_resistances_display": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -9256,6 +9348,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "paralyzed, unconscious",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -9347,6 +9440,7 @@
     "damage_resistances_display": "cold",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -9432,6 +9526,7 @@
     "damage_resistances_display": "cold, thunder",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -9520,6 +9615,7 @@
     "damage_resistances_display": "cold",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -9605,6 +9701,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -9688,6 +9785,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -9775,6 +9873,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -9859,6 +9958,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -9944,6 +10044,7 @@
     "damage_resistances_display": "cold, fire, poison; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -10067,6 +10168,7 @@
     "damage_resistances_display": "acid",
     "condition_immunities_display": "blinded, charmed, deafened, exhaustion, frightened, prone",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -10156,6 +10258,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, poisoned",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -10279,6 +10382,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -10361,6 +10465,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -10445,6 +10550,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -10533,6 +10639,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -10616,6 +10723,7 @@
     "damage_resistances_display": "acid, cold, lightning",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -10702,6 +10810,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "paralyzed, prone",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -10794,6 +10903,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "blinded, deafened",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -10878,6 +10988,7 @@
     "damage_resistances_display": "acid",
     "condition_immunities_display": "paralyzed",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -10960,6 +11071,7 @@
     "damage_resistances_display": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -11059,6 +11171,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -11154,6 +11267,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, frightened, exhaustion",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -11278,6 +11392,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "prone",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -11363,6 +11478,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -11447,6 +11563,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -11537,6 +11654,7 @@
     "damage_resistances_display": "poison",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -11652,6 +11770,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -11764,6 +11883,7 @@
     "damage_resistances_display": "acid, cold",
     "condition_immunities_display": "blindness, lightning, poisoned",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -11856,6 +11976,7 @@
     "damage_resistances_display": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, grappled, frightened, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -11959,6 +12080,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -12041,6 +12163,7 @@
     "damage_resistances_display": "piercing weapons that are nonmagical",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -12126,6 +12249,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "paralyzed, unconscious",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -12216,6 +12340,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -12300,6 +12425,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
     "challenge_rating_decimal": "17.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -12433,6 +12559,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -12546,6 +12673,7 @@
     "damage_resistances_display": "cold, fire; piercing damage",
     "condition_immunities_display": "blinded, deafened, exhausted, paralyzed, petrified, poisoned, prone, unconscious",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -12673,6 +12801,7 @@
     "damage_resistances_display": "cold, fire, lightning",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -12787,6 +12916,7 @@
     "damage_resistances_display": "bludgeoning",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -12910,6 +13040,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -13024,6 +13155,7 @@
     "damage_resistances_display": "poison",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -13110,6 +13242,7 @@
     "damage_resistances_display": "poison",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -13196,6 +13329,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhausted, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -13320,6 +13454,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -13405,6 +13540,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, unconscious",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -13518,6 +13654,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "10.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -13606,6 +13743,7 @@
     "damage_resistances_display": "acid, cold, fire, lightning",
     "condition_immunities_display": "charmed, exhaustion, poisoned",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -13728,6 +13866,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing damage with nonmagical weapons",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -13848,6 +13987,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -13971,6 +14111,7 @@
     "damage_resistances_display": "fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, petrified, poisoned",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -14099,6 +14240,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing",
     "condition_immunities_display": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -14193,6 +14335,7 @@
     "damage_resistances_display": "lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, frightened, invisible",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -14320,6 +14463,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -14444,6 +14588,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -14532,6 +14677,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -14618,6 +14764,7 @@
     "damage_resistances_display": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, paralyzed, exhaustion, poison, stunned, unconscious",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -14748,6 +14895,7 @@
     "damage_resistances_display": "cold",
     "condition_immunities_display": "frightened",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -14867,6 +15015,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -14952,6 +15101,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -15034,6 +15184,7 @@
     "damage_resistances_display": "bludgeoning and piercing from nonmagical attacks",
     "condition_immunities_display": "blinded, charmed, deafened, frightened, prone",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -15129,6 +15280,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -15214,6 +15366,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -15292,6 +15445,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, frightened, exhaustion, poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -15415,6 +15569,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -15495,6 +15650,7 @@
     "damage_resistances_display": "necrotic",
     "condition_immunities_display": "charmed, exhaustion, poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -15615,6 +15771,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -15700,6 +15857,7 @@
     "damage_resistances_display": "necrotic",
     "condition_immunities_display": "charmed, exhaustion, poisoned",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -15790,6 +15948,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, poisoned",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -15881,6 +16040,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, poisoned",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -15972,6 +16132,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -16082,6 +16243,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -16192,6 +16354,7 @@
     "damage_resistances_display": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -16316,6 +16479,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -16397,6 +16561,7 @@
     "damage_resistances_display": "cold, acid, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -16493,6 +16658,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -16574,6 +16740,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -16666,6 +16833,7 @@
     "damage_resistances_display": "bludgeoning, necrotic",
     "condition_immunities_display": "charmed, exhaustion, frightened, poisoned",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -16757,6 +16925,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, restrained, petrified",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -16851,6 +17020,7 @@
     "damage_resistances_display": "cold",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -16980,6 +17150,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "confusion, exhaustion, paralysis, poisoned",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -17072,6 +17243,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "14.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -17162,6 +17334,7 @@
     "damage_resistances_display": "cold, lightning, necrotic",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "13.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -17287,6 +17460,7 @@
     "damage_resistances_display": "piercing, lightning",
     "condition_immunities_display": "exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -17414,6 +17588,7 @@
     "damage_resistances_display": "bludgeoning, thunder",
     "condition_immunities_display": "exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -17544,6 +17719,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhausted, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -17667,6 +17843,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -17751,6 +17928,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -17839,6 +18017,7 @@
     "damage_resistances_display": "lightning, thunder",
     "condition_immunities_display": "exhaustion",
     "challenge_rating_decimal": "19.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -17929,6 +18108,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -18043,6 +18223,7 @@
     "damage_resistances_display": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "blinded, charmed, deafened, exhaustion, frightened, stunned, unconscious",
     "challenge_rating_decimal": "10.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -18170,6 +18351,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, poisoned, restrained, stunned",
     "challenge_rating_decimal": "15.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -18270,6 +18452,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -18392,6 +18575,7 @@
     "damage_resistances_display": "cold; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -18489,6 +18673,7 @@
     "damage_resistances_display": "bludgeoning",
     "condition_immunities_display": "exhaustion, frightened",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -18606,6 +18791,7 @@
     "damage_resistances_display": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -18703,6 +18889,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "14.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -18783,6 +18970,7 @@
     "damage_resistances_display": "acid, lightning",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -18869,6 +19057,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -18949,6 +19138,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "22.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -19038,6 +19228,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -19152,6 +19343,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -19238,6 +19430,7 @@
     "damage_resistances_display": "cold, fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -19365,6 +19558,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -19455,6 +19649,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -19544,6 +19739,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -19630,6 +19826,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -19711,6 +19908,7 @@
     "damage_resistances_display": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -19801,6 +19999,7 @@
     "damage_resistances_display": "cold, lightning",
     "condition_immunities_display": "charmed, exhaustion, frightened",
     "challenge_rating_decimal": "17.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -19929,6 +20128,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -20016,6 +20216,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, poisoned",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -20108,6 +20309,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -20191,6 +20393,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "paralyzed, unconscious",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -20278,6 +20481,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -20358,6 +20562,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -20440,6 +20645,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -20524,6 +20730,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, poisoned",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -20611,6 +20818,7 @@
     "damage_resistances_display": "piercing and bludgeoning from nonmagical attacks",
     "condition_immunities_display": "exhaustion, poisoned",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -20730,6 +20938,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -20814,6 +21023,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "paralyzed, prone, unconscious",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -20903,6 +21113,7 @@
     "damage_resistances_display": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "blinded, charmed, exhaustion (see Lightform special ability), grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -21043,6 +21254,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -21141,6 +21353,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -21224,6 +21437,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -21305,6 +21519,7 @@
     "damage_resistances_display": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -21431,6 +21646,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -21511,6 +21727,7 @@
     "damage_resistances_display": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "blinded, poisoned",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -21604,6 +21821,7 @@
     "damage_resistances_display": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -21697,6 +21915,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -21779,6 +21998,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -21872,6 +22092,7 @@
     "damage_resistances_display": "bludgeoning, piercing, slashing",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -21964,6 +22185,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "prone",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -22050,6 +22272,7 @@
     "damage_resistances_display": "acid, fire, lightning, cold; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, poisoned, stunned, unconscious",
     "challenge_rating_decimal": "13.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -22185,6 +22408,7 @@
     "damage_resistances_display": "acid, fire, necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -22309,6 +22533,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -22391,6 +22616,7 @@
     "damage_resistances_display": "radiant, cold",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -22507,6 +22733,7 @@
     "damage_resistances_display": "poison; bludgeoning and slashing from nonmagical attacks",
     "condition_immunities_display": "prone",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -22596,6 +22823,7 @@
     "damage_resistances_display": "bludgeoning and piercing from nonmagical attacks",
     "condition_immunities_display": "charmed, frightened, poisoned",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -22717,6 +22945,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -22801,6 +23030,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -22883,6 +23113,7 @@
     "damage_resistances_display": "thunder",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -23000,6 +23231,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -23085,6 +23317,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -23208,6 +23441,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -23331,6 +23565,7 @@
     "damage_resistances_display": "bludgeoning from nonmagical attacks",
     "condition_immunities_display": "prone",
     "challenge_rating_decimal": "15.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -23424,6 +23659,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -23506,6 +23742,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "blind, poisoned",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -23599,6 +23836,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "charmed, frightened, poisoned, stunned, unconscious",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -23724,6 +23962,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "paralyzed, poisoned, unconscious",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -23847,6 +24086,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -23927,6 +24167,7 @@
     "damage_resistances_display": "acid, cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "charmed, frightened, paralyzed, poisoned, unconscious",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -24058,6 +24299,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -24143,6 +24385,7 @@
     "damage_resistances_display": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -24263,6 +24506,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -24354,6 +24598,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -24436,6 +24681,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -24518,6 +24764,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -24596,6 +24843,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "frightened",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -24710,6 +24958,7 @@
     "damage_resistances_display": "bludgeoning, piercing, slashing",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -24804,6 +25053,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -24891,6 +25141,7 @@
     "damage_resistances_display": "fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "blinded, charmed, deafened, exhaustion, frightened, prone",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -24989,6 +25240,7 @@
     "damage_resistances_display": "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "14.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -25116,6 +25368,7 @@
     "damage_resistances_display": "acid, cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -25248,6 +25501,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -25336,6 +25590,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "paralysis, unconscious",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -25424,6 +25679,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -25506,6 +25762,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -25600,6 +25857,7 @@
     "damage_resistances_display": "bludgeoning, piercing, slashing",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -25692,6 +25950,7 @@
     "damage_resistances_display": "cold, lightning",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -25812,6 +26071,7 @@
     "damage_resistances_display": "bludgeoning and piercing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, poisoned",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -25902,6 +26162,7 @@
     "damage_resistances_display": "acid, cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -26026,6 +26287,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -26109,6 +26371,7 @@
     "damage_resistances_display": "bludgeoning, piercing, slashing",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -26209,6 +26472,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -26325,6 +26589,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -26410,6 +26675,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -26496,6 +26762,7 @@
     "damage_resistances_display": "bludgeoning, piercing",
     "condition_immunities_display": "blinded, deafened",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -26590,6 +26857,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -26674,6 +26942,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -26758,6 +27027,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -26842,6 +27112,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -26957,6 +27228,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, poisoned",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -27074,6 +27346,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -27168,6 +27441,7 @@
     "damage_resistances_display": "force, poison",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -27281,6 +27555,7 @@
     "damage_resistances_display": "cold",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -27393,6 +27668,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -27503,6 +27779,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -27588,6 +27865,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -27673,6 +27951,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, grappled, frightened, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -27801,6 +28080,7 @@
     "damage_resistances_display": "cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "poisoned, stunned",
     "challenge_rating_decimal": "10.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -27895,6 +28175,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -27979,6 +28260,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -28072,6 +28354,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "paralyzed, poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -28165,6 +28448,7 @@
     "damage_resistances_display": "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -28260,6 +28544,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "10.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -28355,6 +28640,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -28440,6 +28726,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, grappled, frightened, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -28538,6 +28825,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -28619,6 +28907,7 @@
     "damage_resistances_display": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, poisoned, unconscious",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -28750,6 +29039,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -28830,6 +29120,7 @@
     "damage_resistances_display": "piercing and slashing from nonmagical attacks",
     "condition_immunities_display": "blinded, charmed, deafened, exhaustion, frightened, prone",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -28925,6 +29216,7 @@
     "damage_resistances_display": "acid, necrotic",
     "condition_immunities_display": "blinded, charmed, deafened, exhaustion, frightened, poisoned, prone",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -29020,6 +29312,7 @@
     "damage_resistances_display": "fire; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "exhaustion, paralyzed, petrified, poisoned, unconscious",
     "challenge_rating_decimal": "10.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -29120,6 +29413,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -29208,6 +29502,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "unconscious",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -29296,6 +29591,7 @@
     "damage_resistances_display": "poison",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -29380,6 +29676,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -29466,6 +29763,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -29556,6 +29854,7 @@
     "damage_resistances_display": "poison",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -29641,6 +29940,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -29737,6 +30037,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -29847,6 +30148,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -29935,6 +30237,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -30016,6 +30319,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -30097,6 +30401,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -30178,6 +30483,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -30259,6 +30565,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -30343,6 +30650,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "exhaustion, poisoned",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -30462,6 +30770,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, unconscious",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -30550,6 +30859,7 @@
     "damage_resistances_display": "fire, bludgeoning, piercing",
     "condition_immunities_display": "blinded, deafened, prone, stunned, unconscious",
     "challenge_rating_decimal": "19.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -30676,6 +30986,7 @@
     "damage_resistances_display": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challenge_rating_decimal": "0.125",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -30811,6 +31122,7 @@
     "damage_resistances_display": "radiant",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -30929,6 +31241,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -31043,6 +31356,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "blinded, charmed, deafened, exhaustion, frightened, prone",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -31136,6 +31450,7 @@
     "damage_resistances_display": "acid, cold, fire",
     "condition_immunities_display": "prone",
     "challenge_rating_decimal": "15.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -31257,6 +31572,7 @@
     "damage_resistances_display": "cold; bludgeoning, piercing, and slashing",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -31352,6 +31668,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "14.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -31475,6 +31792,7 @@
     "damage_resistances_display": "psychic, radiant",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -31610,6 +31928,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "paralyzed, poisoned, stunned, unconscious",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -31733,6 +32052,7 @@
     "damage_resistances_display": "acid, fire, force, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -31864,6 +32184,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -31948,6 +32269,7 @@
     "damage_resistances_display": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -32080,6 +32402,7 @@
     "damage_resistances_display": "poison",
     "condition_immunities_display": "charmed, poisoned, unconscious",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -32170,6 +32493,7 @@
     "damage_resistances_display": "fire",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -32260,6 +32584,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "13.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -32341,6 +32666,7 @@
     "damage_resistances_display": "piercing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -32461,6 +32787,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened, paralyzed, unconscious",
     "challenge_rating_decimal": "15.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -32561,6 +32888,7 @@
     "damage_resistances_display": "bludgeoning, piercing, slashing",
     "condition_immunities_display": "exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "15.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -32659,6 +32987,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "13.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -32783,6 +33112,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.125",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -32867,6 +33197,7 @@
     "damage_resistances_display": "acid, fire; bludgeoning and piercing from nonmagical attacks",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "13.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -32961,6 +33292,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -33046,6 +33378,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -33128,6 +33461,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -33209,6 +33543,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -33287,6 +33622,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -33401,6 +33737,7 @@
     "damage_resistances_display": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "challenge_rating_decimal": "10.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -33534,6 +33871,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -33647,6 +33985,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -33727,6 +34066,7 @@
     "damage_resistances_display": "necrotic",
     "condition_immunities_display": "exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -33851,6 +34191,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.500",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -33933,6 +34274,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -34017,6 +34359,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, poisoned",
     "challenge_rating_decimal": "12.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -34108,6 +34451,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -34190,6 +34534,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -34272,6 +34617,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -34384,6 +34730,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -34467,6 +34814,7 @@
     "damage_resistances_display": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -34600,6 +34948,7 @@
     "damage_resistances_display": "fire; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -34719,6 +35068,7 @@
     "damage_resistances_display": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
     "condition_immunities_display": "frightened",
     "challenge_rating_decimal": "17.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -34811,6 +35161,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -34905,6 +35256,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened, poisoned",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -35022,6 +35374,7 @@
     "damage_resistances_display": "acid, cold, fire, lightning, thunder",
     "condition_immunities_display": "frightened",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -35118,6 +35471,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "13.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -35201,6 +35555,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -35285,6 +35640,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -35383,6 +35739,7 @@
     "damage_resistances_display": "fire, bludgeoning, piercing",
     "condition_immunities_display": "charmed, blinded, deafened, frightened, prone",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -35474,6 +35831,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -35561,6 +35919,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered or cold iron weapons",
     "condition_immunities_display": "frightened",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -35681,6 +36040,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "blinded, deafened",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -35768,6 +36128,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "blinded, deafened",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -35851,6 +36212,7 @@
     "damage_resistances_display": "bludgeoning,",
     "condition_immunities_display": "deafened, exhaustion, poisoned",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -35969,6 +36331,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "2.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -36055,6 +36418,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "exhaustion, petrified, prone",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -36171,6 +36535,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -36254,6 +36619,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -36334,6 +36700,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -36422,6 +36789,7 @@
     "damage_resistances_display": "bludgeoning and piercing",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -36509,6 +36877,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "0.125",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -36589,6 +36958,7 @@
     "damage_resistances_display": "bludgeoning, piercing, slashing",
     "condition_immunities_display": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -36681,6 +37051,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -36763,6 +37134,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -36883,6 +37255,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "3.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -36996,6 +37369,7 @@
     "damage_resistances_display": "necrotic; bludgeoning, piercing, slashing",
     "condition_immunities_display": "exhaustion, frightened, paralyzed, petrified, poisoned",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -37087,6 +37461,7 @@
     "damage_resistances_display": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -37204,6 +37579,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhausted, paralyzed",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -37295,6 +37671,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhaustion, frightened,",
     "challenge_rating_decimal": "0.250",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -37409,6 +37786,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -37523,6 +37901,7 @@
     "damage_resistances_display": "bludgeoning",
     "condition_immunities_display": "exhaustion",
     "challenge_rating_decimal": "11.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -37609,6 +37988,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "poisoned",
     "challenge_rating_decimal": "8.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -37700,6 +38080,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -37789,6 +38170,7 @@
     "damage_resistances_display": "bludgeoning, piercing, and slashing from nonmagical attacks",
     "condition_immunities_display": "charmed",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -37883,6 +38265,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -37969,6 +38352,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -38050,6 +38434,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, frightened",
     "challenge_rating_decimal": "9.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -38139,6 +38524,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "charmed, exhausted, paralyzed, restrained",
     "challenge_rating_decimal": "6.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -38231,6 +38617,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "1.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -38309,6 +38696,7 @@
     "damage_resistances_display": "fire, lightning, thunder; bludgeoning, piercing, slashing",
     "condition_immunities_display": "frightened, paralyzed, poisoned",
     "challenge_rating_decimal": "26.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [],
@@ -38408,6 +38796,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -38520,6 +38909,7 @@
     "damage_resistances_display": "cold, fire",
     "condition_immunities_display": "paralyzed, unconscious",
     "challenge_rating_decimal": "14.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -38611,6 +39001,7 @@
     "damage_resistances_display": "cold, fire",
     "condition_immunities_display": "paralyzed, unconscious",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [

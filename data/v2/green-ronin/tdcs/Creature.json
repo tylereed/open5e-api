@@ -67,6 +67,7 @@
     "damage_resistances_display": "fire",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -150,6 +151,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "5.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -231,6 +233,7 @@
     "damage_resistances_display": "",
     "condition_immunities_display": "petrified",
     "challenge_rating_decimal": "7.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
@@ -314,6 +317,7 @@
     "damage_resistances_display": "cold",
     "condition_immunities_display": "",
     "challenge_rating_decimal": "4.000",
+    "proficiency_bonus": null,
     "experience_points_integer": null,
     "initiative_bonus": null,
     "languages": [
