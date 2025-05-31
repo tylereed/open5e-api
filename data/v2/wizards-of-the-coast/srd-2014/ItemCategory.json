@@ -1,7 +1,7 @@
 [
 {
   "model": "api_v2.itemcategory",
-  "pk": "ring",
+  "pk": "Ring",
   "fields": {
     "name": "Ring",
     "document": "srd-2014"
@@ -41,9 +41,9 @@
 },
 {
   "model": "api_v2.itemcategory",
-  "pk": "land-vehicle",
+  "pk": "drawn-vehicle",
   "fields": {
-    "name": "Land Vehicle",
+    "name": "Drawn Vehicle",
     "document": "srd-2014"
   }
 },
@@ -60,6 +60,22 @@
   "pk": "jewelry",
   "fields": {
     "name": "Jewelry",
+    "document": "srd-2014"
+  }
+},
+{
+  "model": "api_v2.itemcategory",
+  "pk": "land-vehicle",
+  "fields": {
+    "name": "Land Vehicle",
+    "document": "srd-2014"
+  }
+},
+{
+  "model": "api_v2.itemcategory",
+  "pk": "mount",
+  "fields": {
+    "name": "Mount",
     "document": "srd-2014"
   }
 },
@@ -100,6 +116,14 @@
   "pk": "scroll",
   "fields": {
     "name": "Scroll",
+    "document": "srd-2014"
+  }
+},
+{
+  "model": "api_v2.itemcategory",
+  "pk": "service",
+  "fields": {
+    "name": "Service",
     "document": "srd-2014"
   }
 },
@@ -164,22 +188,6 @@
   "pk": "wondrous-item",
   "fields": {
     "name": "Wondrous Item",
-    "document": "srd-2014"
-  }
-},
-{
-  "model": "api_v2.itemcategory",
-  "pk": "service",
-  "fields": {
-    "name": "Service",
-    "document": "srd-2014"
-  }
-},
-{
-  "model": "api_v2.itemcategory",
-  "pk": "mount",
-  "fields": {
-    "name": "Mount",
     "document": "srd-2014"
   }
 }
