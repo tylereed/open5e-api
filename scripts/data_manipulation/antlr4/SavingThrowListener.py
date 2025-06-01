@@ -1,4 +1,4 @@
-# Generated from SavingThrow.g4 by ANTLR 4.13.2
+# Generated from ./SavingThrow.g4 by ANTLR 4.13.2
 from antlr4 import *
 if "." in __name__:
     from .SavingThrowParser import SavingThrowParser
@@ -14,6 +14,60 @@ class SavingThrowListener(ParseTreeListener):
 
     # Exit a parse tree produced by SavingThrowParser#forcedSavingThrow.
     def exitForcedSavingThrow(self, ctx:SavingThrowParser.ForcedSavingThrowContext):
+        pass
+
+
+    # Enter a parse tree produced by SavingThrowParser#forcedSavingThrow2024.
+    def enterForcedSavingThrow2024(self, ctx:SavingThrowParser.ForcedSavingThrow2024Context):
+        pass
+
+    # Exit a parse tree produced by SavingThrowParser#forcedSavingThrow2024.
+    def exitForcedSavingThrow2024(self, ctx:SavingThrowParser.ForcedSavingThrow2024Context):
+        pass
+
+
+    # Enter a parse tree produced by SavingThrowParser#preFailure2024.
+    def enterPreFailure2024(self, ctx:SavingThrowParser.PreFailure2024Context):
+        pass
+
+    # Exit a parse tree produced by SavingThrowParser#preFailure2024.
+    def exitPreFailure2024(self, ctx:SavingThrowParser.PreFailure2024Context):
+        pass
+
+
+    # Enter a parse tree produced by SavingThrowParser#damage2024.
+    def enterDamage2024(self, ctx:SavingThrowParser.Damage2024Context):
+        pass
+
+    # Exit a parse tree produced by SavingThrowParser#damage2024.
+    def exitDamage2024(self, ctx:SavingThrowParser.Damage2024Context):
+        pass
+
+
+    # Enter a parse tree produced by SavingThrowParser#plusDamage2024.
+    def enterPlusDamage2024(self, ctx:SavingThrowParser.PlusDamage2024Context):
+        pass
+
+    # Exit a parse tree produced by SavingThrowParser#plusDamage2024.
+    def exitPlusDamage2024(self, ctx:SavingThrowParser.PlusDamage2024Context):
+        pass
+
+
+    # Enter a parse tree produced by SavingThrowParser#preAbility.
+    def enterPreAbility(self, ctx:SavingThrowParser.PreAbilityContext):
+        pass
+
+    # Exit a parse tree produced by SavingThrowParser#preAbility.
+    def exitPreAbility(self, ctx:SavingThrowParser.PreAbilityContext):
+        pass
+
+
+    # Enter a parse tree produced by SavingThrowParser#forcedSavingThrow2014.
+    def enterForcedSavingThrow2014(self, ctx:SavingThrowParser.ForcedSavingThrow2014Context):
+        pass
+
+    # Exit a parse tree produced by SavingThrowParser#forcedSavingThrow2014.
+    def exitForcedSavingThrow2014(self, ctx:SavingThrowParser.ForcedSavingThrow2014Context):
         pass
 
 

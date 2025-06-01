@@ -1,4 +1,5 @@
 from django.template.defaultfilters import slugify
+from django.db.models import Q
 
 import re
 
@@ -9,22 +10,21 @@ from .antlr4.parsers import parseAttack, parseSavingThrow, parseDice
 AllDamageTypes = dict((dt.key, dt) for dt in DamageType.objects.all())
 
 def main():
-    load_2024()
-    #print(','.join(['MonsterName', 'AttackName', buildCsvHeader()]))
+    #load_2024()
 
-    # v2_creatureaction.objects.all().delete()
+    v2_creatureaction.objects.filter(~Q(pk_istartWith='srd2024')).delete()
 
-    # # .filter(slug='accursed-guardian-naga-a5e')
-    # # .all()
-    # for v1_monster in v1_model.objects.all():
+    # .filter(slug='accursed-guardian-naga-a5e')
+    # .all()
+    for v1_monster in v1_model.objects.all():
 
-    #     computed_v2_key = get_v2_key_from_v1_obj(v1_monster)
-    #     v2_creature = v2_model.objects.filter(key=computed_v2_key).first()
+        computed_v2_key = get_v2_key_from_v1_obj(v1_monster)
+        v2_creature = v2_model.objects.filter(key=computed_v2_key).first()
         
         
-    #     if v2_creature is not None:
-    #         #update_v2_attack(v1_monster, v2_creature)
-    #         add_v2_attacks(v1_monster, v2_creature)
+        if v2_creature is not None:
+            #update_v2_attack(v1_monster, v2_creature)
+            add_v2_attacks(v1_monster, v2_creature)
 
 def load_2024():
     for v2_creature in v2_model.objects.filter(key__istartswith='srd2024'):
@@ -126,7 +126,6 @@ def add_v2_attack_type(param_action_name: str, param_action_desc: str, attack_ty
                             parsed_form_condition = info.strip()
                         elif (re.search('Heads?|Shapeshifted', info, flags=re.IGNORECASE)):
                             handled = True
-                            display_name = v1_action_name
                             if info == "Snake Head" or info == "Canine Head":
                                 v1_action_cleaned_name = v1_action_name
                         elif attack_type == 'LEGENDARY_ACTION' and (legendary := re.search('^(?:Costs )?(\d+)(?: Actions)?$', info, flags=re.IGNORECASE)):
@@ -140,11 +139,12 @@ def add_v2_attack_type(param_action_name: str, param_action_desc: str, attack_ty
                         print("Didn't handle ", v2_creature.name, param_action_name)
                         v1_action_cleaned_name = v1_action_name
 
+                display_name = v1_action_name
                 v2_action_key = get_v2_action_key(v2_creature.key, v1_action_cleaned_name + " " + attack_type.replace("_", " "))
                 
                 #print(v1_action_name, v1_action_cleaned_name, v1_additional_info, parsed_uses_type, parsed_uses_param, sep=",")
 
-                v2_action = v2_creatureaction(name=display_name or v1_action_cleaned_name,
+                v2_action = v2_creatureaction(name=display_name,
                     desc=v1_action_desc,
                     key = v2_action_key,
                     parent=v2_creature,
@@ -170,7 +170,7 @@ def add_v2_attack_type(param_action_name: str, param_action_desc: str, attack_ty
                         print("unable to parse ", v2_action_key, v2_creature.name, param_action_name, param_action_desc)
 
                 elif re.search(
-                    'DC \d+ \S+ sav(?:e|ing throw)(?:(?:(?:[, ]| or)? tak(?:e|ing) \d+)|(?:.*?\. +On a fail(?:ure|ed save)[, ] (?:it|(?:a|the|each) (?:creature|target)) takes \d+))|(?:or half damage with a successful DC \d+ \S+ sav(?:e|ing throw))'
+                    'DC \d+ \S+ sav(?:e|ing throw)(?:(?:(?:[, ]| or)? tak(?:e|ing) \d+)|(?:.*?\. +On a fail(?:ure|ed save)[, ] (?:it|(?:a|the|each) (?:creature|target)) takes \d+))|(?:or half damage with a successful DC \d+ \S+ sav(?:e|ing throw))|(?:\S+ Saving Throw: DC \d+)'
                     , param_action_desc):
                     #TODO: handle different styles of saving throws, grab shape and size and range, targets creatures, DC and save type
                     savingThrow = parseSavingThrow(param_action_desc)

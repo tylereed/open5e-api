@@ -1,10 +1,28 @@
 grammar SavingThrow;
 
-forcedSavingThrow: preText (damageThenSave | savingThrow) postText EOF;
+forcedSavingThrow: forcedSavingThrow2024;
+
+forcedSavingThrow2024:
+	preAbility ABILITY ' Saving Throw: DC ' NUMBER preFailure2024 ' Failure: ' damage2024 (
+		'.'
+		| ','
+		| (' plus ' plusDamage2024)
+	) postText EOF;
+
+preFailure2024: ~' Failure: '*?;
+
+damage2024: NUMBER ' (' DICE ') ' damageType ' damage';
+
+plusDamage2024: NUMBER ' (' DICE ') ' damageType ' damage';
+
+preAbility: ~ABILITY*?;
+
+forcedSavingThrow2014:
+	preText (damageThenSave | savingThrow) postText EOF;
 
 damageThenSave:
-	('take ' | 'takes ' | 'deals ') NUMBER ' '? ('(' DICE ') ')? damageType
-		' damage' preHalfSuccess* ', or half damage with a successful DC ' NUMBER ' ' ABILITY (
+	('take ' | 'takes ' | 'deals ') NUMBER ' '? ('(' DICE ') ')? damageType ' damage' preHalfSuccess
+		* ', or half damage with a successful DC ' NUMBER ' ' ABILITY (
 		' save'
 		| ' saving throw'
 	);
@@ -33,7 +51,8 @@ damageType:
 		((',' | ' ') ' ' DAMAGE_TYPE)* (',' | ' ')? ' or ' DAMAGE_TYPE
 	)?;
 
-preText: ~'takes damage'+? ~('DC ' | 'take ' | 'takes ' | 'deals ')+?;
+preText:
+	~'takes damage'+? ~('DC ' | 'take ' | 'takes ' | 'deals ')+?;
 
 preHalfSuccess: ~', or half damage with a successful DC ';
 
@@ -61,19 +80,19 @@ ABILITY: (S 'trength')
 	| (C H A);
 
 DAMAGE_TYPE:
-	'acid'
-	| 'bludgeoning'
-	| 'cold'
-	| 'fire'
-	| 'force'
-	| 'lightning'
-	| 'necrotic'
-	| 'piercing'
-	| 'poison'
-	| 'psychic'
-	| 'radiant'
-	| 'slashing'
-	| 'thunder';
+	(A 'cid')
+	| (B 'ludgeoning')
+	| (C 'old')
+	| (F 'ire')
+	| (F 'orce')
+	| (L 'ightning')
+	| (N 'ecrotic')
+	| (P 'iercing')
+	| (P 'oison')
+	| (P 'sychic')
+	| (R 'adiant')
+	| (S 'lashing')
+	| (T 'hunder');
 
 COMMA_SPACE: (',' | ' ');
 

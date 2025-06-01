@@ -7,9 +7,50 @@ class ForcedSavingThrowListener(SavingThrowListener):
     def __init__(self):
         super().__init__()
         self.result = buildCommonResult()
-    
-    def enterPreText(self, ctx):
-        pass
+        
+    def enterForcedSavingThrow2014(self, ctx):
+        self.result['2014'] = True
+
+    def enterForcedSavingThrow2024(self, ctx):
+        self.result['2024'] = True
+        
+        saveType = ctx.ABILITY()
+        if saveType is not None:
+            self.result['saveType'] = saveType.getText()
+
+        saveDC = ctx.NUMBER()
+        if saveDC:
+            self.result['saveDC'] = int(saveDC.getText())
+
+    def enterDamage2024(self, ctx):
+        damageAverage = ctx.NUMBER()
+        if damageAverage is not None:
+            damageAverageText: str = damageAverage.getText()
+            if not damageAverageText.startswith("<"):
+                self.result['damageAverage'] = int(damageAverage.getText())
+
+        damageDice = ctx.DICE()
+        if damageDice is not None:
+            self.result['damageDice'] = damageDice.getText()
+
+        damageType = ctx.damageType()
+        if damageType is not None:
+            self.result['damageType'] = getDamageTypesAsList(damageType)
+
+    def enterPlusDamage2024(self, ctx):
+        damageAverage = ctx.NUMBER()
+        if damageAverage is not None:
+            damageAverageText: str = damageAverage.getText()
+            if not damageAverageText.startswith("<"):
+                self.result['plusDamageAverage'] = int(damageAverage.getText())
+
+        damageDice = ctx.DICE()
+        if damageDice is not None:
+            self.result['plusDamageDice'] = damageDice.getText()
+
+        damageType = ctx.damageType()
+        if damageType is not None:
+            self.result['plusDamageType'] = getDamageTypesAsList(damageType)
 
     def enterDamageThenSave(self, ctx):
         damageAverage = ctx.NUMBER(0)

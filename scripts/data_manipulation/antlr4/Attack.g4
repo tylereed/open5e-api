@@ -16,7 +16,7 @@ meleeRanged: MELEE | RANGED | MELEE_OR_RANGED;
 
 weaponSpell: WEAPON | SPELL;
 
-toHit: '+' NUMBER ' to hit'?;
+toHit: '+' NUMBER ' to hit'? ~', '*?;
 
 distance: reach | range | reach (OR | ((',' | ' ') ' ')) range;
 

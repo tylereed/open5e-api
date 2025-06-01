@@ -15,6 +15,7 @@ def buildCsvHeader():
     return AttackActionListener.buildCsvHeader()
 
 def parseAttack(desc):
+    print("Parsing Attack: ", desc)
     stream = InputStream(desc)
     lexer = AttackLexer(stream)
     stream = CommonTokenStream(lexer)
@@ -31,6 +32,7 @@ def parseAttack(desc):
         return None
 
 def parseSavingThrow(desc):
+    print("Parsing Saving Throw: ", desc)
     stream = InputStream(desc)
     lexer = SavingThrowLexer(stream)
     stream = CommonTokenStream(lexer)
