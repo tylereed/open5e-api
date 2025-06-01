@@ -8,6 +8,14 @@ class AttackActionListener(AttackListener):
         super().__init__()
         self.result = buildCommonResult()
 
+    def enterAttack2014(self, ctx):
+        self.result['2014'] = True
+
+    def enterAttack2024(self, ctx):
+        self.result['2024'] = True
+        # 2024 doesn't have spell-like attack actions.  Monsters only use player facing spells
+        self.result['isWeapon'] = True
+
     def enterMeleeRanged(self, ctx):
         meleeRanged = ctx.getText()
         if meleeRanged == "Melee":

@@ -1,9 +1,14 @@
 grammar Attack;
 
-attack:
+attack: attack2014 | attack2024;
+
+attack2014:
 	attackType ':' ' ' toHit (',' | ' ') ' ' (
 		distance (',' | ' ')? ' '
 	)? targets ','? '.'? ' ' hit extraText EOF;
+
+attack2024:
+	meleeRanged ' Attack Roll: ' toHit ', ' distance '.'? ' ' damageGroup extraText EOF;
 
 attackType: meleeRanged ' ' weaponSpell ' Attack';
 
@@ -11,7 +16,7 @@ meleeRanged: MELEE | RANGED | MELEE_OR_RANGED;
 
 weaponSpell: WEAPON | SPELL;
 
-toHit: '+' NUMBER ' to hit';
+toHit: '+' NUMBER ' to hit'?;
 
 distance: reach | range | reach (OR | ((',' | ' ') ' ')) range;
 
@@ -25,13 +30,10 @@ targets:
 		' ' (GRAPPLED | 'incapacitated')
 	)? ' ' (SIZE (' or smaller ' | ' or larger '))? TARGET_TYPE grappled?;
 
-hit:
-	'Hit:' (
-		savingThrow
-		| (
-			damage plusDamage? versatileDamage? savingThrow? extraDamage?
-		)
-	);
+hit: 'Hit:' (savingThrow | (damageGroup extraDamage?));
+
+damageGroup:
+	damage plusDamage? versatileDamage? savingThrow?;
 
 savingThrow: ('. If the ' (' ' | TEXT)+? ','? ' ')? SAVING_THROW_START NUMBER ' ' ABILITY
 		' saving throw' (',' | ' ')? ' taking ' NUMBER ' '? '(' DICE ') ' DAMAGE_TYPE ' damage';
@@ -79,7 +81,7 @@ damageType:
 		((',' | ' ') ' ' DAMAGE_TYPE)* (',' | ' ')? OR DAMAGE_TYPE
 	)?;
 
-extraText: TEXT*? '.';
+extraText: .*? '.';
 
 MARKUP: '_'+ -> skip;
 
@@ -116,19 +118,19 @@ DICE: NUMBER? 'd' NUMBER (' '? ('+' | '-') ' '? NUMBER)?;
 GRAPPLED: 'grappled';
 
 DAMAGE_TYPE:
-	'acid'
-	| 'bludgeoning'
-	| 'cold'
-	| 'fire'
-	| 'force'
-	| 'lightning'
-	| 'necrotic'
-	| 'piercing'
-	| 'poison'
-	| 'psychic'
-	| 'radiant'
-	| 'slashing'
-	| 'thunder';
+	(A 'cid')
+	| (B 'ludgeoning')
+	| (C 'old')
+	| (F 'ire')
+	| (F 'orce')
+	| (L 'ightning')
+	| (N 'ecrotic')
+	| (P 'iercing')
+	| (P 'oison')
+	| (P 'sychic')
+	| (R 'adiant')
+	| (S 'lashing')
+	| (T 'hunder');
 
 NUMBER: [0-9]+;
 

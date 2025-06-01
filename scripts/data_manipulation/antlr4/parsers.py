@@ -25,7 +25,7 @@ def parseAttack(desc):
     walker = ParseTreeWalker()
     walker.walk(listener, tree)
     
-    if listener.result['isWeapon'] or listener.result['isSpell']:
+    if listener.result['2014'] or listener.result['2024']:
         return listener.result
     else:
         return None

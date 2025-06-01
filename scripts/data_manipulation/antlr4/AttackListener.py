@@ -17,6 +17,24 @@ class AttackListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by AttackParser#attack2014.
+    def enterAttack2014(self, ctx:AttackParser.Attack2014Context):
+        pass
+
+    # Exit a parse tree produced by AttackParser#attack2014.
+    def exitAttack2014(self, ctx:AttackParser.Attack2014Context):
+        pass
+
+
+    # Enter a parse tree produced by AttackParser#attack2024.
+    def enterAttack2024(self, ctx:AttackParser.Attack2024Context):
+        pass
+
+    # Exit a parse tree produced by AttackParser#attack2024.
+    def exitAttack2024(self, ctx:AttackParser.Attack2024Context):
+        pass
+
+
     # Enter a parse tree produced by AttackParser#attackType.
     def enterAttackType(self, ctx:AttackParser.AttackTypeContext):
         pass
@@ -95,6 +113,15 @@ class AttackListener(ParseTreeListener):
 
     # Exit a parse tree produced by AttackParser#hit.
     def exitHit(self, ctx:AttackParser.HitContext):
+        pass
+
+
+    # Enter a parse tree produced by AttackParser#damageGroup.
+    def enterDamageGroup(self, ctx:AttackParser.DamageGroupContext):
+        pass
+
+    # Exit a parse tree produced by AttackParser#damageGroup.
+    def exitDamageGroup(self, ctx:AttackParser.DamageGroupContext):
         pass
 
 

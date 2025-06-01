@@ -9,47 +9,63 @@ from .antlr4.parsers import parseAttack, parseSavingThrow, parseDice
 AllDamageTypes = dict((dt.key, dt) for dt in DamageType.objects.all())
 
 def main():
+    load_2024()
     #print(','.join(['MonsterName', 'AttackName', buildCsvHeader()]))
 
-    v2_creatureaction.objects.all().delete()
+    # v2_creatureaction.objects.all().delete()
 
-    # .filter(slug='accursed-guardian-naga-a5e')
-    # .all()
-    for v1_monster in v1_model.objects.all():
+    # # .filter(slug='accursed-guardian-naga-a5e')
+    # # .all()
+    # for v1_monster in v1_model.objects.all():
 
-        computed_v2_key = get_v2_key_from_v1_obj(v1_monster)
-        v2_creature = v2_model.objects.filter(key=computed_v2_key).first()
+    #     computed_v2_key = get_v2_key_from_v1_obj(v1_monster)
+    #     v2_creature = v2_model.objects.filter(key=computed_v2_key).first()
         
         
-        if v2_creature is not None:
-            #update_v2_attack(v1_monster, v2_creature)
-            add_v2_attacks(v1_monster, v2_creature)
+    #     if v2_creature is not None:
+    #         #update_v2_attack(v1_monster, v2_creature)
+    #         add_v2_attacks(v1_monster, v2_creature)
+
+def load_2024():
+    for v2_creature in v2_model.objects.filter(key__istartswith='srd2024'):
+        #foo = v2_creature.actions()
+        for v2_action in v2_creatureaction.objects.filter(parent=v2_creature.key):
+            v2_creatureaction.objects.filter(key=v2_action.key).delete()
+            add_v2_attack_type(v2_action.name, v2_action.desc, v2_action.action_type, v2_creature, v2_action.order)
+        
 
 def add_v2_attacks(v1_monster: v1_model, v2_creature: v2_model):
     actions = v1_monster.actions()
-    add_v2_attack_type(actions, 'ACTION', v2_creature)
+    add_list_v2_attack_type(actions, 'ACTION', v2_creature)
     
     bonus_actions = v1_monster.bonus_actions()
-    add_v2_attack_type(bonus_actions, 'BONUS_ACTION', v2_creature)
+    add_list_v2_attack_type(bonus_actions, 'BONUS_ACTION', v2_creature)
     
     reactions = v1_monster.reactions()
-    add_v2_attack_type(reactions, 'REACTION', v2_creature)
+    add_list_v2_attack_type(reactions, 'REACTION', v2_creature)
     
     legenday_actions = v1_monster.legendary_actions()
-    add_v2_attack_type(legenday_actions, 'LEGENDARY_ACTION', v2_creature)
+    add_list_v2_attack_type(legenday_actions, 'LEGENDARY_ACTION', v2_creature)
 
-def add_v2_attack_type(actions, attack_type, v2_creature: v2_model):
+def add_list_v2_attack_type(actions: list[dict[str, str]], attack_type: str, v2_creature: v2_model):
     if actions is not None:
         order=0
         for v1_action in actions:
+            add_v2_attack_type(v1_action['name'], v1_action['desc'], attack_type, v2_creature, order)
+            order=order+1
+
+def add_v2_attack_type(param_action_name: str, param_action_desc: str, attack_type: str, v2_creature: v2_model, order: int):
+    # if actions is not None:
+    #     order=0
+    #     for v1_action in actions:
             # try:
                 display_name = None
-                v1_action_name = v1_action['name']
+                v1_action_name = param_action_name
                 v1_action_cleaned_name = re.sub(' \(.*?\)?$', '', v1_action_name)
                 re_v1_additional_info = re.search('\((.*?)\)?$', v1_action_name)
                 v1_additional_info = re_v1_additional_info.group(1) if re_v1_additional_info else None
                 
-                v1_action_desc = v1_action['desc']
+                v1_action_desc = param_action_desc
                 
                 parsed_uses_type = None
                 parsed_uses_param = None
@@ -98,7 +114,10 @@ def add_v2_attack_type(actions, attack_type, v2_creature: v2_model):
                             handled = True
                             parsed_uses_type = 'PER_WEEK'
                             parsed_uses_param = int(per_week.group(1))
-                            
+                        
+                        elif info == 'Requires Magic Rope':
+                            handled = True
+                            parsed_form_condition = info.strip()
                         elif re.search('(\d(st|nd|rd|th)-Level)|(Cantrip)', info, flags=re.IGNORECASE):
                             handled = True
                             v1_action_desc = '(' + info + ') ' + v1_action_desc
@@ -118,7 +137,7 @@ def add_v2_attack_type(actions, attack_type, v2_creature: v2_model):
                             v1_action_cleaned_name = v1_action_name
                     # have the extra text in the name so I know to handle it
                     if not handled:
-                        print("Didn't handle ", v2_creature.name, v1_action['name'])
+                        print("Didn't handle ", v2_creature.name, param_action_name)
                         v1_action_cleaned_name = v1_action_name
 
                 v2_action_key = get_v2_action_key(v2_creature.key, v1_action_cleaned_name + " " + attack_type.replace("_", " "))
@@ -137,32 +156,32 @@ def add_v2_attack_type(actions, attack_type, v2_creature: v2_model):
                     order=order
                 )
                 v2_action.save()
-                order = order + 1
+                #order = order + 1
 
                 v2_attack_key = get_v2_attack_key(v2_action_key, "")
                 
                 if re.search("Multiattack|Spellcasting", v1_action_name):
                     pass
-                elif re.match("_?(Melee|Ranged)", v1_action['desc']):
-                    parsedAction = parseAttack(v1_action['desc'])
+                elif re.match("_?(Melee|Ranged)", param_action_desc):
+                    parsedAction = parseAttack(param_action_desc)
                     if parsedAction is not None:
                         saveParsed(parsedAction, v1_action_cleaned_name, v2_attack_key, v2_action)
                     else:
-                        print("unable to parse ", v2_action_key, v2_creature.name, v1_action['name'], v1_action['desc'])
+                        print("unable to parse ", v2_action_key, v2_creature.name, param_action_name, param_action_desc)
 
                 elif re.search(
                     'DC \d+ \S+ sav(?:e|ing throw)(?:(?:(?:[, ]| or)? tak(?:e|ing) \d+)|(?:.*?\. +On a fail(?:ure|ed save)[, ] (?:it|(?:a|the|each) (?:creature|target)) takes \d+))|(?:or half damage with a successful DC \d+ \S+ sav(?:e|ing throw))'
-                    , v1_action['desc']):
+                    , param_action_desc):
                     #TODO: handle different styles of saving throws, grab shape and size and range, targets creatures, DC and save type
-                    savingThrow = parseSavingThrow(v1_action['desc'])
+                    savingThrow = parseSavingThrow(param_action_desc)
                     if savingThrow is not None:
                         saveParsed(savingThrow, v1_action_cleaned_name, v2_attack_key, v2_action)
                     else:
-                        print("unable to parse ", v2_action_key, v2_creature.name, v1_action['name'], v1_action['desc'])
+                        print("unable to parse ", v2_action_key, v2_creature.name, param_action_name, param_action_desc)
                 else:
                     pass
                     # try:
-                    #     print("Did not match any parse types ", v2_creature.name, v1_action['name'], v1_action['desc'])
+                    #     print("Did not match any parse types ", v2_creature.name, param_action_name, param_action_desc)
                     # except:
                     #     print("Error printing out error message")
 
@@ -206,31 +225,17 @@ def saveParsed(parsedAction, v1_action_name, v2_attack_key, v2_action):
     try:
         v2_attack.save()
         
-        damage_type_keys = parsedAction['damageType']
+        damage_type_keys: list[str] = parsedAction['damageType']
         if damage_type_keys is not None:
             for damage_type_key in damage_type_keys:
-                v2_attack.damage_type.add(AllDamageTypes.get(damage_type_key))
+                v2_attack.damage_type.add(AllDamageTypes.get(damage_type_key.lower()))
                 
         extra_damage_type_keys = parsedAction['plusDamageType']
         if extra_damage_type_keys is not None:
             for damage_type_key in extra_damage_type_keys:
-                v2_attack.extra_damage_type.add(AllDamageTypes.get(damage_type_key))
+                v2_attack.extra_damage_type.add(AllDamageTypes.get(damage_type_key.lower()))
     except Exception as e:
         print(e)
-
-# def update_v2_attack(v1_monster: v1_model, v2_creature: v2_model):
-
-#     actions = v1_monster.actions()
-#     if actions is not None:
-#         for v1_action in actions:
-#             # try:
-#                 computed_v2_action_key = get_v2_action_key(v2_creature.key, v1_action['name'])
-#                 v2_action = v2_creatureaction.objects.filter(key=computed_v2_action_key,parent_id=v2_creature.key).first()
-
-#                 parsedAction = parseAttack(v1_action['desc'])
-
-#             # except:
-#             #     pass
 
 def get_v2_action_key(v2_creature_key: str, v1_action_name: str):
     v2_key = "{}_{}".format(v2_creature_key, slugify(v1_action_name))
@@ -269,4 +274,4 @@ def get_v2_doc_from_v1_obj(v1_obj):
     return doc_lookup[v1_obj.document.slug]
 
 if __name__ == '__main__':
-    main()
+    load_2024()

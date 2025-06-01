@@ -1,6 +1,8 @@
 
 def buildCommonResult():
     return {
+        '2014': False,
+        '2024': False,
         'isMelee': False,
         'isRanged': False,
         'isWeapon': False,
